@@ -13,62 +13,67 @@
 <meta property="og:title" content="Ackermann Robotics | A robot for your production helper job">
 <meta property="og:description" content="A robot for the production helper job you cannot fill. Never sick, costs 30% less. We install, run and maintain it. You pay nothing until it runs reliably.">
 <meta property="og:image" content="https://ackermann-robotics.org/img/hero.jpg">
+<link rel="preload" href="/fonts/carlito-bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <header><div class="wrap">
-  <a class="brand" href="/"><img src="/logo.svg" alt="Ackermann Robotics" width="122" height="52"></a>
+  <a class="brand" href="/"><img src="/logo.svg" alt="Ackermann Robotics" width="108" height="46"></a>
   <nav><a class="opt" href="#tasks">Tasks</a><a class="opt" href="#faq">FAQ</a><a href="/de/" lang="de">DE</a><a class="btn" href="#contact">Book a free demo</a></nav>
 </div></header>
 
 <main>
 <section class="hero"><div class="wrap">
-  <h1><span class="l1">You are looking for a production helper.</span>We have one that never calls in sick and costs 30% less.</h1>
-  <p class="lead">Instead of a person, a robot takes over the task. We install, run, and maintain it. You pay a flat monthly fee: less than 70% of what the position costs you today.</p>
-  <div class="ctas"><a class="btn" href="#contact">Book a free demo</a><a class="btn alt" href="#tasks">See the tasks</a></div>
-  <figure class="heroimg"><img src="/img/hero.jpg" alt="Robot arm folding a cardboard box at a packing station" width="1600" height="900"><span class="ai">AI-generated visualization</span></figure>
+  <div>
+    <h1><span class="l1">You are looking for a production helper.</span>We have one that never calls in sick and costs 30% less.</h1>
+    <p class="lead">Instead of a person, a robot takes over the task. We install, run, and maintain it. You pay a flat monthly fee: less than 70% of what the position costs you today.</p>
+    <div class="ctas"><a class="btn" href="#contact">Book a free demo <span class="arr">→</span></a><a class="btn alt" href="#tasks">See the tasks</a></div>
+    <ul class="trust"><li>No investment</li><li>No payment until it works</li><li>Remote operator 24/7</li></ul>
+  </div>
+  <div class="heroimg"><img src="/img/hero.jpg" alt="Robot arm folding a cardboard box at a packing station" width="1600" height="900" fetchpriority="high"></div>
 </div></section>
 
-<section><div class="wrap">
-  <h2>Your risk: zero.</h2>
-  <ul class="rows"><li><b>No investment</b><span>No purchase, no deposit, no integration costs.</span></li><li><b>No payment until it works</b><span>The fee starts in the month the robot does the task reliably.</span></li><li><b>No downtime</b><span>If the robot gets stuck, our operator takes over remotely. Around the clock.</span></li></ul>
-</div></section>
-
-<section><div class="wrap">
+<section class="band"><div class="wrap">
   <h2>Your numbers.</h2>
   <div class="nums"><div><b>&gt;€3,000</b><span>what the position costs you per month</span></div><div><b>€2,000</b><span>what you pay us per month</span></div><div><b>€12,000</b><span>less per year, from the first month the robot runs</span></div></div>
 </div></section>
 
-<section id="tasks"><div class="wrap">
-  <h2>Which tasks.</h2>
-  <ul class="rows"><li><b>Folding boxes</b><span>Folding and closing boxes, also in changing sizes.</span></li><li><b>Packing</b><span>Placing products into boxes and trays.</span></li><li><b>Kitting</b><span>Putting together sets of parts for assembly.</span></li><li><b>Moving parts</b><span>Between bins, belts and machines.</span></li></ul>
-  <p class="text" style="margin-top:22px">These tasks differ slightly every time. That is why they could not be automated until now. With AI-controlled robot arms, they can.</p>
-  <div class="grid3"><figure><div class="ph"><img src="/img/boxes.jpg" alt="Packing" loading="lazy" width="900" height="506"><span class="ai">AI-generated visualization</span></div><figcaption>Packing</figcaption></figure><figure><div class="ph"><img src="/img/packing.jpg" alt="Kitting" loading="lazy" width="900" height="506"><span class="ai">AI-generated visualization</span></div><figcaption>Kitting</figcaption></figure><figure><div class="ph"><img src="/img/kitting.jpg" alt="Moving parts" loading="lazy" width="900" height="506"><span class="ai">AI-generated visualization</span></div><figcaption>Moving parts</figcaption></figure></div>
+<section><div class="wrap">
+  <div class="sec-head"><h2>Your risk: zero.</h2></div>
+  <div class="cards c3"><div class="card"><span class="ix">1</span><h3>No investment</h3><p>No purchase, no deposit, no integration costs.</p></div><div class="card"><span class="ix">2</span><h3>No payment until it works</h3><p>The fee starts in the month the robot does the task reliably.</p></div><div class="card"><span class="ix">3</span><h3>No downtime</h3><p>If the robot gets stuck, our operator takes over remotely. Around the clock.</p></div></div>
+</div></section>
+
+<section id="tasks" class="soft"><div class="wrap">
+  <div class="sec-head"><h2>Which tasks.</h2><p>These tasks differ slightly every time. That is why they could not be automated until now. With AI-controlled robot arms, they can.</p></div>
+  <div class="cards c4"><article class="task"><div class="im"><img src="/img/folding.jpg" alt="Robot arm folding a box" loading="lazy" width="900" height="506"></div><div class="tx"><h3>Folding boxes</h3><p>Folding and closing boxes, also in changing sizes.</p></div></article><article class="task"><div class="im"><img src="/img/boxes.jpg" alt="Robot arm packing parts into a box" loading="lazy" width="900" height="506"></div><div class="tx"><h3>Packing</h3><p>Placing products into boxes and trays.</p></div></article><article class="task"><div class="im"><img src="/img/packing.jpg" alt="Robot arms kitting parts" loading="lazy" width="900" height="506"></div><div class="tx"><h3>Kitting</h3><p>Putting together sets of parts for assembly.</p></div></article><article class="task"><div class="im"><img src="/img/kitting.jpg" alt="Robot arm moving parts between bins" loading="lazy" width="900" height="506"></div><div class="tx"><h3>Moving parts</h3><p>Between bins, belts and machines.</p></div></article></div>
 </div></section>
 
 <section><div class="wrap">
-  <h2>How we start.</h2>
-  <ol class="steps"><li><b>Free:</b> You show us the task, 30 minutes on site or by video. Afterwards, you know whether it works and what it costs.</li><li><b>Pilot:</b> We set up the robot on your line.</li><li><b>Operation:</b> Once it runs reliably, the monthly fee starts. Not before.</li></ol>
+  <div class="sec-head"><h2>How we start.</h2></div>
+  <div class="cards c3"><div class="card step"><span class="no">Step 1<span class=tag>Free</span></span><h3>Show us the task</h3><p>30 minutes on site or by video. Afterwards, you know whether it works and what it costs.</p></div><div class="card step"><span class="no">Step 2</span><h3>Pilot</h3><p>We set up the robot on your line.</p></div><div class="card step"><span class="no">Step 3</span><h3>Operation</h3><p>Once it runs reliably, the monthly fee starts. Not before.</p></div></div>
 </div></section>
 
-<section id="faq"><div class="wrap">
+<section id="faq" class="soft"><div class="wrap faq">
   <h2>Questions we get.</h2>
-  <details><summary>What if the robot breaks or gets stuck?</summary><p>Our operator takes over remotely, around the clock. Repairs and spare parts are part of the fee.</p></details><details><summary>Our products and boxes change. Does that work?</summary><p>Yes. The robot learns new variants from demonstration. Retraining is part of the service.</p></details><details><summary>Do we need robotics experts?</summary><p>No. We install, run and maintain the robot. Your team only shows us the task.</p></details><details><summary>Is it safe for our workers?</summary><p>We set the robot up according to the applicable machine safety rules and do the risk assessment with you before it starts.</p></details><details><summary>What if it does not work for our task?</summary><p>Then you pay nothing. The fee only starts once the robot does the task reliably.</p></details>
+  <div><details><summary>What if the robot breaks or gets stuck?</summary><p>Our operator takes over remotely, around the clock. Repairs and spare parts are part of the fee.</p></details><details><summary>Our products and boxes change. Does that work?</summary><p>Yes. The robot learns new variants from demonstration. Retraining is part of the service.</p></details><details><summary>Do we need robotics experts?</summary><p>No. We install, run and maintain the robot. Your team only shows us the task.</p></details><details><summary>Is it safe for our workers?</summary><p>We set the robot up according to the applicable machine safety rules and do the risk assessment with you before it starts.</p></details><details><summary>What if it does not work for our task?</summary><p>Then you pay nothing. The fee only starts once the robot does the task reliably.</p></details></div>
 </div></section>
 
-<section id="contact"><div class="wrap">
-  <h2>Book a free demo.</h2>
-  <p class="text">30 minutes, on site or by video. Afterwards, you know whether a robot can do your task and what you save.</p>
+<section id="contact" class="contact"><div class="wrap grid">
+  <div>
+    <h2>Book a free demo.</h2>
+    <p class="sub">30 minutes, on site or by video. Afterwards, you know whether a robot can do your task and what you save.</p>
+    <ul><li>Free and without obligation</li><li>Answer within one business day</li><li>You only pay once it runs reliably</li></ul>
+    <p class="team">Who we are: an Industriemeister IHK with years on the production floor, robotics and AI engineers from RWTH Aachen University and KIT.</p>
+  </div>
   <form id="demo" data-sending="Sending…" data-ok="Thank you. We will get back to you within one business day." data-err="Something went wrong. Please try again later.">
     <label for="name">Full name</label><input id="name" name="name" required autocomplete="name">
     <label for="email">Work email</label><input id="email" name="email" type="email" required autocomplete="email">
     <label for="company">Company</label><input id="company" name="company" required autocomplete="organization">
     <label for="message">Which task should the robot take over? (optional)</label><textarea id="message" name="message"></textarea>
     <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
-    <button class="btn" type="submit">Book a free demo</button>
+    <button class="btn" type="submit">Book a free demo <span class="arr">→</span></button>
     <p id="status" role="status"></p>
   </form>
-  <p class="note" style="margin-top:28px">Who we are: an Industriemeister IHK with years on the production floor, robotics and AI engineers from RWTH Aachen University and KIT.</p>
 </div></section>
 </main>
 
