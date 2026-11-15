@@ -31,7 +31,7 @@
     <div class="ctas"><a class="btn" href="#contact">Book a free demo <span class="arr">→</span></a><a class="btn alt" href="/en/video/">▶ Watch the video <span class="dur">35 s</span></a></div>
     <ul class="trust"><li>No investment</li><li>No payment until it works</li><li>Remote operator 24/7</li></ul>
   </div>
-  <div class="heroimg"><img src="/img/hero.jpg" alt="Robot arm folding a cardboard box at a packing station" width="1600" height="900" fetchpriority="high"></div>
+  <div class="heroimg"><video src="/img/hero-loop.mp4" poster="/img/hero.jpg" autoplay muted loop playsinline preload="auto" aria-label="Robot arms packing and kitting"></video><span class="illu">Illustration</span></div>
 </div></section>
 
 <section class="band"><div class="wrap">
@@ -94,5 +94,6 @@
   <span><a href="/legal-notice/">Legal notice</a><a href="/privacy/">Privacy</a><a href="/" lang="de">Deutsch</a></span>
 </div></footer>
 <script src="/form.js"></script>
+<script>if(matchMedia("(prefers-reduced-motion: reduce)").matches){var v=document.querySelector(".heroimg video");if(v){v.removeAttribute("autoplay");v.pause();}}</script>
 </body>
 </html>
