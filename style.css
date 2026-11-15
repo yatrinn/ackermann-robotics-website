@@ -130,6 +130,7 @@ footer a:hover{color:var(--ink)}
 .stations{padding:48px 0;border-top:1px solid var(--line)}
 .st-label{font-size:16px;color:var(--muted);line-height:1.45;max-width:760px;margin-bottom:26px}
 .st-label b{display:block;color:var(--ink);font-size:17px;margin-bottom:4px}
+.st-why{display:block;margin-top:10px;color:var(--ink);font-weight:600}
 .st-viewport{display:flex;overflow:hidden;min-width:0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
 .st-track{display:flex;align-items:center;gap:64px;padding:6px 64px 6px 0;list-style:none;flex-shrink:0;animation:st-run 36s linear infinite}
 .st-track img{height:var(--h);width:auto;max-width:none}
