@@ -6,7 +6,8 @@ body{font-family:Calibri,Carlito,Arial,sans-serif;font-size:19px;line-height:1.5
 a{color:#000}
 .wrap{max-width:900px;margin:0 auto;padding:0 28px}
 header{border-bottom:1px solid #000;position:sticky;top:0;background:#fff;z-index:2}
-header .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:76px}
+.brand img{display:block;height:52px;width:auto}
 .brand{font-weight:700;font-size:20px;text-decoration:none;white-space:nowrap}
 nav{display:flex;align-items:center;gap:22px}
 nav a{text-decoration:none;font-size:17px}
@@ -63,7 +64,7 @@ footer a{margin-left:18px}
  .rows li{grid-template-columns:1fr;gap:4px}
  .calc{grid-template-columns:1fr}
  nav .opt{display:none}
- .brand{font-size:18px}
+ .brand img{height:42px}
  nav .btn{padding:7px 12px;font-size:15px}
  nav .l{display:none}
  nav{gap:14px}
