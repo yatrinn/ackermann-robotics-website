@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ackermann Robotics | Robots for repetitive production work, as a service</title>
-<meta name="description" content="We automate repetitive production work with AI-controlled robot arms. Installed, run and maintained by us, for a flat monthly fee below the cost of the position.">
+<title>Ackermann Robotics | Hire a robot instead</title>
+<meta name="description" content="A robot arm for the production job you cannot fill. 30% cheaper than the position, never sick, every shift. You pay nothing until it runs reliably.">
 <link rel="alternate" hreflang="de" href="https://ackermann-robotics.org/de/">
 <link rel="alternate" hreflang="en" href="https://ackermann-robotics.org/">
 <link rel="stylesheet" href="/style.css">
@@ -12,71 +12,95 @@
 <body>
 <header><div class="wrap">
   <a class="brand" href="/">Ackermann Robotics</a>
-  <nav><a class="opt" href="#offer">Offer</a><a href="#contact">Contact</a><a href="/de/" lang="de">Deutsch</a></nav>
+  <nav><a class="opt" href="#savings">Savings</a><a class="opt" href="#faq">FAQ</a><a href="/de/" lang="de">DE</a><a class="btn" href="#contact">Book a free demo</a></nav>
 </div></header>
 
 <main>
 <section><div class="wrap">
-  <h1>We automate repetitive production work. As a service.</h1>
-  <p class="lead">AI-controlled robot arms for tasks classic automation cannot handle, such as folding boxes, packing and kitting. We install, run and maintain them.</p>
-  <p class="lead">You pay 70% of what the position costs, starting with the first month the robot runs reliably on your line. Until then, you pay nothing.</p>
-  <p class="example"><b>Example:</b> the position costs you €3,000 per month. You pay us €2,100. You save €900 every month, from the first month.</p>
-  <a class="btn" href="#contact">Book a free demo</a>
+  <h1>Hire a robot instead.</h1>
+  <p class="lead">For the production job you cannot fill. 30% cheaper than the position, never sick, works every shift. You pay nothing until it runs reliably on your line.</p>
+  <div class="ctas"><a class="btn" href="#contact">Book a free demo</a><a class="btn alt" href="#savings">Calculate your savings</a></div>
 </div></section>
 
 <section><div class="wrap">
-  <h2>The problem</h2>
-  <p class="text">Production helper positions are hard to fill and expensive to keep. Classic automation rarely helps: it costs six figures upfront, takes months to integrate and stops working as soon as the task changes slightly.</p>
+  <h2>Your risk: zero.</h2>
+  <ul class="rows">
+    <li><b>No investment</b><span>You do not buy anything. No deposit, no integration costs.</span></li>
+    <li><b>No payment until it works</b><span>The monthly fee starts in the month the robot does the task reliably. Not before.</span></li>
+    <li><b>No downtime</b><span>If the robot gets stuck, our operator takes over remotely. Around the clock.</span></li>
+    <li><b>No robotics team needed</b><span>We install, run, maintain and retrain it. You get the work done.</span></li>
+  </ul>
+</div></section>
+
+<section id="savings"><div class="wrap">
+  <h2>You save from the first month.</h2>
+  <div class="calc" id="calc" data-locale="en-US">
+    <div>
+      <label for="cost">What one position costs you per month (wage plus employer costs)</label>
+      <input id="cost" type="number" min="0" step="100" value="3000" inputmode="numeric">
+      <label for="shifts">Shifts the robot covers</label>
+      <select id="shifts"><option value="1">1 shift</option><option value="2">2 shifts</option><option value="3">3 shifts</option></select>
+    </div>
+    <div class="out">
+      <div><span>Today you pay</span><span id="o-now"></span></div>
+      <div><span>With us you pay</span><span id="o-you"></span></div>
+      <div><span>You save per month</span><span id="o-m"></span></div>
+      <div class="big"><span>Per year</span><span id="o-y"></span></div>
+    </div>
+  </div>
+  <p class="note">Our fee is 70% of what the positions cost you. One robot can cover several shifts.</p>
 </div></section>
 
 <section><div class="wrap">
-  <h2>What we automate</h2>
-  <ul class="list">
-    <li><b>Box assembly</b><span>Folding and closing boxes of different sizes.</span></li>
+  <h2>Tasks we take over.</h2>
+  <ul class="rows">
+    <li><b>Box assembly</b><span>Folding and closing boxes, also in changing sizes.</span></li>
     <li><b>Packing</b><span>Placing products into boxes and trays.</span></li>
     <li><b>Kitting</b><span>Putting together sets of parts for assembly.</span></li>
-    <li><b>Pick and place</b><span>Moving parts between bins, belts and machines.</span></li>
+    <li><b>Moving parts</b><span>Between bins, belts and machines.</span></li>
   </ul>
-</div></section>
-
-<section id="offer"><div class="wrap">
-  <h2>What you get</h2>
-  <ul class="list">
-    <li><b>70% of the cost of the position</b><span>A flat monthly fee. No upfront investment.</span></li>
-    <li><b>Everything included</b><span>Robot, installation, AI training and maintenance.</span></li>
-    <li><b>24/7 remote backup</b><span>If the robot gets stuck, our operator takes over remotely.</span></li>
-    <li><b>No risk</b><span>The fee starts with the first month the robot runs reliably on your line. Not before.</span></li>
-  </ul>
+  <p class="text" style="margin-top:22px">These tasks differ slightly every time. That is why classic robots could not do them. AI-controlled robot arms learn them from demonstration.</p>
 </div></section>
 
 <section><div class="wrap">
-  <h2>How we start</h2>
+  <h2>How we start.</h2>
   <ol class="steps">
-    <li>You show us the task, for 30 minutes on site or by video.</li>
-    <li>We set up a pilot on your line.</li>
-    <li>Once it runs reliably, the monthly fee starts.</li>
+    <li><b>Free:</b> you show us the task, 30 minutes on site or by video. Afterwards you know whether it works and what it costs.</li>
+    <li><b>Pilot:</b> we set up the robot on your line.</li>
+    <li><b>Operation:</b> once it runs reliably, the monthly fee starts.</li>
   </ol>
 </div></section>
 
+<section id="faq"><div class="wrap">
+  <h2>Questions we get.</h2>
+  <details><summary>What if the robot breaks or gets stuck?</summary><p>Our operator takes over remotely, around the clock. Repairs and spare parts are part of the fee.</p></details>
+  <details><summary>Our products and boxes change. Does that work?</summary><p>Yes. The robot learns new variants from demonstration. Retraining is part of the service.</p></details>
+  <details><summary>Do we need robotics experts?</summary><p>No. We install, run and maintain the robot. Your team only shows us the task.</p></details>
+  <details><summary>Is it safe for our workers?</summary><p>We set the robot up according to the applicable machine safety rules and do the risk assessment with you before it starts.</p></details>
+  <details><summary>What if it does not work for our task?</summary><p>Then you pay nothing. The fee only starts once the robot does the task reliably.</p></details>
+</div></section>
+
 <section id="contact"><div class="wrap">
-  <h2>Book a free demo</h2>
-  <p class="text">Tell us about the task. We will show you how a robot fits into your production.</p>
-  <form id="demo" data-sending="Sending…" data-ok="Thank you. We will get back to you shortly." data-err="Something went wrong. Please try again later.">
+  <h2>Book a free demo.</h2>
+  <p class="text">30 minutes, on site or by video. Afterwards you know whether a robot can do your task and what you save.</p>
+  <form id="demo" data-sending="Sending…" data-ok="Thank you. We will get back to you within one business day." data-err="Something went wrong. Please try again later.">
     <label for="name">Full name</label><input id="name" name="name" required autocomplete="name">
     <label for="email">Work email</label><input id="email" name="email" type="email" required autocomplete="email">
     <label for="company">Company</label><input id="company" name="company" required autocomplete="organization">
-    <label for="message">Message (optional)</label><textarea id="message" name="message"></textarea>
+    <label for="message">Which task should the robot take over? (optional)</label><textarea id="message" name="message"></textarea>
     <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
     <button class="btn" type="submit">Book a free demo</button>
     <p id="status" role="status"></p>
   </form>
+  <p class="note" style="margin-top:28px">Built by robotics and AI engineers from RWTH Aachen and KIT, together with a master craftsman with five years in production maintenance.</p>
 </div></section>
 </main>
 
 <footer><div class="wrap">
   <span>© 2026 Ackermann Robotics</span>
-  <span><a href="#contact">Contact</a><a href="/de/" lang="de">Deutsch</a></span>
+  <span><a href="#contact">Book a free demo</a><a href="/de/" lang="de">Deutsch</a></span>
 </div></footer>
+<script src="/calc.js"></script>
 <script src="/form.js"></script>
 </body>
 </html>
