@@ -44,6 +44,8 @@ section{padding:96px 0}
 .kicker{display:none}
 h2{font-size:42px;line-height:1.08;font-weight:700;letter-spacing:-.01em}
 .sec-head p{font-size:19px;color:#2b2d31;margin-top:16px}
+.sec-head p b{font-size:1.25em}
+.sec-head p.src{font-size:14px;color:var(--muted);margin-top:8px}
 
 /* numbers band */
 .band{background:var(--ink);color:#fff;padding:80px 0}
@@ -75,8 +77,8 @@ h2{font-size:42px;line-height:1.08;font-weight:700;letter-spacing:-.01em}
 
 /* steps */
 .step{position:relative}
-.step .no{font-size:15px;font-weight:700;color:var(--muted);margin-bottom:12px;display:block}
-.step .tag{display:inline-block;font-size:13px;font-weight:700;background:var(--ink);color:#fff;border-radius:6px;padding:2px 8px;margin-left:8px;vertical-align:2px}
+.step .no{font-size:15px;font-weight:700;color:var(--muted);margin-bottom:12px;display:flex;align-items:center;min-height:24px}
+.step .tag{display:inline-block;font-size:13px;font-weight:700;background:var(--ink);color:#fff;border-radius:6px;padding:2px 8px;margin-left:8px}
 
 /* faq */
 .faq{display:grid;grid-template-columns:1fr 1.4fr;gap:56px;align-items:start}
