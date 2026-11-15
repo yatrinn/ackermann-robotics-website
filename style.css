@@ -1,0 +1,46 @@
+@font-face{font-family:"Carlito";src:url("/fonts/carlito-regular.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Carlito";src:url("/fonts/carlito-bold.woff2") format("woff2");font-weight:700;font-display:swap}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:Calibri,Carlito,Arial,sans-serif;font-size:19px;line-height:1.5;color:#000;background:#fff}
+a{color:#000}
+.wrap{max-width:900px;margin:0 auto;padding:0 28px}
+header{border-bottom:1px solid #000}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+.brand{font-weight:700;font-size:20px;text-decoration:none;white-space:nowrap}
+nav a{margin-left:24px;text-decoration:none;font-size:17px}
+nav a:hover{text-decoration:underline}
+section{padding:72px 0;border-bottom:1px solid #d9d9d9}
+section:last-of-type{border-bottom:0}
+h1{font-size:46px;line-height:1.12;font-weight:700;max-width:760px}
+h2{font-size:18px;font-weight:700;text-transform:none;margin-bottom:22px;color:#000}
+.lead{font-size:22px;max-width:720px;margin-top:22px}
+.text{font-size:21px;max-width:720px}
+.btn{display:inline-block;margin-top:34px;background:#000;color:#fff;text-decoration:none;font-weight:700;padding:13px 26px;border:1px solid #000;font-size:18px;font-family:inherit;cursor:pointer}
+.btn:hover{background:#fff;color:#000}
+.list{list-style:none;border-top:1px solid #000}
+.list li{display:grid;grid-template-columns:300px 1fr;gap:24px;padding:16px 0;border-bottom:1px solid #d9d9d9}
+.list b{font-weight:700}
+.steps{list-style:none;counter-reset:s}
+.steps li{counter-increment:s;padding:6px 0 6px 40px;position:relative;font-size:20px}
+.steps li::before{content:counter(s);position:absolute;left:0;font-weight:700}
+form{max-width:560px;margin-top:28px}
+label{display:block;font-size:16px;font-weight:700;margin:18px 0 6px}
+input,textarea{width:100%;font-family:inherit;font-size:18px;padding:11px 12px;border:1px solid #000;background:#fff;color:#000;border-radius:0}
+input:focus,textarea:focus{outline:2px solid #000;outline-offset:0}
+textarea{min-height:130px;resize:vertical}
+.hp{position:absolute;left:-9999px}
+#status{margin-top:16px;font-size:18px}
+footer{border-top:1px solid #000;padding:24px 0;font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+footer a{margin-left:18px}
+@media(max-width:640px){
+ body{font-size:18px}
+ h1{font-size:34px}
+ .lead{font-size:20px}
+ section{padding:52px 0}
+ .list li{grid-template-columns:1fr;gap:4px}
+ nav a{margin-left:14px}
+ nav a.opt{display:none}
+ .brand{font-size:18px}
+}
