@@ -168,3 +168,5 @@ footer a:hover{color:var(--ink)}
  .brand img{height:38px}
  form{padding:22px}
 }
+
+.btn .dur{font-weight:400;color:var(--muted);margin-left:6px;font-size:.9em}
