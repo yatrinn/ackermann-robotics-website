@@ -1,5 +1,5 @@
 (function(){
-  var KEY = "";
+  var KEY = "626ac1e7-422c-40b9-bbae-05aa34fbf69f";
   var f = document.getElementById("demo");
   if(!f) return;
   var st = document.getElementById("status");
