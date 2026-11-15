@@ -70,3 +70,26 @@ footer a{margin-left:18px}
  nav{gap:14px}
  header .wrap{gap:12px}
 }
+/* v3 additions */
+h1 .sub{display:block;color:#000}
+.hero h1{font-size:50px;line-height:1.08}
+.hero .l1{display:block;font-weight:400}
+figure{position:relative;margin:0}
+.ph{position:relative}
+figure img{display:block;width:100%;height:auto;filter:grayscale(1) contrast(1.05)}
+figure .ai{position:absolute;right:8px;bottom:8px;font-size:11px;line-height:1;color:#fff;background:rgba(0,0,0,.55);padding:4px 6px}
+.heroimg{margin-top:44px}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #000;border-bottom:1px solid #000}
+.nums div{padding:22px 18px 22px 0}
+.nums div+div{border-left:1px solid #d9d9d9;padding-left:22px}
+.nums b{display:block;font-size:46px;line-height:1.05;font-weight:700}
+.nums span{display:block;margin-top:8px;font-size:17px;color:#333}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.grid3 figcaption{font-weight:700;font-size:17px;margin-top:8px}
+@media(max-width:700px){
+ .hero h1{font-size:36px}
+ .nums{grid-template-columns:1fr}
+ .nums div+div{border-left:0;border-top:1px solid #d9d9d9;padding-left:0}
+ .nums b{font-size:38px}
+ .grid3{grid-template-columns:1fr}
+}
