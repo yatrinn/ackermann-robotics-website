@@ -57,6 +57,7 @@ h2{font-size:42px;line-height:1.08;font-weight:700;letter-spacing:-.01em}
 .nums div:last-child{background:#fff;color:var(--ink);border-color:#fff}
 .nums span{display:block;margin-top:14px;font-size:17px;color:#b9bbc0}
 .nums div:last-child span{color:var(--muted)}
+.band .note{margin-top:24px;font-size:17px;color:#b9bbc0}
 
 /* cards */
 .cards{display:grid;gap:20px}
