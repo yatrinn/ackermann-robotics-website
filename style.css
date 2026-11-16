@@ -177,10 +177,9 @@ footer a.li:hover{color:#0a66c2}
 
 .ctas{align-items:center;gap:28px}
 .vlink{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:700;font-size:17px}
-.vlink .play{position:relative;display:inline-block;width:40px;height:40px;border-radius:50%;border:2px solid #ff4f12;transition:background .15s ease}
-.vlink .play::before{content:"";position:absolute;left:50%;top:50%;margin:-6px 0 0 -3px;border-style:solid;border-width:6px 0 6px 10px;border-color:transparent transparent transparent #ff4f12;transition:border-color .15s ease}
-.vlink:hover .play{background:#ff4f12}
-.vlink:hover .play::before{border-left-color:#fff}
+.vlink .play{position:relative;display:inline-block;width:42px;height:42px;border-radius:50%;border:1px solid #ff4f12;transition:background .2s ease,transform .2s ease}
+.vlink .play::before{content:"";position:absolute;left:50%;top:50%;margin:-5px 0 0 -2px;border-style:solid;border-width:5px 0 5px 8px;border-color:transparent transparent transparent var(--ink)}
+.vlink:hover .play{background:rgba(255,79,18,.07);transform:scale(1.05)}
 
 dialog.vdlg{margin:auto;padding:0;border:0;background:transparent;width:min(94vw,calc((88svh - 80px)*16/9));max-width:none;max-height:none;overflow:visible}
 dialog.vdlg::backdrop{background:rgba(8,8,10,.88);backdrop-filter:blur(4px)}
