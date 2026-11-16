@@ -15,7 +15,7 @@
 <meta property="og:description" content="Ein Roboter für die Produktionshelfer-Stelle, die Sie nicht besetzt bekommen. Nie krank, 30&nbsp;% günstiger. Wir installieren, betreiben und warten ihn. Sie zahlen nichts, bis er zuverlässig läuft.">
 <meta property="og:image" content="https://ackermann-robotics.org/img/hero.jpg">
 <link rel="preload" href="/fonts/carlito-bold.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/style.css?v=202611161117">
+<link rel="stylesheet" href="/style.css?v=202611161600">
 <script>if(/^#(contact|faq)$/.test(location.hash))location.replace("/en/"+location.hash);</script>
 </head>
 <body>
@@ -29,7 +29,7 @@
   <div>
     <h1><span class="l1">Sie suchen einen Produktionshelfer.</span>Wir haben einen, der nie krank wird und 30&nbsp;% weniger kostet.</h1>
     <p class="lead">Ein Roboter übernimmt die Aufgabe. Wir installieren und betreuen ihn. Sie zahlen erst, wenn er läuft.</p>
-    <div class="ctas"><a class="btn" href="#kontakt">Demo buchen <span class="arr">→</span></a><a class="vlink" href="/video/"><span class="play">▶</span>Video</a></div>
+    <div class="ctas"><a class="btn" href="#kontakt">Demo buchen <span class="arr">→</span></a><a class="vlink" href="/video/" data-video><span class="play">▶</span>Video</a></div>
   </div>
   <div class="heroimg"><video src="/img/hero-loop.mp4" poster="/img/hero.jpg" autoplay muted loop playsinline preload="auto" aria-label="Roboterarme beim Verpacken und Kommissionieren"></video></div>
 </div></section>
@@ -95,6 +95,8 @@
 </div></footer>
 <script src="/form.js?v=202611161117"></script>
 <script>if(matchMedia("(prefers-reduced-motion: reduce)").matches){var v=document.querySelector(".heroimg video");if(v){v.removeAttribute("autoplay");v.pause();}}</script>
+<dialog id="vdlg" class="vdlg"><button class="vx" type="button" aria-label="Schließen">×</button><video controls playsinline preload="none" poster="/video/poster.jpg"><source src="/video/ackermann-robotics.mp4" type="video/mp4"></video></dialog>
+<script>(function(){var d=document.getElementById("vdlg");if(!d||!d.showModal)return;var v=d.querySelector("video");document.querySelectorAll("[data-video]").forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();d.showModal();v.currentTime=0;var p=v.play();if(p&&p.catch)p.catch(function(){});});});function c(){v.pause();if(d.open)d.close();}d.querySelector(".vx").addEventListener("click",c);d.addEventListener("click",function(e){if(e.target===d)c();});d.addEventListener("close",function(){v.pause();});})();</script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8f1119e848024e82be9097e9bf90d485"}'></script><!-- End Cloudflare Web Analytics --><script> (function(ss,ex){ window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments));}; (function(d,s){ fs=d.getElementsByTagName(s)[0]; function ce(src){ var cs=d.createElement(s); cs.src=src; cs.async=1; fs.parentNode.insertBefore(cs,fs); }; ce('https://sc.lfeeder.com/lftracker_v1_'+ss+(ex?'_'+ex:'')+'.js'); })(document,'script'); })('DzLR5a5BjLz8BoQ2'); </script>
 </body>
 </html>

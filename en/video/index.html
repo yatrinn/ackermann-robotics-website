@@ -3,23 +3,24 @@
 <head><script>if(location.protocol==='http:')location.replace('https://'+location.host+location.pathname+location.search+location.hash)</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Explained in 35 seconds | Ackermann Robotics</title>
+<title>Video | Ackermann Robotics</title>
 <meta name="description" content="A robot for the production helper position you cannot fill. Explained in 35 seconds.">
 <meta property="og:title" content="Ackermann Robotics in 35 seconds">
 <meta property="og:image" content="https://ackermann-robotics.org/en/video/poster.jpg">
 <link rel="icon" href="/favicon.ico?v=3" sizes="any">
 <link rel="icon" href="/favicon.svg?v=3" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3">
-<link rel="stylesheet" href="/style.css?v=202611161117">
+<link rel="stylesheet" href="/style.css?v=202611161600">
 <style>
-.vid{padding:56px 0 80px}
-.vid .wrap{max-width:1040px}
-.vid h1{font-size:44px;line-height:1.1;margin-bottom:12px}
-.vid p.lead{color:var(--muted);font-size:19px;margin-bottom:28px}
-.vid video{width:100%;height:auto;border-radius:14px;background:#000;display:block}
-.vid .cta{margin-top:32px;display:flex;gap:20px;align-items:center;flex-wrap:wrap}
-.vid .cta span{color:var(--muted);font-size:16px}
-@media(max-width:700px){.vid{padding:32px 0 56px}.vid h1{font-size:32px}}
+.vid{min-height:calc(100svh - 73px);display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px 0 28px;background:#0b0b0c}
+.vid .frame{width:min(92vw,calc((100svh - 73px - 130px)*16/9));max-width:1400px}
+.vid video{width:100%;aspect-ratio:16/9;height:auto;border-radius:14px;background:#000;display:block;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.vid .cta{position:relative;z-index:2;margin-top:22px;display:flex;gap:20px;align-items:center;justify-content:center;flex-wrap:wrap}
+.vid .cta .btn{background:#fff;color:var(--ink);border-color:#fff;transition:transform .15s ease}.vid .cta .btn:hover{background:#ececee}
+.vid .cta span{color:#a5a7ad;font-size:16px}
+.vid .cta span a{color:#fff;text-decoration:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media(max-width:700px){.vid{min-height:0;justify-content:flex-start;padding:28px 0 48px}.vid .frame{width:94vw}}
 </style>
 </head>
 <body>
@@ -27,14 +28,14 @@
   <a class="brand" href="/en/"><img src="/logo.svg" alt="Ackermann Robotics" width="108" height="46"></a>
   <nav><a class="btn" href="/en/#contact">Book a free demo</a></nav>
 </div></header>
-<main><section class="vid"><div class="wrap">
-  <h1>Explained in 35 seconds.</h1>
-  <p class="lead">A robot for the production helper position you cannot fill.</p>
-  <video controls playsinline preload="metadata" poster="/en/video/poster.jpg">
+<main><section class="vid">
+  <h1 class="sr">Ackermann Robotics on video: a robot for the production helper position you cannot fill.</h1>
+  <div class="frame"><video id="v" controls playsinline preload="auto" poster="/en/video/poster.jpg">
     <source src="/en/video/ackermann-robotics.mp4" type="video/mp4">
-  </video>
-  <div class="cta"><a class="btn" href="/en/#contact">Book a free demo <span class="arr">→</span></a><span>or call: +49 151 14162414</span></div>
-</div></section></main>
+  </video></div>
+  <div class="cta"><a class="btn" href="/en/#contact">Book a free demo <span class="arr">→</span></a><span>or call: <a href="tel:+4915114162414">+49 151 14162414</a></span></div>
+</section></main>
+<script>(function(){var v=document.getElementById("v");var p=v.play();if(p&&p.catch)p.catch(function(){});})();</script>
 <footer><div class="wrap">
   <span>© 2026 Ackermann Robotics GbR</span>
   <span><a class="li" href="https://www.linkedin.com/company/ackermann-robotics/" target="_blank" rel="noopener" aria-label="Ackermann Robotics on LinkedIn"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a><a href="/legal-notice/">Legal notice</a><a href="/privacy/">Privacy</a><a href="/video/" lang="de">Deutsch</a></span>
