@@ -19,6 +19,14 @@
 .vid .cta .btn{background:#fff;color:var(--ink);border-color:#fff;transition:transform .15s ease}.vid .cta .btn:hover{background:#ececee}
 .vid .cta span{color:#a5a7ad;font-size:16px}
 .vid .cta span a{color:#fff;text-decoration:none}
+.vid .more{margin-top:18px;color:#a5a7ad;font-size:15px;text-decoration:none;transition:color .15s ease}.vid .more:hover{color:#fff}
+.vid .more span{display:inline-block;animation:nudge 2.4s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
+@media(prefers-reduced-motion:reduce){.vid .more span{animation:none}}
+#mehr,#more{scroll-margin-top:73px}
+.band .next{margin-top:32px;display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+.band .next .btn{background:#fff;color:var(--ink);border-color:#fff}.band .next .btn:hover{background:#ececee}
+.band .next .go{color:#fff;font-weight:600;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35);padding-bottom:2px}.band .next .go:hover{border-color:#fff}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media(max-width:700px){.vid{min-height:0;justify-content:flex-start;padding:28px 0 48px}.vid .frame{width:94vw}}
 </style>
@@ -26,7 +34,7 @@
 <body>
 <header><div class="wrap">
   <a class="brand" href="/en/"><img src="/logo.svg" alt="Ackermann Robotics" width="108" height="46"></a>
-  <nav><a class="btn" href="/en/#contact">Book a free demo</a></nav>
+  <nav><a class="opt" href="/en/#tasks">Tasks</a><a class="opt" href="/en/#faq">FAQ</a><a class="opt" href="/en/#team">Team</a><a href="/video/" lang="de">DE</a><a class="btn" href="/en/#contact">Book a free demo</a></nav>
 </div></header>
 <main><section class="vid">
   <h1 class="sr">Ackermann Robotics on video: a robot for the production helper position you cannot fill.</h1>
@@ -34,7 +42,14 @@
     <source src="/en/video/ackermann-robotics.mp4" type="video/mp4">
   </video></div>
   <div class="cta"><a class="btn" href="/en/#contact">Book a free demo <span class="arr">→</span></a><span>or call: <a href="tel:+4915114162414">+49 151 14162414</a></span></div>
-</section></main>
+  <a class="more" href="#more">What it costs and how it works <span aria-hidden="true">↓</span></a>
+</section>
+<section class="band" id="more"><div class="wrap">
+  <h2>What it costs.</h2>
+  <div class="nums"><div><b>€3,000</b><span>a production helper costs you per month, wages plus employer costs</span></div><div><b>€2,000</b><span>you pay us per month, including maintenance, repairs and remote operation</span></div><div><b>€0</b><span>until the robot does your task reliably. No investment, no deposit.</span></div></div>
+  <div class="next"><a class="btn" href="/en/#contact">Book a free demo <span class="arr">→</span></a><a class="go" href="/en/">Everything about Ackermann Robotics <span aria-hidden="true">→</span></a></div>
+</div></section>
+</main>
 <script>(function(){var v=document.getElementById("v");var p=v.play();if(p&&p.catch)p.catch(function(){});})();</script>
 <footer><div class="wrap">
   <span>© 2026 Ackermann Robotics</span>
