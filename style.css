@@ -266,7 +266,12 @@ footer .apps a{margin:0 18px 0 0}
 .calc output{min-width:110px;text-align:right;font-size:26px;font-weight:700}
 .band .note a.calc-cta{color:#fff;font-weight:700;white-space:nowrap}
 
-.calc label[for=cnt]{margin-top:22px}
+.calc-row{display:flex;gap:28px;flex-wrap:wrap;margin-top:22px}
+.calc .calc-row label,.calc-lab{display:block;font-size:17px;color:#b9bbc0;margin-bottom:12px}
+.calc-seg{display:inline-flex;border:1px solid #3a3b40;border-radius:12px;overflow:hidden}
+.calc-seg button{width:56px;height:48px;background:#17181b;color:#b9bbc0;border:0;font-size:22px;font-weight:700;font-family:inherit;cursor:pointer}
+.calc-seg button+button{border-left:1px solid #3a3b40}
+.calc-seg button[aria-checked=true]{background:#fff;color:#0b0b0c}
 .calc-n{display:inline-flex;align-items:center;border:1px solid #3a3b40;border-radius:12px;overflow:hidden}
 .calc-n button{width:48px;height:48px;background:#17181b;color:#fff;border:0;font-size:24px;font-family:inherit;cursor:pointer}
 .calc-n button:hover{background:#26272b}
