@@ -201,3 +201,16 @@ dialog.vdlg.ended .vend{display:flex}
 dialog.vdlg .vend p{color:#fff;font-size:clamp(22px,3vw,34px);font-weight:700;line-height:1.2}
 dialog.vdlg .vend .replay{background:none;border:0;color:#a5a7ad;font-size:15px;cursor:pointer;font-family:inherit}
 @media(max-width:700px){dialog.vdlg .vcta{flex-direction:column;gap:10px}}
+
+/* conventional vs AI robot comparison */
+.vs{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff;max-width:900px}
+.vs-row{display:grid;grid-template-columns:1fr 1fr}
+.vs-row>div{padding:16px 24px;font-size:18px;border-top:1px solid var(--line)}
+.vs-row>div:first-child{color:var(--muted)}
+.vs-row>div:last-child{font-weight:700;border-left:1px solid var(--line)}
+.vs-row>div:last-child::before{content:"✓";margin-right:10px}
+.vs-head>div{border-top:0;font-size:14px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)!important;background:var(--soft)}
+.vs-head>div:last-child{color:#fff!important;background:var(--ink)}
+.vs-head>div:last-child::before{content:none}
+.task p.why{font-size:14px;color:var(--ink);margin-top:8px;font-weight:600}
+@media(max-width:700px){.vs-row>div{padding:12px 14px;font-size:15px}.vs-head>div{font-size:12px}}
