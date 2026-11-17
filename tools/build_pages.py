@@ -118,6 +118,7 @@ def page(p):
 <meta property="og:description" content="{p["desc"]}">
 <meta property="og:url" content="{url}">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Ackermann Robotics">
 <meta property="og:image" content="{BASE}/img/{p["img"]}.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="/img/{p["img"]}.webp" as="image" fetchpriority="high">
