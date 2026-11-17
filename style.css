@@ -277,3 +277,6 @@ footer .apps a{margin:0 18px 0 0}
 .calc-n button:hover{background:#26272b}
 .calc-n input{width:64px;height:48px;background:#0b0b0c;color:#fff;border:0;text-align:center;font-size:24px;font-weight:700;font-family:inherit;-moz-appearance:textfield}
 .calc-n input::-webkit-outer-spin-button,.calc-n input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+
+.micro a.tel{display:inline-flex;align-items:center;gap:5px;border-bottom:1.5px solid currentColor}
+.micro a.tel svg{flex:none}

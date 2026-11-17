@@ -13,7 +13,7 @@ TAIL = home[home.index('<footer>'):]
 CSSV = re.search(r'style\.css\?v=(\d+)', home).group(1)
 ICONV = re.search(r'favicon\.ico\?v=(\d+)', home).group(1)
 BASE = 'https://ackermann-robotics.org'
-TEL = '<a href="tel:+4915114162414">0151&nbsp;14162414</a>'
+TEL = '<a class="tel" href="tel:+4915114162414"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>0151&nbsp;14162414</a>'
 
 PAGES = [
  dict(slug='roboter-mieten', nav='Roboter mieten',
@@ -136,7 +136,7 @@ def page(p):
     <h1>{p["h1"]}</h1>
     <p class="lead">{p["lead"]}</p>
     <div class="ctas"><a class="btn" href="#kontakt">Demo buchen <span class="arr">→</span></a><a class="btn alt" href="tel:+4915114162414">Anrufen</a></div>
-    <p class="micro">Kostenlos, 30 Minuten: Danach wissen Sie, ob es bei Ihnen geht und was es kostet. Oder direkt anrufen: {TEL}</p>
+    <p class="micro">Kostenlos, 30 Minuten. Danach wissen Sie, ob es geht und was es kostet. Oder anrufen: {TEL}</p>
   </div>
   <div class="heroimg"><picture><source srcset="/img/{p["img"]}.webp" type="image/webp"><img src="/img/{p["img"]}.jpg" alt="{p["alt"]}" width="900" height="506" fetchpriority="high"></picture></div>
 </div></section>
