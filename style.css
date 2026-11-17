@@ -265,3 +265,10 @@ footer .apps a{margin:0 18px 0 0}
 .calc input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:#fff;border:4px solid #0b0b0c}
 .calc output{min-width:110px;text-align:right;font-size:26px;font-weight:700}
 .band .note a.calc-cta{color:#fff;font-weight:700;white-space:nowrap}
+
+.calc label[for=cnt]{margin-top:22px}
+.calc-n{display:inline-flex;align-items:center;border:1px solid #3a3b40;border-radius:12px;overflow:hidden}
+.calc-n button{width:48px;height:48px;background:#17181b;color:#fff;border:0;font-size:24px;font-family:inherit;cursor:pointer}
+.calc-n button:hover{background:#26272b}
+.calc-n input{width:64px;height:48px;background:#0b0b0c;color:#fff;border:0;text-align:center;font-size:24px;font-weight:700;font-family:inherit;-moz-appearance:textfield}
+.calc-n input::-webkit-outer-spin-button,.calc-n input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
