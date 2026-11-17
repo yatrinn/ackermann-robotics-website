@@ -21,7 +21,7 @@
 <link rel="preload" href="/img/hero.webp" as="image" fetchpriority="high">
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Organization","name":"Ackermann Robotics","url":"https://ackermann-robotics.org/","logo":"https://ackermann-robotics.org/favicon-512.png","telephone":"+49 151 14162414","email":"info@ackermann-robotics.org","address":{"@type":"PostalAddress","streetAddress":"Am Schieferstollen 2","postalCode":"57399","addressLocality":"Kirchhundem","addressCountry":"DE"},"areaServed":["DE","AT","CH"],"sameAs":["https://www.linkedin.com/company/ackermann-robotics/","https://www.youtube.com/@AckermannRobotics"]},{"@context":"https://schema.org","@type":"Service","name":"Robots as a service for production","serviceType":"Robotics as a Service","provider":{"@type":"Organization","name":"Ackermann Robotics","url":"https://ackermann-robotics.org/"},"areaServed":["DE","AT","CH"],"description":"Cognitive robots for box folding, packing and kitting. No investment, 30% cheaper than a production helper. You pay only once it runs.","url":"https://ackermann-robotics.org/en/"}]</script>
 <link rel="preload" href="/fonts/carlito-bold.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/style.css?v=202611170830">
+<link rel="stylesheet" href="/style.css?v=202611170850">
 </head>
 <body>
 <header><div class="wrap">
@@ -52,10 +52,12 @@
 </div></section>
 
 <section class="band"><div class="wrap">
-  <h2>An example.</h2>
-  <div class="nums"><div><b>€3,000</b><span>a production helper costs you per month, wages plus employer costs</span></div><div><b>€2,000</b><span>you pay us per month, including maintenance, repairs and remote operation</span></div><div><b>€12,000</b><span>you save per year, from the first month the robot runs</span></div></div>
-  <p class="note">We set your fee after the demo. It is always below 70% of what the position costs you today.</p>
+  <h2>Your numbers.</h2>
+  <div class="calc"><label for="cost">What does the position cost you per month today? Wages plus employer costs</label><div class="calc-in"><input id="cost" type="range" min="2000" max="6000" step="100" value="3000"><output id="costv">€3,000</output></div></div>
+  <div class="nums"><div><b id="n1">€3,000</b><span>the position costs you per month today</span></div><div><b id="n2">€2,100</b><span>is the most you pay us per month, including maintenance, repairs and remote operation</span></div><div><b id="n3">€10,800</b><span>is the least you save per year, from the first month the robot runs</span></div></div>
+  <p class="note">We set your exact fee after the demo. It is always below 70% of what the position costs you today. <a class="calc-cta" href="#contact">Get the exact number for your task →</a></p>
 </div></section>
+<script>(function(){var r=document.getElementById("cost");if(!r)return;var nf=new Intl.NumberFormat("en-GB",{style:"currency",currency:"EUR",maximumFractionDigits:0});function f(n){return nf.format(Math.round(n/10)*10)}function u(){var x=+r.value;document.getElementById("costv").textContent=f(x);document.getElementById("n1").textContent=f(x);document.getElementById("n2").textContent=f(x*.7);document.getElementById("n3").textContent=f(x*.3*12);r.style.setProperty("--p",((x-2000)/40)+"%")}r.addEventListener("input",u);u();})();</script>
 
 <section class="soft"><div class="wrap">
   <div class="sec-head"><h2>Why a robot instead of a new hire.</h2></div>
@@ -85,8 +87,8 @@
 
 <section id="contact" class="contact"><div class="wrap grid">
   <div>
-    <h2>Book a free demo.</h2>
-    <p class="sub">30 minutes, on site or by video. Afterwards, you know whether a robot can do your task and what you save.</p>
+    <h2>Free demo: does it work for you?</h2>
+    <p class="sub">30 minutes, on site or by video. You show us the task. Afterwards, you know whether a robot can take it over and what you save.</p>
     <ul><li>Free and without obligation</li><li>Answer within one business day</li><li>You only pay once it runs reliably</li></ul>
     <p class="call">Rather talk directly?<br><a href="tel:+4915114162414">+49&nbsp;151&nbsp;14162414</a></p>
   </div>

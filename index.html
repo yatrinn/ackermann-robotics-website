@@ -21,7 +21,7 @@
 <link rel="preload" href="/img/hero.webp" as="image" fetchpriority="high">
 <script type="application/ld+json">[{"@context":"https://schema.org","@type":"Organization","name":"Ackermann Robotics","url":"https://ackermann-robotics.org/","logo":"https://ackermann-robotics.org/favicon-512.png","telephone":"+49 151 14162414","email":"info@ackermann-robotics.org","address":{"@type":"PostalAddress","streetAddress":"Am Schieferstollen 2","postalCode":"57399","addressLocality":"Kirchhundem","addressCountry":"DE"},"areaServed":["DE","AT","CH"],"sameAs":["https://www.linkedin.com/company/ackermann-robotics/","https://www.youtube.com/@AckermannRobotics"]},{"@context":"https://schema.org","@type":"Service","name":"Roboter mieten für die Produktion","serviceType":"Robotics as a Service","provider":{"@type":"Organization","name":"Ackermann Robotics","url":"https://ackermann-robotics.org/"},"areaServed":["DE","AT","CH"],"description":"Kognitive Roboter für Kartons aufrichten, Verpacken und Kommissionieren. Keine Investition, 30 % günstiger als ein Produktionshelfer. Sie zahlen erst, wenn er läuft.","url":"https://ackermann-robotics.org/"}]</script>
 <link rel="preload" href="/fonts/carlito-bold.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/style.css?v=202611170830">
+<link rel="stylesheet" href="/style.css?v=202611170850">
 <script>if(/^#(contact|faq)$/.test(location.hash))location.replace("/en/"+location.hash);</script>
 </head>
 <body>
@@ -53,10 +53,12 @@
 </div></section>
 
 <section class="band"><div class="wrap">
-  <h2>Ein Rechenbeispiel.</h2>
-  <div class="nums"><div><b>3.000 €</b><span>kostet Sie ein Produktionshelfer im Monat, Lohn plus Nebenkosten</span></div><div><b>2.000 €</b><span>zahlen Sie uns im Monat, inklusive Wartung, Reparatur und Fernbetreuung</span></div><div><b>12.000 €</b><span>sparen Sie im Jahr, ab dem ersten Monat, in dem der Roboter läuft</span></div></div>
-  <p class="note">Ihre Gebühr legen wir nach der Demo fest. Sie liegt immer unter 70&nbsp;% dessen, was die Stelle Sie heute kostet.</p>
+  <h2>Ihr Rechenbeispiel.</h2>
+  <div class="calc"><label for="cost">Was kostet Sie die Stelle heute im Monat? Lohn plus Nebenkosten</label><div class="calc-in"><input id="cost" type="range" min="2000" max="6000" step="100" value="3000"><output id="costv">3.000&nbsp;€</output></div></div>
+  <div class="nums"><div><b id="n1">3.000&nbsp;€</b><span>kostet Sie die Stelle heute im Monat</span></div><div><b id="n2">2.100&nbsp;€</b><span>zahlen Sie uns höchstens im Monat, inklusive Wartung, Reparatur und Fernbetreuung</span></div><div><b id="n3">10.800&nbsp;€</b><span>sparen Sie mindestens im Jahr, ab dem ersten Monat, in dem der Roboter läuft</span></div></div>
+  <p class="note">Ihre genaue Gebühr legen wir nach der Demo fest. Sie liegt immer unter 70&nbsp;% dessen, was die Stelle Sie heute kostet. <a class="calc-cta" href="#kontakt">Genaue Zahl für Ihre Aufgabe holen →</a></p>
 </div></section>
+<script>(function(){var r=document.getElementById("cost");if(!r)return;var nf=new Intl.NumberFormat("de-DE",{style:"currency",currency:"EUR",maximumFractionDigits:0});function f(n){return nf.format(Math.round(n/10)*10)}function u(){var x=+r.value;document.getElementById("costv").textContent=f(x);document.getElementById("n1").textContent=f(x);document.getElementById("n2").textContent=f(x*.7);document.getElementById("n3").textContent=f(x*.3*12);r.style.setProperty("--p",((x-2000)/40)+"%")}r.addEventListener("input",u);u();})();</script>
 
 <section class="soft"><div class="wrap">
   <div class="sec-head"><h2>Warum ein Roboter statt einer Neueinstellung.</h2></div>
@@ -86,8 +88,8 @@
 
 <section id="kontakt" class="contact"><div class="wrap grid">
   <div>
-    <h2>Kostenlose Demo buchen.</h2>
-    <p class="sub">30 Minuten, vor Ort oder per Video. Danach wissen Sie, ob ein Roboter Ihre Aufgabe übernehmen kann und was Sie sparen.</p>
+    <h2>Kostenlose Demo: Geht das bei Ihnen?</h2>
+    <p class="sub">30 Minuten, vor Ort oder per Video. Sie zeigen uns die Aufgabe. Danach wissen Sie, ob ein Roboter sie übernehmen kann und was Sie sparen.</p>
     <ul><li>Kostenlos und unverbindlich</li><li>Antwort innerhalb eines Werktags</li><li>Sie zahlen erst, wenn er zuverlässig läuft</li></ul>
     <p class="call">Lieber direkt sprechen?<br><a href="tel:+4915114162414">0151&nbsp;14162414</a></p>
   </div>

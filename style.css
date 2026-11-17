@@ -255,3 +255,13 @@ footer .apps{display:block;width:100%;font-size:14px}
 footer .apps a{margin:0 18px 0 0}
 @media(max-width:980px){.lp-two{grid-template-columns:1fr;gap:40px}.lp-steps{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.lp-steps{grid-template-columns:1fr}.lp-more a{display:inline-block;margin:6px 14px 0 0}}
+
+/* savings calculator */
+.calc{margin-top:28px;max-width:640px}
+.calc label{display:block;font-size:17px;color:#b9bbc0;margin-bottom:12px}
+.calc-in{display:flex;align-items:center;gap:20px}
+.calc input[type=range]{flex:1;-webkit-appearance:none;appearance:none;height:6px;border-radius:999px;background:linear-gradient(90deg,#fff var(--p,25%),#3a3b40 var(--p,25%));outline:none;cursor:pointer}
+.calc input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:26px;height:26px;border-radius:50%;background:#fff;border:4px solid #0b0b0c;box-shadow:0 0 0 2px #fff}
+.calc input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:#fff;border:4px solid #0b0b0c}
+.calc output{min-width:110px;text-align:right;font-size:26px;font-weight:700}
+.band .note a.calc-cta{color:#fff;font-weight:700;white-space:nowrap}
