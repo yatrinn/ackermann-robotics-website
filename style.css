@@ -221,3 +221,11 @@ dialog.vdlg .vend .replay{background:none;border:0;color:#a5a7ad;font-size:15px;
 nav a.tel{color:var(--ink);font-weight:700}
 .contact .call{margin-top:32px;font-size:17px;color:#a6a8ad;line-height:1.4}
 .contact .call a{display:inline-block;margin-top:4px;font-size:30px;font-weight:700;color:#fff;text-decoration:none}
+
+/* mobile sticky call/demo bar */
+.mbar{display:none}
+@media(max-width:700px){
+ .mbar{display:grid;grid-template-columns:1fr 1.4fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.92);backdrop-filter:saturate(180%) blur(14px);-webkit-backdrop-filter:saturate(180%) blur(14px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .25s ease}
+ .mbar.on{transform:none}
+ .mbar .btn{justify-content:center;padding:13px 10px;font-size:16px}
+}
