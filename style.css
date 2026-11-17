@@ -129,6 +129,8 @@ footer a{margin-left:20px;text-decoration:none}
 footer a:hover{color:var(--ink)}
 footer a.li{display:inline-flex;vertical-align:-3px;color:var(--muted)}
 footer a.li:hover{color:#0a66c2}
+footer a.yt{display:inline-flex;vertical-align:-4px;color:var(--muted);margin-left:14px}
+footer a.yt:hover{color:#ff0000}
 
 /* team stations logo band */
 .stations{padding:48px 0;border-top:1px solid var(--line)}
