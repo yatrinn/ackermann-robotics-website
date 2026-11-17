@@ -214,3 +214,10 @@ dialog.vdlg .vend .replay{background:none;border:0;color:#a5a7ad;font-size:15px;
 .vs-head>div:last-child::before{content:none}
 .task p.why{font-size:14px;color:var(--ink);margin-top:8px;font-weight:600}
 @media(max-width:700px){.vs-row>div{padding:12px 14px;font-size:15px}.vs-head>div{font-size:12px}}
+
+/* conversion: phone + micro copy */
+.micro{margin-top:18px;font-size:15px;color:var(--muted);max-width:560px}
+.micro a{color:var(--ink);font-weight:700;text-decoration:none;white-space:nowrap}
+nav a.tel{color:var(--ink);font-weight:700}
+.contact .call{margin-top:32px;font-size:17px;color:#a6a8ad;line-height:1.4}
+.contact .call a{display:inline-block;margin-top:4px;font-size:30px;font-weight:700;color:#fff;text-decoration:none}
