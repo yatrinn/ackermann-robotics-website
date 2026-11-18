@@ -111,6 +111,7 @@ def page(p):
 <title>{p["title"]}</title>
 <meta name="description" content="{p["desc"]}">
 <link rel="canonical" href="{url}">
+<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192">
 <link rel="icon" href="/favicon.ico?v={ICONV}" sizes="any">
 <link rel="icon" href="/favicon.svg?v={ICONV}" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png?v={ICONV}">
