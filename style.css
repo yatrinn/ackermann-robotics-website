@@ -284,3 +284,5 @@ footer .apps a{margin:0 18px 0 0}
 .more-task a{color:var(--ink);font-weight:700;white-space:nowrap}
 footer a.xl{display:inline-flex;vertical-align:-3px;color:var(--muted);margin-left:14px}
 footer a.xl:hover{color:var(--ink)}
+footer a.rd{display:inline-flex;vertical-align:-4px;color:var(--muted);margin-left:14px}
+footer a.rd:hover{color:#ff4500}
