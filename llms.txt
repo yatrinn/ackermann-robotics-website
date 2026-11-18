@@ -1,6 +1,6 @@
 # Ackermann Robotics
 
-> Ackermann Robotics GbR (Kirchhundem, Germany; technicians in Metzingen) installs and operates AI-driven robot arms ("cognitive robotics", "physical AI") for production tasks that conventional industrial robots could not automate: box erecting, packing, kitting and pick-and-place with varying parts. Robots learn tasks by demonstration. Customers pay no investment; a monthly fee of at most 70% of the cost of the position starts only once the robot runs reliably. Market: manufacturers in Germany, Austria and Switzerland (DACH).
+> Ackermann Robotics (Stuttgart-Botnang, Germany; technicians in the Stuttgart/Reutlingen region) installs and operates AI-driven robot arms ("cognitive robotics", "physical AI") for production tasks that conventional industrial robots could not automate: box erecting, packing, kitting and pick-and-place with varying parts. Robots learn tasks by demonstration. Customers pay no investment; a monthly fee of at most 70% of the cost of the position starts only once the robot runs reliably. Market: manufacturers in Germany, Austria and Switzerland (DACH).
 
 ## Pages
 - [Homepage (German)](https://ackermann-robotics.org/): offer, cost calculator, tasks, FAQ, free demo
