@@ -104,7 +104,19 @@ PAGES = [
   faq=[('Was ist der Unterschied zwischen Physical AI und kognitiver Robotik?', 'Kaum einer. Beide Begriffe meinen Roboter, die mit KI wahrnehmen und lernen, statt starr programmiert zu werden. <a href="/kognitive-robotik/">Mehr zu kognitiver Robotik</a>'),
        ('Für welche Aufgaben ist Physical AI heute reif?', 'Für Handgriffe mit kleinen Abweichungen: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen.'),
        ('Brauchen wir dafür eine KI-Abteilung?', 'Nein. Ihr Team zeigt die Aufgabe, den Rest übernehmen wir.')]),
+ dict(slug='roboter-kosten', nav='Was kostet ein Roboter?',
+  title='Was kostet ein Roboter in der Produktion? Kaufen vs. mieten | Ackermann Robotics',
+  desc='Was kostet ein Roboter für die Produktion wirklich? Arm, Greifer, Kameras, Integration und Wartung im Überblick, und wie es ohne Investition geht: Monatsgebühr ab Betriebsstart.',
+  eyebrow='Kosten', h1='Was kostet ein Roboter in der Produktion?',
+  lead='Der Roboterarm ist nur ein Teil der Rechnung. Greifer, Kameras, Integration, Sicherheit und Programmierung kosten oft mehr als der Arm selbst. Fertig integriert landen viele Anwendungen schnell bei 40.000 € bis weit über 100.000 €. Bei uns zahlen Sie stattdessen eine Monatsgebühr, und erst, wenn er läuft.',
+  img='boxes', alt='Roboterarm verpackt Teile in einen Karton',
+  problem=('Was beim Kauf alles anfällt.', ['Roboterarm: nur etwa die Hälfte der Gesamtkosten.', 'Greifer, Kameras, Halterungen und Sicherheitstechnik.', 'Integration und Programmierung, bei jeder neuen Variante erneut.', 'Wartung, Reparaturen und jemand im Haus, der sich auskennt.']),
+  solution=('Was Sie bei uns zahlen.', ['Keine Investition: kein Kauf, keine Anzahlung, keine Integrationskosten.', 'Eine feste Monatsgebühr, höchstens 70&nbsp;% dessen, was die Stelle Sie heute kostet.', 'Wartung, Reparaturen, Nachtrainieren und Fernbetreuung sind enthalten.', 'Die Gebühr startet erst, wenn der Roboter zuverlässig läuft.']),
+  faq=[('Wie hoch ist die Monatsgebühr konkret?', 'Sie hängt von Aufgabe und Schichten ab und liegt immer unter 70&nbsp;% der heutigen Kosten der Stelle. Bei 3.000 € Personalkosten sind das höchstens 2.100 € im Monat. Den Rechner finden Sie auf der <a href="/#kontakt">Startseite</a>.'),
+       ('Lohnt sich das auch für nur eine Stelle?', 'Ja. Weil Sie nichts investieren, rechnet sich der Roboter ab dem ersten Monat, auch bei einer einzelnen Stelle.'),
+       ('Was ist günstiger, kaufen oder mieten?', 'Bei großen Stückzahlen und einer Aufgabe, die sich nie ändert, kann Kaufen günstiger sein. Bei wechselnden Varianten und ohne eigene Robotik-Experten ist die Monatsgebühr meist die bessere Wahl, weil Integration, Nachtrainieren und Wartung enthalten sind.')]),
 ]
+
 def page(p):
     url = f'{BASE}/{p["slug"]}/'
     faq_ld = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":html.unescape(a)}} for q,a in p['faq']]}

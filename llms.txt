@@ -7,6 +7,7 @@
 - [Homepage (English)](https://ackermann-robotics.org/en/)
 - [Cognitive robotics explained](https://ackermann-robotics.org/kognitive-robotik/)
 - [Physical AI in production](https://ackermann-robotics.org/physical-ai-produktion/)
+- [What a production robot costs: buy vs. rent](https://ackermann-robotics.org/roboter-kosten/)
 - [Robot as a Service / renting a robot](https://ackermann-robotics.org/roboter-mieten/)
 - [Production helper wanted: robot instead](https://ackermann-robotics.org/produktionshelfer-gesucht/)
 - [Automate box erecting](https://ackermann-robotics.org/kartons-aufrichten-automatisieren/)
