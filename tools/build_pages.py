@@ -93,8 +93,18 @@ PAGES = [
   faq=[('Ist kognitive Robotik dasselbe wie Physical AI?', 'Ja, beide Begriffe meinen Roboter, die mit KI ihre Umgebung wahrnehmen und Aufgaben lernen, statt starr programmiert zu werden.'),
        ('Für welche Aufgaben lohnt sich das?', 'Für Handgriffe, die sich jedes Mal leicht unterscheiden: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen.'),
        ('Brauchen wir dafür eigene KI- oder Robotik-Experten?', 'Nein. Wir installieren, betreiben und warten den Roboter. Ihr Team zeigt nur die Aufgabe.')]),
+ dict(slug='physical-ai-produktion', nav='Physical AI',
+  title='Physical AI in der Produktion: KI-Roboter im Einsatz | Ackermann Robotics',
+  desc='Physical AI in der Produktion: KI-Roboter, die sehen, greifen und durch Vormachen lernen. Wir installieren und betreiben sie an Ihrer Linie, ohne Investition.',
+  eyebrow='Physical AI', h1='Physical AI in der Produktion. Nicht im Labor, an Ihrer Linie.',
+  lead='Physical AI heißt: KI, die nicht nur Text schreibt, sondern einen Roboter steuert. Er sieht mit Kameras, greift und lernt Handgriffe, indem Ihr Team sie vormacht. Wir bringen das in Ihre Halle und betreiben es für Sie.',
+  img='folding', alt='KI-gesteuerter Roboterarm faltet einen Karton',
+  problem=('Warum Physical AI bisher selten in der Halle ankommt.', ['Die Technik ist neu, eigene Experten dafür hat kaum ein Werk.', 'Pilotprojekte kosten oft sechsstellig, bevor klar ist, ob es klappt.', 'Zwischen Demo-Video und zuverlässigem Schichtbetrieb liegt viel Integrationsarbeit.']),
+  solution=('Wie wir es lösen.', ['Wir prüfen Ihre Aufgabe kostenlos vor Ort oder per Video.', 'Wir installieren den Roboter, trainieren ihn an Ihrer Linie und betreuen ihn.', 'Unser Operator hilft aus der Ferne, wenn er nicht weiterkommt. Daraus lernt der Roboter.', 'Keine Investition. Die Monatsgebühr startet erst, wenn er zuverlässig läuft.']),
+  faq=[('Was ist der Unterschied zwischen Physical AI und kognitiver Robotik?', 'Kaum einer. Beide Begriffe meinen Roboter, die mit KI wahrnehmen und lernen, statt starr programmiert zu werden. <a href="/kognitive-robotik/">Mehr zu kognitiver Robotik</a>'),
+       ('Für welche Aufgaben ist Physical AI heute reif?', 'Für Handgriffe mit kleinen Abweichungen: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen.'),
+       ('Brauchen wir dafür eine KI-Abteilung?', 'Nein. Ihr Team zeigt die Aufgabe, den Rest übernehmen wir.')]),
 ]
-
 def page(p):
     url = f'{BASE}/{p["slug"]}/'
     faq_ld = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":html.unescape(a)}} for q,a in p['faq']]}

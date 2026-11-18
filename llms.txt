@@ -1,0 +1,21 @@
+# Ackermann Robotics
+
+> Ackermann Robotics GbR (Kirchhundem, Germany; technicians in Metzingen) installs and operates AI-driven robot arms ("cognitive robotics", "physical AI") for production tasks that conventional industrial robots could not automate: box erecting, packing, kitting and pick-and-place with varying parts. Robots learn tasks by demonstration. Customers pay no investment; a monthly fee of at most 70% of the cost of the position starts only once the robot runs reliably. Market: manufacturers in Germany, Austria and Switzerland (DACH).
+
+## Pages
+- [Homepage (German)](https://ackermann-robotics.org/): offer, cost calculator, tasks, FAQ, free demo
+- [Homepage (English)](https://ackermann-robotics.org/en/)
+- [Cognitive robotics explained](https://ackermann-robotics.org/kognitive-robotik/)
+- [Physical AI in production](https://ackermann-robotics.org/physical-ai-produktion/)
+- [Robot as a Service / renting a robot](https://ackermann-robotics.org/roboter-mieten/)
+- [Production helper wanted: robot instead](https://ackermann-robotics.org/produktionshelfer-gesucht/)
+- [Automate box erecting](https://ackermann-robotics.org/kartons-aufrichten-automatisieren/)
+- [Automate packing](https://ackermann-robotics.org/verpacken-automatisieren/)
+- [Automate kitting](https://ackermann-robotics.org/kommissionieren-automatisieren/)
+- [Automate pick and place](https://ackermann-robotics.org/pick-and-place-automatisieren/)
+
+## Contact
+- Email: info@ackermann-robotics.org
+- Phone: +49 151 14162414
+- LinkedIn: https://www.linkedin.com/company/ackermann-robotics
+- YouTube: https://www.youtube.com/@AckermannRobotics
