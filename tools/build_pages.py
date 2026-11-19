@@ -15,7 +15,50 @@ ICONV = re.search(r'favicon\.ico\?v=(\d+)', home).group(1)
 BASE = 'https://ackermann-robotics.org'
 TEL = '<a class="tel" href="tel:+4915114162414"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>0151&nbsp;14162414</a>'
 
+VS = lambda head, rows: '<div class="vs" role="table"><div class="vs-row vs-head" role="row">' + ''.join(f'<div role="columnheader">{h}</div>' for h in head) + '</div>' + ''.join('<div class="vs-row" role="row">' + ''.join(f'<div role="cell">{c}</div>' for c in r) + '</div>' for r in rows) + '</div>'
+CARD = lambda href, h, p: f'<div class="card"><h3><a href="{href}">{h}</a></h3><p>{p}</p></div>'
+
 PAGES = [
+ dict(slug='ki-produktionsautomatisierung', nav='KI-Produktionsautomatisierung',
+  title='Produktionsautomatisierung mit KI – ohne Investition | Ackermann Robotics',
+  desc='Produktionsautomatisierung mit KI: Roboter, die sehen, greifen und durch Vormachen lernen. Für Verpacken, Kommissionieren, Kartons aufrichten. Keine Investition.',
+  eyebrow='KI in der Produktion', h1='Produktions&shy;automatisierung mit KI. Für Handgriffe, die bisher Handarbeit waren.',
+  lead='Klassische Automatisierung lohnt sich bei großen Stückzahlen und immer gleichen Teilen. KI-Roboter schließen die Lücke: Sie sehen mit Kameras, lernen neue Aufgaben durch Vormachen und kommen mit Varianten klar. Wir installieren und betreiben sie in Ihrer Produktion, ohne Investition.',
+  img='packing', alt='KI-Roboterarme automatisieren Verpacken und Kommissionieren',
+  problem=('Wo klassische Automatisierung aufhört.', ['Jede Bewegung wird programmiert, jedes Teil muss in fester Lage liegen.', 'Neue Variante heißt neues Programm und neue Vorrichtung. Bei kleinen Losen rechnet sich das nicht.', 'Deshalb machen an vielen Linien noch Menschen Handgriffe, die eine Maschine längst könnte, wenn sie sehen würde.']),
+  solution=('Was KI in der Automatisierung ändert.', ['Sehen: Kameras und KI erkennen Lage, Form und Ausrichtung jedes Teils.', 'Lernen durch Vormachen: Ihr Team zeigt die Aufgabe, statt sie programmieren zu lassen.', 'Varianten: Ein neues Teil oder Format lernt der Roboter durch kurzes Vormachen dazu.', 'Alles aus einer Hand: Wir installieren, trainieren, warten und betreuen den Roboter.']),
+  extra='<section><div class="wrap"><div class="sec-head"><h2>Wofür KI-Roboter heute reif sind.</h2><p>Wiederkehrende Handgriffe, die jedes Mal ein bisschen anders sind.</p></div><div class="cards c4">'
+   + CARD('/kartons-aufrichten-automatisieren/', 'Kartons aufrichten', 'Falten und verschließen, auch bei wechselnden Formaten.')
+   + CARD('/verpacken-automatisieren/', 'Verpacken', 'Produkte in Kartons und Trays legen, auch wenn sie nie gleich liegen.')
+   + CARD('/kommissionieren-automatisieren/', 'Kommissionieren', 'Teilesätze für die Montage, auch bei vielen Varianten.')
+   + CARD('/pick-and-place-automatisieren/', 'Teile umsetzen', 'Zwischen Behältern, Bändern und Maschinen, auch aus dem ungeordneten Behälter.')
+   + '</div></div></section>'
+   + '<section class="soft vs-sec"><div class="wrap"><div class="sec-head"><h2>Klassisch oder KI: Was passt wann?</h2><p>Beides hat seinen Platz. Entscheidend ist, wie gleich Ihre Teile und Abläufe sind.</p></div>'
+   + VS(['Klassische Automatisierung', 'Produktionsautomatisierung mit KI'], [
+       ['Große Stückzahlen, immer dasselbe Teil', 'Wechselnde Teile, Formate und kleine Lose'],
+       ['Teile müssen exakt positioniert sein', 'Kameras sehen, wo und wie das Teil liegt'],
+       ['Programmierung durch Spezialisten', 'Ihr Team macht die Aufgabe vor'],
+       ['Neue Variante: neu programmieren', 'Neue Variante: kurz vormachen'],
+       ['Hohe Investition vorab', 'Bei uns: feste Monatsgebühr, keine Investition']])
+   + '<div class="sec-head" style="margin-top:56px"><h2>Was KI-Roboter (noch) nicht können.</h2><p>Ehrlich gesagt: Wo Teile im Sekundentakt in immer gleicher Lage kommen, ist eine klassische Anlage meist schneller und günstiger. Und wo Millimeterarbeit unter hohen Kräften gefragt ist, bleibt der Mensch oder die Spezialmaschine vorn. Ob Ihre Aufgabe passt, sagen wir Ihnen nach der kostenlosen Demo, und Sie zahlen nur, wenn der Roboter zuverlässig läuft.</p></div></div></section>',
+  faq=[('Was ist Produktionsautomatisierung mit KI?', 'Roboter werden nicht mehr Bewegung für Bewegung programmiert, sondern sehen mit Kameras und lernen Aufgaben durch Vormachen. Damit lassen sich Handgriffe automatisieren, an denen klassische Industrieroboter scheitern, weil Teile unterschiedlich liegen oder sich Varianten oft ändern. <a href="/kognitive-robotik/">Mehr zu kognitiver Robotik</a>'),
+       ('Was kostet Automatisierung mit KI?', 'Bei uns keine Investition. Sie zahlen eine feste Monatsgebühr, immer unter 70&nbsp;% dessen, was die Stelle Sie heute kostet, und erst, wenn der Roboter zuverlässig läuft. <a href="/roboter-kosten/">Kaufen und Mieten im Vergleich</a>'),
+       ('Wie lange dauert die Einführung?', 'Das hängt von der Aufgabe ab. Nach der kostenlosen Demo nennen wir Ihnen einen Zeitplan. Aufnahme und Training sind für Sie kostenlos, die Gebühr startet erst mit dem Produktivbetrieb.'),
+       ('Brauchen wir eigene KI-Experten oder Daten?', 'Nein. Die Daten entstehen, wenn Ihr Team die Aufgabe vormacht. Training, Betrieb und Wartung übernehmen wir.'),
+       ('Funktioniert das mit unseren vorhandenen Robotern?', 'Oft ja. Wir binden vorhandene Roboter ein und rüsten Kameras und Sensoren nach.')]),
+ dict(slug='automatisierung-stuttgart', nav='Region Stuttgart',
+  title='Automatisierung und Roboter in Stuttgart und Reutlingen | Ackermann Robotics',
+  desc='KI-Roboter für Produktionsbetriebe in Stuttgart, Reutlingen, Böblingen, Esslingen und Tübingen. Team aus der Region, Demo vor Ort, keine Investition.',
+  eyebrow='Region Stuttgart und Neckar-Alb', h1='Produktions&shy;automatisierung in der Region Stuttgart. Mit Technikern vor Ort.',
+  lead='Unser Sitz ist in Stuttgart-Botnang, unsere Techniker arbeiten im Raum Reutlingen und Metzingen. So sind wir schnell bei Ihnen: für die kostenlose Demo, die Installation und immer dann, wenn vor Ort etwas zu tun ist.',
+  img='hero', alt='KI-Roboter richtet Kartons in einer Produktion auf',
+  problem=('Was Produktionsbetriebe hier kennen.', ['Produktionshelfer zu finden und zu halten kostet Zeit und Geld.', 'Große Integratoren lohnen sich erst bei großen Projekten.', 'Für eine einzelne Station mit wechselnden Teilen gibt es oft gar keine passende Automatisierung.']),
+  solution=('Was wir vor Ort bieten.', ['Kostenlose Demo bei Ihnen in der Halle, 30 Minuten.', 'Installation, Training und Wartung durch unser Team aus der Region.', 'Fernbetreuung durch unseren Operator während Ihrer Produktionszeiten.', 'Keine Investition. Die Monatsgebühr startet erst, wenn der Roboter zuverlässig läuft.']),
+  extra='<section><div class="wrap"><div class="sec-head"><h2>Wo wir arbeiten.</h2><p>Am schnellsten vor Ort sind wir in Stuttgart, Böblingen, Sindelfingen, Ludwigsburg, Esslingen, Leonberg, Reutlingen, Metzingen, Tübingen, Nürtingen und Göppingen. Projekte übernehmen wir in ganz Baden-Württemberg und für Produktionsbetriebe in Deutschland, Österreich und der Schweiz.</p></div></div></section>',
+  area=['Stuttgart', 'Böblingen', 'Sindelfingen', 'Ludwigsburg', 'Esslingen am Neckar', 'Leonberg', 'Reutlingen', 'Metzingen', 'Tübingen', 'Nürtingen', 'Göppingen'],
+  faq=[('Kommen Sie für die Demo zu uns?', 'Ja. In der Region Stuttgart und Neckar-Alb kommen wir für die kostenlose Demo gern in Ihre Halle. Alternativ geht es per Video.'),
+       ('Arbeiten Sie nur in der Region Stuttgart?', 'Nein. Wir arbeiten für Produktionsbetriebe in ganz Deutschland, Österreich und der Schweiz. In der Region sind wir am schnellsten vor Ort.'),
+       ('Wo sitzt Ackermann Robotics?', 'In Stuttgart-Botnang. Unsere Techniker arbeiten im Raum Reutlingen und Metzingen.')]),
  dict(slug='roboter-mieten', nav='Roboter mieten',
   title='Roboter mieten für die Produktion – ohne Investition | Ackermann Robotics',
   desc='Roboter mieten statt kaufen: Wir installieren, betreiben und warten den Roboter. Feste Monatsgebühr, keine Investition. Sie zahlen erst, wenn er läuft.',
@@ -121,7 +164,12 @@ def page(p):
     url = f'{BASE}/{p["slug"]}/'
     faq_ld = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":html.unescape(a)}} for q,a in p['faq']]}
     bc_ld = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ackermann Robotics","item":BASE+'/'},{"@type":"ListItem","position":2,"name":p['nav'],"item":url}]}
-    ld = json.dumps([faq_ld, bc_ld], ensure_ascii=False, separators=(',',':'))
+    lds = [faq_ld, bc_ld]
+    if p.get('area'):
+        lds.append({"@context":"https://schema.org","@type":"Service","name":p['h1'].replace('&shy;','').split('.')[0],"serviceType":"Produktionsautomatisierung mit KI-Robotern","url":url,
+                    "provider":{"@id":BASE+'/#org',"@type":"Organization","name":"Ackermann Robotics","url":BASE+'/'},
+                    "areaServed":[{"@type":"City","name":c} for c in p['area']] + [{"@type":"Country","name":n} for n in ('Deutschland','Österreich','Schweiz')]})
+    ld = json.dumps(lds, ensure_ascii=False, separators=(',',':'))
     li = lambda xs: ''.join(f'<li>{x}</li>' for x in xs)
     others = ''.join(f'<a href="/{o["slug"]}/">{o["nav"]}</a>' for o in PAGES if o is not p)
     faq = ''.join(f'<details><summary>{q}</summary><p>{a}</p></details>' for q,a in p['faq'])
@@ -168,6 +216,7 @@ def page(p):
   <div><h2>{p["problem"][0]}</h2><ul class="lp-list minus">{li(p["problem"][1])}</ul></div>
   <div><h2>{p["solution"][0]}</h2><ul class="lp-list plus">{li(p["solution"][1])}</ul></div>
 </div></section>
+{p.get("extra", "")}
 
 <section><div class="wrap">
   <div class="sec-head"><h2>So geht es los.</h2><p>Schritt 1 bis 3 sind für Sie kostenlos. Die Gebühr startet erst, wenn der Roboter zuverlässig läuft.</p></div>

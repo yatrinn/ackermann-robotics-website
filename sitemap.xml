@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-<url><loc>https://ackermann-robotics.org/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/</loc><lastmod>2026-11-19</lastmod>
 <xhtml:link rel="alternate" hreflang="de" href="https://ackermann-robotics.org/"/><xhtml:link rel="alternate" hreflang="en" href="https://ackermann-robotics.org/en/"/>
 </url>
-<url><loc>https://ackermann-robotics.org/en/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/en/</loc><lastmod>2026-11-19</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://ackermann-robotics.org/en/"/><xhtml:link rel="alternate" hreflang="de" href="https://ackermann-robotics.org/"/>
 </url>
-<url><loc>https://ackermann-robotics.org/roboter-mieten/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/ki-produktionsautomatisierung/</loc><lastmod>2026-11-19</lastmod>
 </url>
-<url><loc>https://ackermann-robotics.org/produktionshelfer-gesucht/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/automatisierung-stuttgart/</loc><lastmod>2026-11-19</lastmod>
 </url>
-<url><loc>https://ackermann-robotics.org/kartons-aufrichten-automatisieren/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/roboter-mieten/</loc><lastmod>2026-11-19</lastmod>
 </url>
-<url><loc>https://ackermann-robotics.org/verpacken-automatisieren/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/produktionshelfer-gesucht/</loc><lastmod>2026-11-19</lastmod>
 </url>
-<url><loc>https://ackermann-robotics.org/kommissionieren-automatisieren/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/kartons-aufrichten-automatisieren/</loc><lastmod>2026-11-19</lastmod>
 </url>
-<url><loc>https://ackermann-robotics.org/pick-and-place-automatisieren/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/verpacken-automatisieren/</loc><lastmod>2026-11-19</lastmod>
 </url>
-<url><loc>https://ackermann-robotics.org/kognitive-robotik/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/kommissionieren-automatisieren/</loc><lastmod>2026-11-19</lastmod>
 </url>
-<url><loc>https://ackermann-robotics.org/physical-ai-produktion/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/pick-and-place-automatisieren/</loc><lastmod>2026-11-19</lastmod>
 </url>
-<url><loc>https://ackermann-robotics.org/roboter-kosten/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/kognitive-robotik/</loc><lastmod>2026-11-19</lastmod>
 </url>
-<url><loc>https://ackermann-robotics.org/video/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/physical-ai-produktion/</loc><lastmod>2026-11-19</lastmod>
+</url>
+<url><loc>https://ackermann-robotics.org/roboter-kosten/</loc><lastmod>2026-11-19</lastmod>
+</url>
+<url><loc>https://ackermann-robotics.org/video/</loc><lastmod>2026-11-19</lastmod>
 <xhtml:link rel="alternate" hreflang="de" href="https://ackermann-robotics.org/video/"/><xhtml:link rel="alternate" hreflang="en" href="https://ackermann-robotics.org/en/video/"/>
 </url>
-<url><loc>https://ackermann-robotics.org/en/video/</loc><lastmod>2026-11-18</lastmod>
+<url><loc>https://ackermann-robotics.org/en/video/</loc><lastmod>2026-11-19</lastmod>
 <xhtml:link rel="alternate" hreflang="en" href="https://ackermann-robotics.org/en/video/"/><xhtml:link rel="alternate" hreflang="de" href="https://ackermann-robotics.org/video/"/>
 </url>
 </urlset>

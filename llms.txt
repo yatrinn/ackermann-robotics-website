@@ -5,6 +5,8 @@
 ## Pages
 - [Homepage (German)](https://ackermann-robotics.org/): offer, cost calculator, tasks, FAQ, free demo
 - [Homepage (English)](https://ackermann-robotics.org/en/)
+- [Production automation with AI (pillar page)](https://ackermann-robotics.org/ki-produktionsautomatisierung/): what AI changes vs. classic automation, suitable tasks, limits, costs
+- [Region Stuttgart / Reutlingen](https://ackermann-robotics.org/automatisierung-stuttgart/): local team, on-site demo, service area
 - [Cognitive robotics explained](https://ackermann-robotics.org/kognitive-robotik/)
 - [Physical AI in production](https://ackermann-robotics.org/physical-ai-produktion/)
 - [What a production robot costs: buy vs. rent](https://ackermann-robotics.org/roboter-kosten/)

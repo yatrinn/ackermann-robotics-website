@@ -288,3 +288,5 @@ footer a.rd{display:inline-flex;vertical-align:-4px;color:var(--muted);margin-le
 footer a.rd:hover{color:#ff4500}
 footer a.xg{display:inline-flex;vertical-align:-3px;color:var(--muted);margin-left:14px}
 footer a.xg:hover{color:#026466}
+
+.hero .wrap>div{min-width:0}.hero h1{overflow-wrap:break-word;-webkit-hyphens:manual;hyphens:manual}
