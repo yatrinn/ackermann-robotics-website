@@ -17,6 +17,7 @@ TEL = '<a class="tel" href="tel:+4915114162414"><svg viewBox="0 0 24 24" width="
 
 VS = lambda head, rows: '<div class="vs" role="table"><div class="vs-row vs-head" role="row">' + ''.join(f'<div role="columnheader">{h}</div>' for h in head) + '</div>' + ''.join('<div class="vs-row" role="row">' + ''.join(f'<div role="cell">{c}</div>' for c in r) + '</div>' for r in rows) + '</div>'
 CARD = lambda href, h, p: f'<div class="card"><h3><a href="{href}">{h}</a></h3><p>{p}</p></div>'
+DT = lambda head, rows: '<div class="dt-wrap"><table class="dt"><thead><tr>' + ''.join(f'<th scope="col">{h}</th>' for h in head) + '</tr></thead><tbody>' + ''.join('<tr>' + ''.join((f'<th scope="row">{c}</th>' if i == 0 else f'<td>{c}</td>') for i, c in enumerate(r)) + '</tr>' for r in rows) + '</tbody></table></div>'
 
 PAGES = [
  dict(slug='ki-produktionsautomatisierung', nav='KI-Produktionsautomatisierung',
@@ -160,11 +161,29 @@ PAGES = [
        ('Was ist günstiger, kaufen oder mieten?', 'Bei großen Stückzahlen und einer Aufgabe, die sich nie ändert, kann Kaufen günstiger sein. Bei wechselnden Varianten und ohne eigene Robotik-Experten ist die Monatsgebühr meist die bessere Wahl, weil Integration, Nachtrainieren und Wartung enthalten sind.')]),
 ]
 
+import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pages_extra
+pages_extra.extend(PAGES, VS, CARD, DT)
+from datetime import date
+TODAY = str(date.today())
+strip = lambda t: re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', t)).replace('\u00ad', '')).strip()
+
+STEPS = '''<section><div class="wrap">
+  <div class="sec-head"><h2>So geht es los.</h2><p>Schritt 1 bis 3 sind für Sie kostenlos. Die Gebühr startet erst, wenn der Roboter zuverlässig läuft.</p></div>
+  <ol class="lp-steps"><li><b>Sie zeigen uns die Aufgabe</b>30 Minuten vor Ort oder per Video.</li><li><b>Aufnehmen</b>Ihr Team macht die Aufgabe ein paar Mal vor.</li><li><b>Trainieren</b>Der Roboter lernt an Ihrer Linie.</li><li><b>Produzieren</b>Erst jetzt beginnt die Monatsgebühr.</li></ol>
+</div></section>'''
+
 def page(p):
     url = f'{BASE}/{p["slug"]}/'
+    if p.get('groups'): p['faq'] = [qa for _, qs in p['groups'] for qa in qs]
     faq_ld = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":html.unescape(a)}} for q,a in p['faq']]}
     bc_ld = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ackermann Robotics","item":BASE+'/'},{"@type":"ListItem","position":2,"name":p['nav'],"item":url}]}
-    lds = [faq_ld, bc_ld]
+    org = {"@id":BASE+'/#org',"@type":"Organization","name":"Ackermann Robotics","url":BASE+'/'}
+    page_ld = {"@context":"https://schema.org","@type":"WebPage","@id":url+'#page',"url":url,"name":html.unescape(p['title']),"description":p['desc'],"inLanguage":"de","dateModified":TODAY,"isPartOf":{"@id":BASE+'/#website'},"publisher":{"@id":BASE+'/#org'},"primaryImageOfPage":f'{BASE}/img/{p["img"]}.jpg'}
+    lds = [page_ld, faq_ld, bc_ld]
+    if p.get('service') and not p.get('area'):
+        lds.append({"@context":"https://schema.org","@type":"Service","name":strip(p['h1']).split('.')[0].split('?')[0],"serviceType":"Robotics as a Service","description":p['desc'],"url":url,"provider":org,
+                    "areaServed":[{"@type":"Country","name":n} for n in ('Deutschland','Österreich','Schweiz')]})
     if p.get('area'):
         lds.append({"@context":"https://schema.org","@type":"Service","name":p['h1'].replace('&shy;','').split('.')[0],"serviceType":"Produktionsautomatisierung mit KI-Robotern","url":url,
                     "provider":{"@id":BASE+'/#org',"@type":"Organization","name":"Ackermann Robotics","url":BASE+'/'},
@@ -172,7 +191,16 @@ def page(p):
     ld = json.dumps(lds, ensure_ascii=False, separators=(',',':'))
     li = lambda xs: ''.join(f'<li>{x}</li>' for x in xs)
     others = ''.join(f'<a href="/{o["slug"]}/">{o["nav"]}</a>' for o in PAGES if o is not p)
-    faq = ''.join(f'<details><summary>{q}</summary><p>{a}</p></details>' for q,a in p['faq'])
+    det = lambda qs: ''.join(f'<details><summary>{q}</summary><p>{a}</p></details>' for q,a in qs)
+    if p.get('groups'):
+        faq_html = ''.join('<section' + (' class="soft"' if i % 2 == 0 else '') + f'><div class="wrap faq"><h2>{h}</h2><div>{det(qs)}</div></div></section>\n' for i, (h, qs) in enumerate(p['groups']))
+        two = ''
+    else:
+        faq_html = f'<section class="soft"><div class="wrap faq">\n  <h2>Häufige Fragen.</h2>\n  <div>{det(p["faq"])}</div>\n</div></section>'
+        two = ('<section class="soft"><div class="wrap lp-two">\n'
+               f'  <div><h2>{p["problem"][0]}</h2><ul class="lp-list minus">{li(p["problem"][1])}</ul></div>\n'
+               f'  <div><h2>{p["solution"][0]}</h2><ul class="lp-list plus">{li(p["solution"][1])}</ul></div>\n</div></section>')
+    steps = '' if (p.get('groups') or p.get('steps') is False) else STEPS
     return f'''<!DOCTYPE html>
 <html lang="de">
 <head><script>if(location.protocol==='http:')location.replace('https://'+location.host+location.pathname+location.search+location.hash)</script>
@@ -212,21 +240,12 @@ def page(p):
   <div class="heroimg"><picture><source srcset="/img/{p["img"]}.webp" type="image/webp"><img src="/img/{p["img"]}.jpg" alt="{p["alt"]}" width="900" height="506" fetchpriority="high"></picture></div>
 </div></section>
 
-<section class="soft"><div class="wrap lp-two">
-  <div><h2>{p["problem"][0]}</h2><ul class="lp-list minus">{li(p["problem"][1])}</ul></div>
-  <div><h2>{p["solution"][0]}</h2><ul class="lp-list plus">{li(p["solution"][1])}</ul></div>
-</div></section>
+{two}
 {p.get("extra", "")}
 
-<section><div class="wrap">
-  <div class="sec-head"><h2>So geht es los.</h2><p>Schritt 1 bis 3 sind für Sie kostenlos. Die Gebühr startet erst, wenn der Roboter zuverlässig läuft.</p></div>
-  <ol class="lp-steps"><li><b>Sie zeigen uns die Aufgabe</b>30 Minuten vor Ort oder per Video.</li><li><b>Aufnehmen</b>Ihr Team macht die Aufgabe ein paar Mal vor.</li><li><b>Trainieren</b>Der Roboter lernt an Ihrer Linie.</li><li><b>Produzieren</b>Erst jetzt beginnt die Monatsgebühr.</li></ol>
-</div></section>
+{steps}
 
-<section class="soft"><div class="wrap faq">
-  <h2>Häufige Fragen.</h2>
-  <div>{faq}</div>
-</div></section>
+{faq_html}
 
 {CONTACT}
 
@@ -253,4 +272,22 @@ for u, lang, alt in urls:
     out.append('</url>')
 out.append('</urlset>')
 open('sitemap.xml', 'w').write('\n'.join(out) + '\n')
-print('built', len(PAGES), 'pages + sitemap')
+
+# llms-full.txt: all landing-page content as plain markdown for AI assistants
+L = ['# Ackermann Robotics: Inhalte der Website (Volltext)', '',
+     '> KI-Roboter für die Produktion als Robotics as a Service. Sitz: Stuttgart-Botnang. Markt: Deutschland, Österreich, Schweiz. Kontakt: info@ackermann-robotics.org, +49 151 14162414. Stand: ' + TODAY, '']
+for p in PAGES:
+    L += [f'## {strip(p["h1"])}', f'URL: {BASE}/{p["slug"]}/', '', strip(p['lead']), '']
+    if not p.get('groups'):
+        L += [f'### {p["problem"][0]}'] + [f'- {strip(x)}' for x in p['problem'][1]] + ['']
+        L += [f'### {p["solution"][0]}'] + [f'- {strip(x)}' for x in p['solution'][1]] + ['']
+    for m in re.finditer(r'<table class="dt">(.*?)</table>', p.get('extra', ''), re.S):
+        rows = re.findall(r'<tr>(.*?)</tr>', m.group(1), re.S)
+        for i, r in enumerate(rows):
+            cells = [strip(c) for c in re.findall(r'<t[hd][^>]*>(.*?)</t[hd]>', r, re.S)]
+            L.append('| ' + ' | '.join(cells) + ' |')
+            if i == 0: L.append('|' + ' --- |' * len(cells))
+        L.append('')
+    L += ['### Fragen und Antworten'] + [f'**{q}** {strip(a)}' + '\n' for q, a in p['faq']] + ['']
+open('llms-full.txt', 'w', encoding='utf-8').write('\n'.join(L))
+print('built', len(PAGES), 'pages + sitemap + llms-full.txt')

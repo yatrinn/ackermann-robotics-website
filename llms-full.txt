@@ -1,0 +1,704 @@
+# Ackermann Robotics: Inhalte der Website (Volltext)
+
+> KI-Roboter für die Produktion als Robotics as a Service. Sitz: Stuttgart-Botnang. Markt: Deutschland, Österreich, Schweiz. Kontakt: info@ackermann-robotics.org, +49 151 14162414. Stand: 2026-11-25
+
+## Produktionsautomatisierung mit KI. Für Handgriffe, die bisher Handarbeit waren.
+URL: https://ackermann-robotics.org/ki-produktionsautomatisierung/
+
+Klassische Automatisierung lohnt sich bei großen Stückzahlen und immer gleichen Teilen. KI-Roboter schließen die Lücke: Sie sehen mit Kameras, lernen neue Aufgaben durch Vormachen und kommen mit Varianten klar. Wir installieren und betreiben sie in Ihrer Produktion, ohne Investition.
+
+### Wo klassische Automatisierung aufhört.
+- Jede Bewegung wird programmiert, jedes Teil muss in fester Lage liegen.
+- Neue Variante heißt neues Programm und neue Vorrichtung. Bei kleinen Losen rechnet sich das nicht.
+- Deshalb machen an vielen Linien noch Menschen Handgriffe, die eine Maschine längst könnte, wenn sie sehen würde.
+
+### Was KI in der Automatisierung ändert.
+- Sehen: Kameras und KI erkennen Lage, Form und Ausrichtung jedes Teils.
+- Lernen durch Vormachen: Ihr Team zeigt die Aufgabe, statt sie programmieren zu lassen.
+- Varianten: Ein neues Teil oder Format lernt der Roboter durch kurzes Vormachen dazu.
+- Alles aus einer Hand: Wir installieren, trainieren, warten und betreuen den Roboter.
+
+### Fragen und Antworten
+**Was ist Produktionsautomatisierung mit KI?** Roboter werden nicht mehr Bewegung für Bewegung programmiert, sondern sehen mit Kameras und lernen Aufgaben durch Vormachen. Damit lassen sich Handgriffe automatisieren, an denen klassische Industrieroboter scheitern, weil Teile unterschiedlich liegen oder sich Varianten oft ändern. Mehr zu kognitiver Robotik
+
+**Was kostet Automatisierung mit KI?** Bei uns keine Investition. Sie zahlen eine feste Monatsgebühr, immer unter 70 % dessen, was die Stelle Sie heute kostet, und erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+**Wie lange dauert die Einführung?** Das hängt von der Aufgabe ab. Nach der kostenlosen Demo nennen wir Ihnen einen Zeitplan. Aufnahme und Training sind für Sie kostenlos, die Gebühr startet erst mit dem Produktivbetrieb.
+
+**Brauchen wir eigene KI-Experten oder Daten?** Nein. Die Daten entstehen, wenn Ihr Team die Aufgabe vormacht. Training, Betrieb und Wartung übernehmen wir.
+
+**Funktioniert das mit unseren vorhandenen Robotern?** Oft ja. Wir binden vorhandene Roboter ein und rüsten Kameras und Sensoren nach.
+
+**Welche Teile und Gewichte gehen?** Leichte Teile bis etwa 1 bis 2 kg an einem Arbeitsplatz von rund einem Quadratmeter. Eckdaten und Grenzen
+
+**Lohnt sich das bei kleinen Losgrößen?** Gerade dann. Neue Varianten lernt der Roboter durch Vormachen, und Sie investieren nichts, was sich amortisieren muss. Kleine Losgrößen automatisieren
+
+
+## Produktionsautomatisierung in der Region Stuttgart. Mit Technikern vor Ort.
+URL: https://ackermann-robotics.org/automatisierung-stuttgart/
+
+Unser Sitz ist in Stuttgart-Botnang, unsere Techniker arbeiten im Raum Reutlingen und Metzingen. So sind wir schnell bei Ihnen: für die kostenlose Demo, die Installation und immer dann, wenn vor Ort etwas zu tun ist.
+
+### Was Produktionsbetriebe hier kennen.
+- Produktionshelfer zu finden und zu halten kostet Zeit und Geld.
+- Große Integratoren lohnen sich erst bei großen Projekten.
+- Für eine einzelne Station mit wechselnden Teilen gibt es oft gar keine passende Automatisierung.
+
+### Was wir vor Ort bieten.
+- Kostenlose Demo bei Ihnen in der Halle, 30 Minuten.
+- Installation, Training und Wartung durch unser Team aus der Region.
+- Fernbetreuung durch unseren Operator während Ihrer Produktionszeiten.
+- Keine Investition. Die Monatsgebühr startet erst, wenn der Roboter zuverlässig läuft.
+
+### Fragen und Antworten
+**Kommen Sie für die Demo zu uns?** Ja. In der Region Stuttgart und Neckar-Alb kommen wir für die kostenlose Demo gern in Ihre Halle. Alternativ geht es per Video.
+
+**Arbeiten Sie nur in der Region Stuttgart?** Nein. Wir arbeiten für Produktionsbetriebe in ganz Deutschland, Österreich und der Schweiz. In der Region sind wir am schnellsten vor Ort.
+
+**Wo sitzt Ackermann Robotics?** In Stuttgart-Botnang. Unsere Techniker arbeiten im Raum Reutlingen und Metzingen.
+
+**Gibt es Fördermittel in Baden-Württemberg?** Ja. Mit dem Innovationsgutschein „Mittelstand trifft Start-ups“ bezuschusst das Land 50 % der Kosten, bis zu 20.000 €. Förderung im Überblick
+
+
+## Roboter mieten statt kaufen.
+URL: https://ackermann-robotics.org/roboter-mieten/
+
+Mehr als Miete: Sie bekommen einen kognitiven Roboter, der eine Aufgabe in Ihrer Produktion übernimmt. Wir installieren, betreiben und warten ihn. Sie zahlen eine feste Monatsgebühr, erst wenn er zuverlässig läuft, und immer weniger als die Stelle heute kostet.
+
+### Warum Kaufen oft scheitert.
+- Ein Roboter mit Integration kostet schnell sechsstellig, bevor er ein Teil bewegt.
+- Sie brauchen jemanden, der ihn programmiert, betreut und repariert.
+- Ändert sich das Produkt, beginnt die Integration von vorne.
+
+### Was Mieten bei uns heißt.
+- Keine Investition: kein Kauf, keine Anzahlung, keine Integrationskosten.
+- Feste Monatsgebühr inklusive Wartung, Reparatur und Fernbetreuung während Ihrer Produktionszeiten.
+- Die Gebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet.
+- Neue Varianten lernt der Roboter durch Vormachen. Das Nachtrainieren ist inklusive.
+
+### Fragen und Antworten
+**Was kostet es, einen Roboter zu mieten?** Die Monatsgebühr legen wir nach der Demo fest. Sie liegt immer unter 70 % dessen, was Sie die Stelle heute kostet. Ein Beispiel: 2.000 € im Monat statt 3.000 € für einen Produktionshelfer.
+
+**Ab wann zahlen wir?** Erst ab dem Monat, in dem der Roboter die Aufgabe zuverlässig erledigt. Demo, Aufnahme und Training sind für Sie kostenlos.
+
+**Wer kümmert sich, wenn der Roboter hängt?** Unser Operator übernimmt aus der Ferne, während Ihrer Produktionszeiten. Reparaturen und Ersatzteile sind in der Gebühr enthalten.
+
+**Was ist der Unterschied zwischen Mieten, Leasing und Robotics as a Service?** Bei Miete und Leasing bezahlen Sie für eine Maschine. Bei Robotics as a Service bezahlen Sie für die erledigte Aufgabe, inklusive Installation, Betrieb und Wartung. Robotics as a Service erklärt
+
+
+## Produktionshelfer gesucht? Ein Roboter übernimmt die Stelle.
+URL: https://ackermann-robotics.org/produktionshelfer-gesucht/
+
+Die Stelle bleibt offen, Aufträge warten, Ihr Team macht Überstunden. Ein kognitiver Roboter übernimmt die Handgriffe, für die Sie niemanden mehr finden, und kostet 30 % weniger.
+
+### Was eine offene Helferstelle kostet.
+- Stellenanzeigen, Zeitarbeit und Einarbeitung kosten Zeit und Geld, und oft kommt niemand.
+- Wer gerade eingearbeitet ist, kündigt. Das Wissen geht mit.
+- Krankheit, Urlaub, Nachtzuschläge: Die Schichtplanung wird zum Dauerproblem.
+
+### Was der Roboter anders macht.
+- Nie krank, kein Urlaub, keine Kündigung. Das Können bleibt an der Linie.
+- Fährt auch die Zusatzschicht, nachts und am Wochenende zum gleichen Satz.
+- Rechenbeispiel: 2.000 € Monatsgebühr statt 3.000 € Lohn plus Nebenkosten. 12.000 € Ersparnis im Jahr.
+- Ihr Team zeigt die Aufgabe einmal vor. Den Rest machen wir.
+
+### Fragen und Antworten
+**Welche Helfertätigkeiten kann der Roboter übernehmen?** Wiederkehrende Handgriffe, die sich jedes Mal leicht unterscheiden: Kartons aufrichten, Verpacken, Kommissionieren und Teile umsetzen.
+
+**Ersetzt der Roboter unsere Mitarbeiter?** Er übernimmt die Stelle, die Sie nicht besetzt bekommen. Ihre Leute werden für die Aufgaben frei, für die man Erfahrung braucht.
+
+**Was, wenn es bei unserer Aufgabe nicht klappt?** Dann zahlen Sie nichts. Die Gebühr beginnt erst, wenn der Roboter die Aufgabe zuverlässig erledigt.
+
+**Ist das eine Alternative zur Zeitarbeit?** Für wiederkehrende Handgriffe mit leichten Teilen ja: feste Monatsgebühr statt Stundensatz, und der Roboter bleibt. Roboter und Zeitarbeit im Vergleich
+
+
+## Kartons aufrichten automatisieren. Auch bei wechselnden Formaten.
+URL: https://ackermann-robotics.org/kartons-aufrichten-automatisieren/
+
+Ein Kartonaufrichter lohnt sich nur bei großen Mengen im selben Format. Unser kognitiver Roboter richtet Kartons auf, faltet und verschließt sie, auch wenn die Größe wechselt.
+
+### Warum das bisher an Menschen hing.
+- Viele Formate, kleine Lose: Für jede Größe eine eigene Maschine oder Umrüstung lohnt sich nicht.
+- Pappe ist weich und gibt nach. Ein klassischer Roboter mit fester Bahn greift daneben.
+- Also faltet ein Helfer, Schicht für Schicht.
+
+### So macht es der kognitive Roboter.
+- Kameras sehen, wo der Zuschnitt liegt und wie er sich verhält.
+- Ihr Team zeigt das Falten ein paar Mal vor. Der Roboter lernt daraus.
+- Neues Format: kurz vormachen statt neu programmieren.
+- Feste Monatsgebühr, keine Investition. Sie zahlen erst, wenn er zuverlässig läuft.
+
+### Fragen und Antworten
+**Welche Kartonformate gehen?** Das prüfen wir in der kostenlosen Demo an Ihren Kartons. Danach wissen Sie, ob es geht und was es kostet.
+
+**Kann der Roboter die Kartons auch verschließen?** Ja, Falten und Verschließen gehören zur Aufgabe, die er lernt.
+
+**Brauchen wir einen Kartonaufrichter dazu?** Nein. Der Roboter arbeitet mit Ihren Zuschnitten an Ihrer Linie.
+
+**Kartonaufrichter oder Roboter: Was passt wann?** Läuft ein Format in großer Menge, ist ein Kartonaufrichter schneller. Wechseln die Formate oft, rechnet sich der Roboter. Zum Vergleich
+
+
+## Verpacken automatisieren. Auch wenn kein Teil gleich liegt.
+URL: https://ackermann-robotics.org/verpacken-automatisieren/
+
+Unser kognitiver Roboter legt Produkte in Kartons und Trays. Er sieht, wie jedes Teil liegt, und greift entsprechend. Ohne Vorrichtungen, ohne neue Programmierung für jede Variante.
+
+### Warum Verpacken oft Handarbeit bleibt.
+- Produkte kommen ungeordnet an und liegen jedes Mal anders.
+- Viele Varianten: Für jede ein eigenes Programm und eigene Vorrichtungen lohnt sich nicht.
+- Die Stelle am Packtisch ist schwer zu besetzen und wechselt ständig.
+
+### So macht es der kognitive Roboter.
+- Kameras erkennen Lage und Ausrichtung jedes Teils.
+- Ihr Team packt ein paar Mal vor, der Roboter lernt die Aufgabe.
+- Neue Variante: kurz vormachen. Das Nachtrainieren ist inklusive.
+- Keine Investition, feste Monatsgebühr, Zahlung erst, wenn er läuft.
+
+### Fragen und Antworten
+**Welche Produkte kann der Roboter verpacken?** Das hängt von Größe, Gewicht und Oberfläche ab. In der kostenlosen Demo prüfen wir es an Ihren Teilen.
+
+**Arbeitet der Roboter neben unseren Mitarbeitern?** Wir richten ihn nach den geltenden Regeln der Maschinensicherheit ein und machen die Gefährdungsbeurteilung mit Ihnen, bevor er startet.
+
+**Was passiert bei Störungen?** Unser Operator übernimmt aus der Ferne, während Ihrer Produktionszeiten. Reparaturen sind in der Gebühr enthalten.
+
+**Was ist ein Verpackungsroboter?** Ein Roboter, der Produkte greift und in Kartons, Trays oder Blister legt. Klassische Verpackungsroboter brauchen Teile in fester Lage. Unser kognitiver Roboter sieht, wie jedes Teil liegt.
+
+**Geht das auch für Sets und Displays?** Ja. Sets zusammenstellen, Displays bestücken und Umpacken lernt der Roboter durch Vormachen. Konfektionierung automatisieren
+
+
+## Kommissionieren automatisieren. Auch bei vielen Varianten.
+URL: https://ackermann-robotics.org/kommissionieren-automatisieren/
+
+Unser kognitiver Roboter stellt Teilesätze für die Montage zusammen. Er greift die Teile aus Behältern und legt sie in den Satz, auch wenn sich die Zusammenstellung oft ändert.
+
+### Warum Kitting bisher Handarbeit ist.
+- Viele Varianten, kleine Lose: Jede Zusammenstellung neu zu programmieren lohnt sich nicht.
+- Teile liegen nicht sortiert, sondern lose im Behälter.
+- Fehler im Satz stoppen die Montage.
+
+### So macht es der kognitive Roboter.
+- Kameras sehen, wo welches Teil liegt.
+- Ihr Team stellt den Satz ein paar Mal zusammen, der Roboter lernt daraus.
+- Neue Variante: kurz vormachen statt programmieren.
+- Keine Investition, feste Monatsgebühr, Zahlung erst, wenn er läuft.
+
+### Fragen und Antworten
+**Wie viele Varianten schafft der Roboter?** Jede Variante lernt er durch Vormachen. Wie viele bei Ihnen sinnvoll sind, klären wir in der kostenlosen Demo.
+
+**Funktioniert das mit unseren Behältern?** In der Regel ja. Der Roboter arbeitet mit Ihren Behältern an Ihrem Arbeitsplatz.
+
+**Haben wir schon einen Roboter, geht das trotzdem?** Ja. Wir binden Ihren vorhandenen Roboter ein und rüsten Kameras und Sensoren nach.
+
+**Ist das ein Kommissionierroboter fürs Lager?** Nein. Kommissionierroboter im Lager holen Ware aus Regalen. Unser Roboter stellt an einem festen Arbeitsplatz Teilesätze für Montage und Versand zusammen.
+
+
+## Teile umsetzen automatisieren. Auch aus dem ungeordneten Behälter.
+URL: https://ackermann-robotics.org/pick-and-place-automatisieren/
+
+Unser kognitiver Roboter setzt Teile zwischen Behältern, Bändern und Maschinen um. Er sieht, wo das Teil liegt, und greift es, ohne dass Sie Vorrichtungen bauen müssen.
+
+### Warum Umsetzen oft Handarbeit bleibt.
+- Teile liegen ungeordnet im Behälter. Ein klassischer Roboter braucht sie exakt positioniert.
+- Vorrichtungen und Zuführtechnik kosten viel und passen nur für ein Teil.
+- Also steht ein Helfer an der Maschine und legt ein.
+
+### So macht es der kognitive Roboter.
+- Kameras erkennen Lage und Ausrichtung jedes Teils.
+- Ihr Team zeigt das Umsetzen ein paar Mal vor, der Roboter lernt daraus.
+- Neues Teil: kurz vormachen statt neu programmieren.
+- Keine Investition, feste Monatsgebühr, Zahlung erst, wenn er läuft.
+
+### Fragen und Antworten
+**Kann der Roboter eine Maschine beschicken?** Das prüfen wir in der kostenlosen Demo an Ihrer Maschine. Danach wissen Sie, ob es geht und was es kostet.
+
+**Welche Teile kann er greifen?** Das hängt von Größe, Gewicht und Oberfläche ab. Wir prüfen es an Ihren Teilen.
+
+**Ist das sicher für unsere Mitarbeiter?** Wir richten den Roboter nach den geltenden Regeln der Maschinensicherheit ein und machen die Gefährdungsbeurteilung mit Ihnen, bevor er startet.
+
+**Ist das ein Handhabungsroboter?** Ja: ein Handhabungs- oder Bestückungsroboter, der Teile greift und umsetzt. Der Unterschied zum klassischen Roboter: Die Teile müssen nicht fest positioniert sein.
+
+**Kann er Maschinen be- und entladen?** Für leichte Teile prüfen wir das kostenlos an Ihrer Maschine. Maschinenbeschickung automatisieren
+
+
+## Kognitive Robotik: Roboter, die sehen und durch Vormachen lernen.
+URL: https://ackermann-robotics.org/kognitive-robotik/
+
+Ein klassischer Industrieroboter fährt fest programmierte Bahnen. Ein kognitiver Roboter sieht, passt sich an und lernt neue Aufgaben, indem Ihr Team sie vormacht. Diese KI ist erst seit Kurzem zuverlässig genug für die Produktion.
+
+### Wo klassische Roboter an Grenzen stoßen.
+- Jede Bewegung muss programmiert werden.
+- Teile müssen exakt gleich liegen, sonst greift er daneben.
+- Jede neue Variante heißt neu programmieren. Das lohnt sich nur bei großen Stückzahlen.
+
+### Was ein kognitiver Roboter anders macht.
+- Sehen: Kameras erkennen, wo das Teil liegt und wie es ausgerichtet ist.
+- Lernen durch Vormachen: Ihr Team zeigt die Aufgabe, der Roboter lernt daraus.
+- Anpassen: Kleine Abweichungen gleicht er selbst aus.
+- Korrigieren: Unser Operator hilft aus der Ferne, wenn er nicht weiterkommt, und der Roboter lernt daraus.
+
+### Fragen und Antworten
+**Ist kognitive Robotik dasselbe wie Physical AI?** Ja, beide Begriffe meinen Roboter, die mit KI ihre Umgebung wahrnehmen und Aufgaben lernen, statt starr programmiert zu werden.
+
+**Für welche Aufgaben lohnt sich das?** Für Handgriffe, die sich jedes Mal leicht unterscheiden: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen.
+
+**Brauchen wir dafür eigene KI- oder Robotik-Experten?** Nein. Wir installieren, betreiben und warten den Roboter. Ihr Team zeigt nur die Aufgabe.
+
+**Muss der Roboter programmiert werden?** Nein. Ihr Team macht die Aufgabe vor, die KI lernt daraus. Roboter ohne Programmierung
+
+
+## Physical AI in der Produktion. Nicht im Labor, an Ihrer Linie.
+URL: https://ackermann-robotics.org/physical-ai-produktion/
+
+Physical AI heißt: KI, die nicht nur Text schreibt, sondern einen Roboter steuert. Er sieht mit Kameras, greift und lernt Handgriffe, indem Ihr Team sie vormacht. Wir bringen das in Ihre Halle und betreiben es für Sie.
+
+### Warum Physical AI bisher selten in der Halle ankommt.
+- Die Technik ist neu, eigene Experten dafür hat kaum ein Werk.
+- Pilotprojekte kosten oft sechsstellig, bevor klar ist, ob es klappt.
+- Zwischen Demo-Video und zuverlässigem Schichtbetrieb liegt viel Integrationsarbeit.
+
+### Wie wir es lösen.
+- Wir prüfen Ihre Aufgabe kostenlos vor Ort oder per Video.
+- Wir installieren den Roboter, trainieren ihn an Ihrer Linie und betreuen ihn.
+- Unser Operator hilft aus der Ferne, wenn er nicht weiterkommt. Daraus lernt der Roboter.
+- Keine Investition. Die Monatsgebühr startet erst, wenn er zuverlässig läuft.
+
+### Fragen und Antworten
+**Was ist der Unterschied zwischen Physical AI und kognitiver Robotik?** Kaum einer. Beide Begriffe meinen Roboter, die mit KI wahrnehmen und lernen, statt starr programmiert zu werden. Mehr zu kognitiver Robotik
+
+**Für welche Aufgaben ist Physical AI heute reif?** Für Handgriffe mit kleinen Abweichungen: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen.
+
+**Brauchen wir dafür eine KI-Abteilung?** Nein. Ihr Team zeigt die Aufgabe, den Rest übernehmen wir.
+
+
+## Was kostet ein Roboter in der Produktion?
+URL: https://ackermann-robotics.org/roboter-kosten/
+
+Der Roboterarm ist nur ein Teil der Rechnung. Greifer, Kameras, Integration, Sicherheit und Programmierung kosten oft mehr als der Arm selbst. Fertig integriert landen viele Anwendungen schnell bei 40.000 € bis weit über 100.000 €. Bei uns zahlen Sie stattdessen eine Monatsgebühr, und erst, wenn er läuft.
+
+### Was beim Kauf alles anfällt.
+- Roboterarm: nur etwa die Hälfte der Gesamtkosten.
+- Greifer, Kameras, Halterungen und Sicherheitstechnik.
+- Integration und Programmierung, bei jeder neuen Variante erneut.
+- Wartung, Reparaturen und jemand im Haus, der sich auskennt.
+
+### Was Sie bei uns zahlen.
+- Keine Investition: kein Kauf, keine Anzahlung, keine Integrationskosten.
+- Eine feste Monatsgebühr, höchstens 70 % dessen, was die Stelle Sie heute kostet.
+- Wartung, Reparaturen, Nachtrainieren und Fernbetreuung sind enthalten.
+- Die Gebühr startet erst, wenn der Roboter zuverlässig läuft.
+
+### Fragen und Antworten
+**Wie hoch ist die Monatsgebühr konkret?** Sie hängt von Aufgabe und Schichten ab und liegt immer unter 70 % der heutigen Kosten der Stelle. Bei 3.000 € Personalkosten sind das höchstens 2.100 € im Monat. Den Rechner finden Sie auf der Startseite.
+
+**Lohnt sich das auch für nur eine Stelle?** Ja. Weil Sie nichts investieren, rechnet sich der Roboter ab dem ersten Monat, auch bei einer einzelnen Stelle.
+
+**Was ist günstiger, kaufen oder mieten?** Bei großen Stückzahlen und einer Aufgabe, die sich nie ändert, kann Kaufen günstiger sein. Bei wechselnden Varianten und ohne eigene Robotik-Experten ist die Monatsgebühr meist die bessere Wahl, weil Integration, Nachtrainieren und Wartung enthalten sind.
+
+**Gibt es Fördermittel?** In Baden-Württemberg ja: Der Innovationsgutschein „Mittelstand trifft Start-ups“ bezuschusst 50 % der Kosten, bis zu 20.000 €. Förderung im Überblick
+
+
+## Was unser Roboter kann. Und was nicht.
+URL: https://ackermann-robotics.org/was-kann-der-roboter/
+
+Bevor Sie Zeit in eine Demo stecken, sollen Sie wissen, ob Ihre Aufgabe grundsätzlich passt. Hier stehen die Eckdaten: Teilegewicht, Arbeitsbereich, Greifer, Lernen und die Grenzen.
+
+### Dafür eignet er sich nicht.
+- Schwere Teile: Über etwa 2 kg pro Teil ist ein klassischer Industrieroboter die bessere Wahl.
+- Takte im Sekundenbereich mit immer gleichen Teilen. Das kann eine klassische Anlage schneller.
+- Fügen mit hohen Kräften oder Toleranzen im Hundertstelbereich.
+- Palettieren über mehrere Lagen und größere Entfernungen.
+
+### Dafür ist er gebaut.
+- Leichte Teile bis etwa 1 bis 2 kg, die jedes Mal etwas anders liegen.
+- Wechselnde Varianten und kleine Lose.
+- Handgriffe an einem festen Arbeitsplatz von rund einem Quadratmeter.
+- Aufgaben, für die ein Mensch zwei Hände braucht. Dafür arbeiten zwei Arme zusammen.
+
+| Merkmal | Richtwert |
+| --- | --- |
+| Teilegewicht | bis etwa 1 bis 2 kg pro Teil |
+| Arbeitsbereich | rund 1 m² pro Station |
+| Arme | einer oder zwei, je nach Aufgabe |
+| Greifer | Zweifingergreifer |
+| Wahrnehmung | Kameras. Der Roboter erkennt Lage und Ausrichtung der Teile. |
+| Einrichten | Lernen durch Vormachen. Keine Programmierung auf Ihrer Seite. |
+| Neue Variante | kurz vormachen. Das Nachtrainieren ist in der Gebühr enthalten. |
+| Betreuung | Operator aus der Ferne während Ihrer Produktionszeiten |
+| Wartung und Reparatur | in der Monatsgebühr enthalten |
+| Vorhandene Roboter | binden wir oft ein und rüsten Kameras und Sensoren nach |
+| Kosten | keine Investition. Monatsgebühr unter 70 % der heutigen Stellenkosten, erst ab Produktivbetrieb. |
+
+### Fragen und Antworten
+**Wie schwer dürfen die Teile sein?** Bis etwa 1 bis 2 kg pro Teil, je nach Greifer und Bewegung. Ob Ihr Teil passt, prüfen wir in der kostenlosen Demo.
+
+**Wie schnell arbeitet der Roboter?** Das hängt von der Aufgabe ab. Für Takte im Sekundenbereich mit immer gleichen Teilen ist eine klassische Anlage schneller. Bei wechselnden Teilen messen wir den Takt im Training an Ihrer Linie. Sie zahlen erst, wenn er passt.
+
+**Braucht der Roboter Vorrichtungen oder Zuführtechnik?** In der Regel nicht. Er sieht mit Kameras, wo das Teil liegt, und greift aus Ihren Behältern.
+
+**Wie viel Platz braucht er?** Der Arbeitsbereich ist rund ein Quadratmeter. Dazu kommt Platz für Behälter, Kartons und die Absicherung. Wie das an Ihrer Linie aussieht, klären wir vor Ort.
+
+**Kann er neben unseren Mitarbeitern arbeiten?** Wir richten den Roboter nach den geltenden Regeln der Maschinensicherheit ein und machen die Gefährdungsbeurteilung mit Ihnen, bevor er startet.
+
+
+## Robotics as a Service: Roboter nutzen statt kaufen.
+URL: https://ackermann-robotics.org/robotics-as-a-service/
+
+Robotics as a Service, kurz RaaS, heißt: Sie kaufen keinen Roboter, sondern bezahlen für eine erledigte Aufgabe. Der Anbieter stellt Roboter, Software, Betrieb und Wartung. Sie zahlen eine laufende Gebühr.
+
+### Was Kauf und Leasing gemeinsam haben.
+- Sie zahlen für die Anlage, egal ob sie die Aufgabe am Ende schafft.
+- Integration, Programmierung und Sicherheitstechnik kommen dazu.
+- Für Störungen, Wartung und neue Varianten brauchen Sie eigene Leute oder einen Dienstleister.
+
+### Was RaaS bei uns heißt.
+- Keine Investition: kein Kauf, keine Anzahlung, keine Integrationskosten.
+- Eine feste Monatsgebühr, immer unter 70 % dessen, was die Stelle Sie heute kostet.
+- Installation, Training, Wartung, Reparatur und Fernbetreuung sind enthalten.
+- Die Gebühr startet erst, wenn der Roboter die Aufgabe zuverlässig erledigt.
+
+|  | Kauf | Leasing | RaaS bei Ackermann Robotics |
+| --- | --- | --- | --- |
+| Investition vorab | hoch | gering | keine |
+| Integration und Programmierung | zahlen Sie | zahlen Sie | enthalten |
+| Wartung und Reparatur | Ihre Sache | meist Ihre Sache | enthalten |
+| Neue Variante | neu programmieren lassen | neu programmieren lassen | vormachen, Nachtrainieren enthalten |
+| Risiko, dass es nicht klappt | bei Ihnen | bei Ihnen | bei uns: keine Zahlung, bis es läuft |
+| Passt am besten für | große Stückzahlen, Aufgabe ändert sich nie | wie Kauf, mit verteilter Zahlung | wechselnde Teile, kein eigenes Robotik-Team |
+
+### Fragen und Antworten
+**Was bedeutet Robotics as a Service?** Robotics as a Service (RaaS) ist ein Modell, bei dem Sie einen Roboter nicht kaufen, sondern für seine Leistung bezahlen. Roboter, Software, Betrieb und Wartung kommen vom Anbieter.
+
+**Was ist der Unterschied zwischen RaaS und Leasing?** Beim Leasing finanzieren Sie eine Maschine. Ob sie Ihre Aufgabe schafft, bleibt Ihr Risiko, ebenso Integration und Wartung. Bei RaaS bezahlen Sie für die erledigte Aufgabe, inklusive Betrieb.
+
+**Was kostet RaaS?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+**Wem gehört der Roboter?** In der Regel uns. Er steht bei Ihnen, wir betreiben und warten ihn. Wenn Sie schon einen Roboter haben, binden wir ihn oft ein.
+
+**Für wen lohnt sich RaaS?** Für Betriebe mit wechselnden Teilen und ohne eigenes Robotik-Team. Wer eine einzige Aufgabe in großer Stückzahl über Jahre fährt, ist mit einer gekauften Anlage oft besser bedient.
+
+
+## Die Alternative zur Zeitarbeit: ein Roboter, der bleibt.
+URL: https://ackermann-robotics.org/zeitarbeit-alternative-produktion/
+
+Zeitarbeit überbrückt Engpässe. Als Dauerlösung wird sie teuer: Der Verrechnungssatz liegt deutlich über dem Lohn, die Leute wechseln, und nach 18 Monaten ist grundsätzlich Schluss. Für wiederkehrende Handgriffe gibt es jetzt eine Alternative.
+
+### Was Zeitarbeit auf Dauer kostet.
+- Sie zahlen für jede Stunde den Verrechnungssatz: Lohn plus Aufschlag des Verleihers.
+- Nach neun Monaten gilt grundsätzlich Equal Pay, nach 18 Monaten endet die Überlassung desselben Mitarbeiters. Tarifverträge können davon abweichen.
+- Jeder Wechsel heißt neu einarbeiten. Das Wissen geht mit.
+- Kurzfristige Ausfälle treffen Sie trotzdem.
+
+### Was der Roboter anders macht.
+- Feste Monatsgebühr statt Stundensatz. Sie wissen vorher, was die Aufgabe kostet.
+- Er bleibt. Was er gelernt hat, geht nicht mehr verloren.
+- Zusatzschicht, Nacht und Wochenende zum gleichen Satz.
+- Keine Investition. Die Gebühr startet erst, wenn er zuverlässig läuft.
+
+|  | Zeitarbeit | KI-Roboter |
+| --- | --- | --- |
+| Abrechnung | Stundensatz, jede Stunde | feste Monatsgebühr |
+| Start | kurzfristig | nach Demo, Aufnahme und Training |
+| Tätigkeiten | fast jede | wiederkehrende Handgriffe mit leichten Teilen |
+| Einarbeitung | bei jedem Wechsel neu | einmal vormachen |
+| Nacht und Wochenende | mit Zuschlägen | zum gleichen Satz |
+| Dauer | grundsätzlich höchstens 18 Monate je Mitarbeiter | bleibt an der Linie |
+
+### Fragen und Antworten
+**Für welche Stellen ist ein Roboter eine Alternative zur Zeitarbeit?** Für wiederkehrende Handgriffe mit leichten Teilen: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen. Eckdaten und Grenzen
+
+**Wie schnell ist der Roboter einsatzbereit?** Nicht von heute auf morgen. Nach der Demo folgen Aufnahme und Training an Ihrer Linie, den Zeitplan nennen wir Ihnen nach der Demo. Für akute Engpässe bleibt Zeitarbeit die schnellere Lösung, für Dauerbedarf ist der Roboter die günstigere.
+
+**Was kostet der Roboter im Vergleich zur Zeitarbeit?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+**Was, wenn es bei unserer Aufgabe nicht klappt?** Dann zahlen Sie nichts. Die Gebühr beginnt erst, wenn der Roboter die Aufgabe zuverlässig erledigt.
+
+
+## Maschinenbeschickung automatisieren. Auch bei wechselnden Teilen.
+URL: https://ackermann-robotics.org/maschinenbeschickung-automatisieren/
+
+An vielen Maschinen steht ein Mitarbeiter, legt Teile ein und nimmt sie wieder heraus. Für leichte Teile kann das ein kognitiver Roboter übernehmen: Er greift sie aus dem Behälter, legt sie ein und setzt die fertigen Teile ab. Ob es an Ihrer Maschine geht, prüfen wir kostenlos.
+
+### Warum an der Maschine oft noch ein Mensch steht.
+- Ein klassischer Beladeroboter braucht Teile in fester Lage: Paletten, Schubladen, Zuführtechnik.
+- Die Vorrichtungen passen nur für ein Teil. Bei kleinen Losen rechnet sich das nicht.
+- Also wartet ein Mitarbeiter auf das Zyklusende, statt etwas Wertvolleres zu tun.
+
+### So macht es der kognitive Roboter.
+- Kameras erkennen, wie das Rohteil im Behälter liegt.
+- Ihr Team macht Einlegen und Entnehmen ein paar Mal vor.
+- Neues Teil: kurz vormachen statt Vorrichtung bauen.
+- Keine Investition, feste Monatsgebühr, Zahlung erst, wenn er läuft.
+
+### Fragen und Antworten
+**Welche Maschinen kann der Roboter beladen?** Das hängt von Teil, Aufnahme und Takt ab. Typisch sind Prüf-, Montage- und Verpackungsstationen mit leichten Teilen. Wir prüfen es kostenlos an Ihrer Maschine.
+
+**Braucht der Roboter Paletten oder Zuführtechnik?** In der Regel nicht. Er sieht mit Kameras, wie die Teile liegen, und greift aus Ihren Behältern.
+
+**Ist das sicher für unsere Mitarbeiter?** Wir richten den Roboter nach den geltenden Regeln der Maschinensicherheit ein und machen die Gefährdungsbeurteilung mit Ihnen, bevor er startet.
+
+**Was kostet das?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+
+## Konfektionierung automatisieren. Auch wenn jede Aktion anders ist.
+URL: https://ackermann-robotics.org/konfektionierung-automatisieren/
+
+Sets zusammenstellen, Displays bestücken, Ware umpacken: Konfektionierung ändert sich mit jeder Aktion und bleibt deshalb Handarbeit. Ein kognitiver Roboter lernt die neue Zusammenstellung durch Vormachen.
+
+### Warum Konfektionierung Handarbeit bleibt.
+- Jede Aktion ist anders: neue Produkte, neue Sets, neue Displays.
+- Die Lose sind klein. Eine eigene Anlage lohnt sich dafür nicht.
+- Saisonspitzen brauchen kurzfristig viele Hände, die schwer zu bekommen sind.
+
+### So macht es der kognitive Roboter.
+- Ihr Team stellt das Set ein paar Mal zusammen, der Roboter lernt daraus.
+- Kameras sehen, wo welches Produkt liegt.
+- Neue Aktion: kurz vormachen. Das Nachtrainieren ist inklusive.
+- Keine Investition, feste Monatsgebühr, Zahlung erst, wenn er läuft.
+
+### Fragen und Antworten
+**Lohnt sich das bei ständig wechselnden Aktionen?** Genau dafür ist es gedacht. Eine neue Zusammenstellung lernt der Roboter durch Vormachen, ohne neue Programmierung. Das Nachtrainieren ist in der Gebühr enthalten.
+
+**Welche Produkte gehen?** Leichte, formstabile Produkte bis etwa 1 bis 2 kg. Sehr weiche, rutschige oder zerbrechliche Produkte prüfen wir in der Demo.
+
+**Arbeiten Sie auch für Lohnverpacker und Co-Packer?** Ja. Für Betriebe mit vielen wechselnden Aufträgen passt das Modell besonders gut.
+
+**Was kostet das?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+
+## Automatisierung für Kunststoffverarbeiter. Nach der Maschine beginnt die Handarbeit.
+URL: https://ackermann-robotics.org/automatisierung-kunststoffverarbeitung/
+
+Die Spritzgießmaschine läuft automatisch, oft auch die Entnahme. Danach wird es manuell: Teile sortieren, in Trays legen, verpacken, Kartons aufrichten. Diese Handgriffe übernimmt ein kognitiver Roboter, auch bei vielen Werkzeugen und kleinen Losen.
+
+### Was Kunststoffverarbeiter kennen.
+- Viele Werkzeuge, häufige Wechsel: Für jedes Teil eine eigene Automatisierung lohnt sich nicht.
+- Teile fallen als Schüttgut in den Behälter und liegen jedes Mal anders.
+- Verpacken und Abstapeln hängen an Helfern, die schwer zu finden sind, besonders für Nacht- und Wochenendschichten.
+
+### Was der kognitive Roboter übernimmt.
+- Teile aus dem Behälter oder vom Band greifen und in Trays oder Kartons legen.
+- Kartons aufrichten, befüllen und verschließen.
+- Teilesätze aus mehreren Artikeln zusammenstellen.
+- Werkzeugwechsel: neues Teil kurz vormachen, ohne neue Programmierung.
+
+### Fragen und Antworten
+**Funktioniert das bei häufigen Werkzeugwechseln?** Ja. Ein neues Teil lernt der Roboter durch Vormachen, ohne neue Programmierung und ohne neue Vorrichtung. Das Nachtrainieren ist in der Gebühr enthalten.
+
+**Geht das auch im Dreischichtbetrieb?** Ja. Der Roboter fährt jede Schicht zum gleichen Satz. Unser Operator betreut ihn aus der Ferne während Ihrer Produktionszeiten.
+
+**Welche Kunststoffteile kann er greifen?** Formstabile Teile bis etwa 1 bis 2 kg. Sehr kleine, dünnwandige oder empfindliche Sichtteile prüfen wir in der Demo an Ihren Teilen.
+
+**Was kostet das?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+
+## Automatisierung für Elektro- und Elektronikhersteller.
+URL: https://ackermann-robotics.org/automatisierung-elektronikfertigung/
+
+Die Bestückung ist längst automatisiert. Davor und danach bleibt viel Handarbeit: Bauteile bereitstellen, Baugruppen in Trays legen, Geräte verpacken, Beipack zusammenstellen. Diese Handgriffe übernimmt ein kognitiver Roboter, auch bei vielen Varianten.
+
+### Was Elektronikfertiger kennen.
+- Hohe Variantenvielfalt, kleine Lose: Jede Variante zu programmieren lohnt sich nicht.
+- Schalter, Stecker, Gehäuse und Baugruppen liegen lose im Behälter.
+- Verpackung und Beipack ändern sich je Kunde und Auftrag.
+
+### Was der kognitive Roboter übernimmt.
+- Baugruppen und Geräte in Trays, Blister und Kartons legen.
+- Teilesätze und Beipack für Montage und Versand zusammenstellen.
+- Teile zwischen Behältern, Bändern und Prüfplätzen umsetzen.
+- Neue Variante: kurz vormachen statt neu programmieren.
+
+### Fragen und Antworten
+**Kann der Roboter Leiterplatten und Baugruppen handhaben?** Das hängt von Größe, Empfindlichkeit und ESD-Anforderungen ab. Wir prüfen es in der kostenlosen Demo an Ihren Teilen.
+
+**Geht das auch in der Kabelkonfektion?** Verpacken und Zusammenstellen fertiger Kabel und Leitungen prüfen wir gern. Lose Kabel sind biegeschlaff und damit anspruchsvoll. Die Demo zeigt, ob es bei Ihnen geht.
+
+**Wir haben viele Varianten und kleine Lose. Lohnt sich das?** Gerade dann. Neue Varianten lernt der Roboter durch Vormachen, und Sie investieren nichts, was sich amortisieren muss. Kleine Losgrößen automatisieren
+
+**Was kostet das?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+
+## Kartonaufrichter oder Roboter? Es kommt auf Ihre Formate an.
+URL: https://ackermann-robotics.org/kartonaufrichter-oder-roboter/
+
+Ein Kartonaufrichter ist unschlagbar, wenn tausende Kartons im selben Format laufen. Bei vielen Formaten und kleinen Losen steht er oft still oder wird umgerüstet. Dann ist ein Roboter, der Kartons aufrichtet, befüllt und verschließt, die bessere Wahl.
+
+### Wo der Kartonaufrichter an Grenzen kommt.
+- Formatwechsel heißt umrüsten. Bei vielen Formaten am Tag kostet das Zeit.
+- Die Maschine macht nur den Karton. Befüllen und Verschließen brauchen weitere Technik oder Hände.
+- Sie investieren vorab, auch wenn die Auslastung gering ist.
+
+### Was der Roboter anders macht.
+- Neues Format: kurz vormachen statt umrüsten.
+- Aufrichten, befüllen und verschließen an einem Platz.
+- Keine Investition. Feste Monatsgebühr, erst wenn er zuverlässig läuft.
+- Wartung, Reparatur und Nachtrainieren sind enthalten.
+
+|  | Kartonaufrichter (Maschine) | KI-Roboter |
+| --- | --- | --- |
+| Stärke | sehr hohe Stückzahlen im selben Format | wechselnde Formate und kleine Lose |
+| Tempo | höher | niedriger |
+| Formatwechsel | umrüsten | vormachen |
+| Umfang | richtet den Karton auf | richtet auf, befüllt und verschließt |
+| Kosten | Kauf oder Leasing | Monatsgebühr, keine Investition |
+| Wartung | Ihre Sache | enthalten |
+
+### Fragen und Antworten
+**Ab welcher Stückzahl lohnt sich ein Kartonaufrichter?** Wenn ein Format in großer Menge durchläuft und selten gewechselt wird. Bei vielen Formaten und kleinen Losen frisst das Umrüsten den Vorteil auf.
+
+**Ist der Roboter so schnell wie ein Kartonaufrichter?** Nein. Bei einem einzigen Format in großer Menge ist die Maschine schneller. Der Roboter ist dort im Vorteil, wo Formate wechseln und heute ein Mensch faltet.
+
+**Kann der Roboter auch Faltschachteln aufrichten?** Das prüfen wir in der kostenlosen Demo an Ihren Zuschnitten.
+
+**Was kostet das?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+
+## Kleine Losgrößen automatisieren. Auch bei vielen Varianten.
+URL: https://ackermann-robotics.org/kleine-losgroessen-automatisieren/
+
+Klassische Automatisierung rechnet sich über die Stückzahl. Bei vielen Varianten und kleinen Losen fressen Programmierung, Vorrichtungen und Umrüsten den Nutzen auf. Ein Roboter, der neue Teile durch Vormachen lernt, ändert diese Rechnung.
+
+### Warum sich kleine Lose bisher nicht rechnen.
+- Jede Variante braucht ein eigenes Programm.
+- Jedes Teil braucht eigene Vorrichtungen und Zuführtechnik.
+- Umrüsten kostet Zeit, in der nichts produziert wird.
+- Die Investition verteilt sich auf zu wenige Teile.
+
+### Was sich mit KI-Robotern ändert.
+- Neue Variante: vormachen statt programmieren.
+- Kameras statt Vorrichtungen: Der Roboter sieht, wie das Teil liegt.
+- Keine Investition, die sich amortisieren muss.
+- Das Nachtrainieren für neue Teile ist in der Gebühr enthalten.
+
+### Fragen und Antworten
+**Ab welcher Losgröße lohnt sich ein KI-Roboter?** Es gibt keine feste Grenze, weil Sie nichts investieren. Entscheidend ist, dass sich die Handgriffe ähneln: gleiche Art von Aufgabe, wechselnde Teile.
+
+**Wie lange dauert es, eine neue Variante anzulernen?** Das hängt vom Teil ab. Ähnliche Teile lernt der Roboter schneller als ganz neue Handgriffe. Das Nachtrainieren ist in der Gebühr enthalten.
+
+**Was bedeutet High Mix, Low Volume?** Eine Fertigung mit vielen Varianten und kleinen Stückzahlen je Variante. Für klassische Automatisierung ist das der schwierigste Fall, weil jede Variante Programmierung und Vorrichtungen braucht.
+
+**Was kostet das?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+
+## Roboter ohne Programmierung. Vormachen statt Code.
+URL: https://ackermann-robotics.org/roboter-ohne-programmierung/
+
+Bisher brauchte jeder Roboter jemanden, der ihn programmiert oder teacht. Kognitive Roboter lernen anders: Ihr Team macht die Aufgabe vor, die KI lernt daraus und passt die Bewegung an, wenn ein Teil anders liegt.
+
+### Wie Roboter bisher eingerichtet werden.
+- Programmieren: Ein Spezialist schreibt jede Bewegung als Programm.
+- Teach-in: Jeder Punkt der Bahn wird mit dem Handbediengerät angefahren und gespeichert.
+- Handführung beim Cobot: schneller, aber der Roboter fährt danach dieselbe starre Bahn.
+- In allen drei Fällen gilt: Liegt das Teil anders, stimmt die Bahn nicht mehr.
+
+### Wie Lernen durch Vormachen funktioniert.
+- Ihr Team macht die Aufgabe mit einem Handgreifer vor.
+- Dabei wird aufgezeichnet, wie die Teile liegen und wie gegriffen wird.
+- Die KI lernt daraus keine Bahn, sondern die Aufgabe.
+- Liegt ein Teil anders, passt der Roboter seine Bewegung an.
+
+| Verfahren | Wer richtet ein | Wenn das Teil anders liegt |
+| --- | --- | --- |
+| Programmieren | Robotik-Spezialist | ohne zusätzliches Kamerasystem: alte Bahn |
+| Teach-in | geschulter Bediener | ohne zusätzliches Kamerasystem: alte Bahn |
+| Handführung (Cobot) | Bediener | ohne zusätzliches Kamerasystem: alte Bahn |
+| Lernen durch Vormachen | Ihr Team an der Linie | der Roboter passt sich an |
+
+### Fragen und Antworten
+**Brauchen unsere Mitarbeiter eine Schulung?** Nein. Sie machen die Aufgabe so vor, wie sie sie heute erledigen. Wir sind bei der Aufnahme dabei.
+
+**Wie oft muss die Aufgabe vorgemacht werden?** Das hängt von der Aufgabe ab. Die Aufnahme ist für Sie kostenlos.
+
+**Was ist der Unterschied zu einem Cobot?** Ein Cobot ist ein Roboter, der dafür gebaut ist, nah am Menschen zu arbeiten. Wie er eine Aufgabe lernt, ist damit nicht gesagt: Die meisten Cobots fahren fest eingelernte Bahnen. Kognitive Robotik beschreibt, wie der Roboter lernt und sich anpasst. Mehr zu kognitiver Robotik
+
+**Was passiert bei einer neuen Variante?** Ihr Team macht sie kurz vor. Das Nachtrainieren ist in der Gebühr enthalten.
+
+
+## Förderung für Ihr Automatisierungsprojekt in Baden-Württemberg.
+URL: https://ackermann-robotics.org/foerderung-automatisierung-baden-wuerttemberg/
+
+Das Land Baden-Württemberg bezuschusst Vorhaben, bei denen ein kleines oder mittleres Unternehmen Produkte oder Leistungen eines Start-ups einkauft: 50 % der Kosten, bis zu 20.000 €. Das Programm heißt Innovationsgutschein „Mittelstand trifft Start-ups“.
+
+### Die Bedingungen.
+- Den Antrag stellen Sie, nicht wir: ein Unternehmen mit Niederlassung oder Betriebsstätte in Baden-Württemberg.
+- Bis 250 Beschäftigte und bis 50 Mio. € Umsatz oder 43 Mio. € Bilanzsumme.
+- Gefördert werden Rechnungen des Start-ups für Produkte oder Leistungen in einem innovativen Vorhaben.
+- Ein Gutschein je Unternehmen. Es gibt keinen Rechtsanspruch, die L-Bank entscheidet.
+
+### So läuft es ab.
+- Antrag online bei der L-Bank stellen, vor Projektbeginn.
+- Ein Ausschuss bewertet das Vorhaben, die L-Bank entscheidet.
+- Den Vertrag erst nach dem Zuwendungsbescheid schließen.
+- Vorhaben in zehn Monaten umsetzen, Rechnungen einreichen, Zuschuss erhalten.
+
+### Fragen und Antworten
+**Wie hoch ist die Förderung?** 50 % der förderfähigen Kosten, höchstens 20.000 € je Gutschein. Die Mehrwertsteuer wird nicht gefördert.
+
+**Wann muss der Antrag gestellt werden?** Vor Projektbeginn. Verträge dürfen erst nach dem Zuwendungsbescheid geschlossen werden. Anträge sind laufend möglich.
+
+**Wer stellt den Antrag?** Das Unternehmen, das die Leistung einkauft, also Sie. Der Antrag läuft online über die L-Bank.
+
+**Kann die Demo vor dem Antrag stattfinden?** Ja. Die Demo ist kostenlos und unverbindlich. Danach wissen Sie, ob es geht und was es kostet, und können den Antrag stellen. Den Vertrag schließen wir erst nach dem Zuwendungsbescheid.
+
+**Gilt das auch außerhalb von Baden-Württemberg?** Nein. Der Innovationsgutschein ist ein Landesprogramm für Unternehmen mit Standort in Baden-Württemberg. Andere Bundesländer haben eigene Programme.
+
+
+## KI-Roboter in der Produktion: Fragen und Antworten.
+URL: https://ackermann-robotics.org/faq/
+
+Was können KI-Roboter heute, was kosten sie, und wo liegen ihre Grenzen? Hier stehen die Antworten auf die Fragen, die Produktionsleiter und Inhaber uns am häufigsten stellen.
+
+### Fragen und Antworten
+**Was ist ein KI-Roboter in der Produktion?** Ein Roboterarm, der nicht Bewegung für Bewegung programmiert wird, sondern mit Kameras sieht und Aufgaben durch Vormachen lernt. Damit lassen sich Handgriffe automatisieren, bei denen Teile unterschiedlich liegen oder Varianten oft wechseln. Produktionsautomatisierung mit KI
+
+**Was ist kognitive Robotik?** Kognitive Robotik meint Roboter, die ihre Umgebung wahrnehmen, sich anpassen und neue Aufgaben lernen, statt fest programmierte Bahnen zu fahren. Kognitive Robotik erklärt
+
+**Was ist Physical AI?** Physical AI ist KI, die nicht Text oder Bilder erzeugt, sondern eine Maschine in der echten Welt steuert, zum Beispiel einen Roboterarm. Der Begriff meint praktisch dasselbe wie kognitive Robotik. Physical AI in der Produktion
+
+**Was ist der Unterschied zu einem klassischen Industrieroboter?** Ein klassischer Industrieroboter fährt fest programmierte Bahnen: Jedes Teil muss exakt liegen, jede Variante wird neu programmiert. Ein KI-Roboter sieht, wo das Teil liegt, und lernt neue Varianten durch Vormachen. Dafür ist die klassische Anlage bei großen Stückzahlen schneller.
+
+**Was ist der Unterschied zwischen einem Cobot und einem KI-Roboter?** Ein Cobot ist ein Roboter, der dafür gebaut ist, nah am Menschen zu arbeiten. Die meisten Cobots fahren trotzdem fest eingelernte Bahnen. KI-Roboter unterscheiden sich darin, wie sie lernen: durch Vormachen statt Programmierung. Roboter ohne Programmierung
+
+**Was heißt Lernen durch Vormachen?** Ihr Team macht die Aufgabe mit einem Handgreifer vor. Dabei wird aufgezeichnet, wie die Teile liegen und wie gegriffen wird. Die KI lernt daraus die Aufgabe und passt die Bewegung an, wenn ein Teil anders liegt.
+
+**Welche Aufgaben kann ein KI-Roboter heute übernehmen?** Wiederkehrende Handgriffe, die jedes Mal ein bisschen anders sind: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen, Konfektionieren und das Beladen von Maschinen mit leichten Teilen.
+
+**Wie schwer dürfen die Teile sein?** Bis etwa 1 bis 2 kg pro Teil, an einem Arbeitsplatz von rund einem Quadratmeter. Eckdaten und Grenzen
+
+**Wie schnell arbeitet der Roboter?** Das hängt von der Aufgabe ab. Für Takte im Sekundenbereich mit immer gleichen Teilen ist eine klassische Anlage schneller. Bei wechselnden Teilen messen wir den Takt im Training an Ihrer Linie. Sie zahlen erst, wenn er passt.
+
+**Wofür eignet sich ein KI-Roboter nicht?** Für schwere Teile, für Takte im Sekundenbereich mit immer gleichen Teilen, für Fügen mit hohen Kräften oder sehr engen Toleranzen und für Palettieren über mehrere Lagen und größere Entfernungen.
+
+**Geht das auch bei kleinen Losgrößen und vielen Varianten?** Gerade dann. Neue Varianten lernt der Roboter durch Vormachen, und Sie investieren nichts, was sich amortisieren muss. Kleine Losgrößen automatisieren
+
+**Können vorhandene Roboter eingebunden werden?** Oft ja. Wir binden vorhandene Roboter ein und rüsten Kameras und Sensoren nach.
+
+**Was kostet ein KI-Roboter für die Produktion?** Bei uns keine Investition. Sie zahlen eine feste Monatsgebühr, immer unter 70 % dessen, was die Stelle Sie heute kostet. Bei 3.000 € Personalkosten sind das höchstens 2.100 € im Monat. Was kostet ein Roboter?
+
+**Was ist Robotics as a Service?** Ein Modell, bei dem Sie einen Roboter nicht kaufen, sondern für seine Leistung bezahlen. Roboter, Software, Betrieb und Wartung kommen vom Anbieter. Robotics as a Service erklärt
+
+**Ab wann zahlen wir?** Erst ab dem Monat, in dem der Roboter die Aufgabe zuverlässig erledigt. Demo, Aufnahme und Training sind für Sie kostenlos.
+
+**Was ist günstiger: kaufen, leasen oder mieten?** Bei großen Stückzahlen und einer Aufgabe, die sich nie ändert, kann Kaufen günstiger sein. Bei wechselnden Varianten und ohne eigene Robotik-Experten ist die Monatsgebühr meist die bessere Wahl, weil Integration, Nachtrainieren und Wartung enthalten sind.
+
+**Ist das günstiger als Zeitarbeit?** Bei Dauerbedarf in der Regel ja: feste Monatsgebühr statt Stundensatz. Roboter und Zeitarbeit im Vergleich
+
+**Gibt es Fördermittel?** In Baden-Württemberg bezuschusst der Innovationsgutschein „Mittelstand trifft Start-ups“ 50 % der Kosten, bis zu 20.000 €. Förderung im Überblick
+
+**Wie läuft die Einführung ab?** In vier Schritten: Sie zeigen uns die Aufgabe, 30 Minuten vor Ort oder per Video. Ihr Team macht sie vor. Der Roboter lernt an Ihrer Linie. Dann produziert er, und erst jetzt beginnt die Monatsgebühr.
+
+**Brauchen wir eigene Robotik- oder KI-Experten?** Nein. Wir installieren, betreiben und warten den Roboter. Ihr Team zeigt nur die Aufgabe.
+
+**Was passiert, wenn der Roboter hängen bleibt oder ausfällt?** Unser Operator übernimmt aus der Ferne, während Ihrer Produktionszeiten. Reparaturen und Ersatzteile sind in der Gebühr enthalten.
+
+**Was passiert, wenn sich unser Produkt ändert?** Ihr Team macht die neue Variante kurz vor. Das Nachtrainieren ist in der Gebühr enthalten.
+
+**In welchen Regionen arbeiten Sie?** Für Produktionsbetriebe in Deutschland, Österreich und der Schweiz. Am schnellsten vor Ort sind wir in der Region Stuttgart und Neckar-Alb. Region Stuttgart
+
+**Darf ein Roboter neben Mitarbeitern arbeiten?** Ja, wenn die Anlage dafür ausgelegt und abgesichert ist. Welche Schutzmaßnahmen nötig sind, ergibt sich aus der Beurteilung der Anlage und des Arbeitsplatzes. Wir richten den Roboter nach den geltenden Regeln der Maschinensicherheit ein und machen die Gefährdungsbeurteilung mit Ihnen, bevor er startet.
+
+**Wer ist für die Gefährdungsbeurteilung zuständig?** Der Arbeitgeber, also der Betrieb, in dem der Roboter steht. Das verlangen Arbeitsschutzgesetz und Betriebssicherheitsverordnung. Wir machen sie gemeinsam mit Ihnen, bevor der Roboter startet.
+
+**Ersetzt der Roboter unsere Mitarbeiter?** Er übernimmt die Stelle, die Sie nicht besetzt bekommen. Ihre Leute werden für die Aufgaben frei, für die man Erfahrung braucht.
+
+**Was, wenn es bei unserer Aufgabe nicht klappt?** Dann zahlen Sie nichts.
+

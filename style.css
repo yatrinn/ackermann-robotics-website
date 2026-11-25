@@ -252,7 +252,7 @@ nav a.tel{color:var(--ink);font-weight:700}
 .task h3 a{color:inherit;text-decoration:none}
 .task h3 a::after{content:" →";color:var(--muted)}
 footer .apps{display:block;width:100%;font-size:14px}
-footer .apps a{margin:0 18px 0 0}
+footer .apps a{display:inline-block;margin:0 18px 4px 0}
 @media(max-width:980px){.lp-two{grid-template-columns:1fr;gap:40px}.lp-steps{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.lp-steps{grid-template-columns:1fr}.lp-more a{display:inline-block;margin:6px 14px 0 0}}
 
@@ -290,3 +290,16 @@ footer a.xg{display:inline-flex;vertical-align:-3px;color:var(--muted);margin-le
 footer a.xg:hover{color:#026466}
 
 .hero .wrap>div{min-width:0}.hero h1{overflow-wrap:break-word;-webkit-hyphens:manual;hyphens:manual}
+
+/* data tables (specs, comparisons) */
+.dt-wrap{overflow-x:auto;max-width:980px;border:1px solid var(--line);border-radius:var(--r);background:#fff}
+.dt{width:100%;border-collapse:collapse;font-size:17px}
+.dt th,.dt td{padding:14px 20px;text-align:left;vertical-align:top;border-top:1px solid var(--line)}
+.dt th+th,.dt th+td,.dt td+td{border-left:1px solid var(--line)}
+.dt thead th{border-top:0;font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);background:var(--soft)}
+.dt thead th:last-child{background:var(--ink);color:#fff}
+.dt tbody th{font-weight:400;color:var(--muted);width:24%}
+.dt td:last-child{font-weight:700}
+.faq-more{margin-top:22px;font-size:17px}
+.faq-more a{font-weight:700}
+@media(max-width:700px){.dt{font-size:15px;min-width:520px}.dt th,.dt td{padding:10px 12px}.dt thead th{font-size:11px}}

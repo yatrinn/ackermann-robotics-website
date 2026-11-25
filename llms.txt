@@ -16,6 +16,29 @@
 - [Automate packing](https://ackermann-robotics.org/verpacken-automatisieren/)
 - [Automate kitting](https://ackermann-robotics.org/kommissionieren-automatisieren/)
 - [Automate pick and place](https://ackermann-robotics.org/pick-and-place-automatisieren/)
+- [Specs and limits: what the robot can and cannot do](https://ackermann-robotics.org/was-kann-der-roboter/): part weight, work area, gripper, cycle time, unsuitable tasks
+- [Questions and answers (FAQ hub)](https://ackermann-robotics.org/faq/): basics, tasks and limits, costs, rollout, safety
+- [Robotics as a Service (RaaS) explained](https://ackermann-robotics.org/robotics-as-a-service/): buy vs. lease vs. RaaS comparison
+- [Alternative to temporary staffing in production](https://ackermann-robotics.org/zeitarbeit-alternative-produktion/)
+- [Automating small batch sizes (high mix, low volume)](https://ackermann-robotics.org/kleine-losgroessen-automatisieren/)
+- [Robots without programming: learning by demonstration](https://ackermann-robotics.org/roboter-ohne-programmierung/)
+- [Case erector or robot? Comparison](https://ackermann-robotics.org/kartonaufrichter-oder-roboter/)
+- [Automate machine tending](https://ackermann-robotics.org/maschinenbeschickung-automatisieren/)
+- [Automate co-packing: sets, displays, repacking](https://ackermann-robotics.org/konfektionierung-automatisieren/)
+- [Automation for plastics processors](https://ackermann-robotics.org/automatisierung-kunststoffverarbeitung/)
+- [Automation for electrical and electronics manufacturers](https://ackermann-robotics.org/automatisierung-elektronikfertigung/)
+- [Funding for automation in Baden-Württemberg](https://ackermann-robotics.org/foerderung-automatisierung-baden-wuerttemberg/): Innovationsgutschein "Mittelstand trifft Start-ups", 50% up to EUR 20,000
+- [Full text of all pages (German, markdown)](https://ackermann-robotics.org/llms-full.txt)
+
+## Key facts
+- Offer: Robotics as a Service. Ackermann Robotics installs, trains, operates and maintains the robot at the customer's line.
+- Price: no investment. Fixed monthly fee, always below 70% of what the position costs today (e.g. at most EUR 2,100 per month for a position costing EUR 3,000). The fee starts only once the robot runs reliably.
+- Tasks: box erecting, packing, kitting, pick and place, co-packing, tending machines with light parts.
+- Typical parts: up to about 1 to 2 kg per part; work area about 1 square metre per station; one or two arms; two-finger gripper; cameras.
+- Setup: the customer's team demonstrates the task; no programming. New variants are learned by demonstration, retraining included.
+- Support: remote operator during the customer's production hours; maintenance and repairs included.
+- Not suitable for: heavy parts, cycle times of a few seconds with identical parts, joining with high forces or very tight tolerances, palletising over several layers and larger distances.
+- Region: Germany, Austria, Switzerland; fastest on site in the Stuttgart and Neckar-Alb region.
 
 ## Contact
 - Email: info@ackermann-robotics.org
