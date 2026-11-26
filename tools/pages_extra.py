@@ -336,6 +336,7 @@ def extend(PAGES, VS, CARD, DT):
         ('Was, wenn es bei unserer Aufgabe nicht klappt?', 'Dann zahlen Sie nichts.')])]),
     ])
     PAGES.extend(_regional_and_binpicking(CARD, DT))
+    PAGES.extend(_data_and_glossary(CARD, DT))
 
 
 # ------------------------------------------------------------------ Nov 26: Baden-Württemberg, Reutlingen, bin picking
@@ -428,4 +429,138 @@ def _regional_and_binpicking(CARD, DT):
            ('Wie schnell ist das?', 'Das hängt vom Teil ab. Für Takte im Sekundenbereich ist eine Spezialanlage schneller. Wir messen den Takt im Training an Ihrer Linie. Sie zahlen erst, wenn er passt.'),
            ('Was kostet Bin Picking?', PRICE),
            ('Kann der Roboter damit auch Maschinen beschicken?', 'Für leichte Teile ja. <a href="/maschinenbeschickung-automatisieren/">Maschinenbeschickung automatisieren</a>')]),
+    ]
+
+
+# ------------------------------------------------------------------ Nov 26: data report + glossary
+FAQ_ADD['produktionshelfer-gesucht'] = FAQ_ADD['produktionshelfer-gesucht'] + [
+  ('Wie viele Produktionshelfer werden in Baden-Württemberg gesucht?', 'Am 26. November 2026 standen 998 Anzeigen für Produktionshelfer in der Jobbörse der Bundesagentur für Arbeit, 82&nbsp;% davon von Zeitarbeitsfirmen. <a href="/produktionshelfer-baden-wuerttemberg/">Unsere Auswertung</a>')]
+FAQ_ADD['kognitive-robotik'] = FAQ_ADD['kognitive-robotik'] + [
+  ('Wo finde ich weitere Begriffe erklärt?', 'Im <a href="/robotik-lexikon/">Robotik-Lexikon</a>: von Bin Picking bis VLA-Modell.')]
+FAQ_ADD.setdefault('zeitarbeit-alternative-produktion', [])
+FAQ_ADD['zeitarbeit-alternative-produktion'] = FAQ_ADD['zeitarbeit-alternative-produktion'] + [
+  ('Wie viele Helferstellen laufen über Zeitarbeit?', 'In Baden-Württemberg 82&nbsp;% der Anzeigen für Produktions- und Verpackungshelfer (Jobbörse der Bundesagentur für Arbeit, Stand 26. November 2026). <a href="/produktionshelfer-baden-wuerttemberg/">Zur Auswertung</a>')]
+
+_ORG = {"@id": "https://ackermann-robotics.org/#org", "@type": "Organization", "name": "Ackermann Robotics", "url": "https://ackermann-robotics.org/"}
+
+GLOSSARY = [
+ ('Roboter und Bauformen.', [
+  ('Industrieroboter', 'Was ist ein Industrieroboter?', 'Ein programmierbarer Roboterarm, meist mit sechs Achsen, der feste Bahnen schnell und präzise wiederholt. Klassisch arbeitet er hinter einem Schutzzaun und braucht Teile in genau bekannter Lage.'),
+  ('Cobot', 'Was ist ein Cobot?', 'Ein kollaborativer Roboter: gebaut, um ohne Schutzzaun nah am Menschen zu arbeiten, etwa mit begrenzter Kraft und Geschwindigkeit. Wie er eine Aufgabe lernt, ist damit nicht gesagt. Die meisten Cobots fahren fest eingelernte Bahnen. <a href="/roboter-ohne-programmierung/">Roboter ohne Programmierung</a>'),
+  ('Knickarmroboter', 'Was ist ein Knickarm- oder Sechsachsroboter?', 'Die häufigste Bauform: ein Arm mit sechs Drehgelenken. Damit erreicht der Greifer jede Position und Ausrichtung in seinem Arbeitsraum.'),
+  ('Zweiarmroboter', 'Was ist ein Zweiarmroboter?', 'Zwei Arme, die zusammenarbeiten. Sinnvoll für Aufgaben, für die ein Mensch zwei Hände braucht, zum Beispiel einen Karton falten und halten.'),
+  ('Greifer', 'Was ist ein Greifer oder Endeffektor?', 'Das Werkzeug am Ende des Roboterarms. Üblich sind Zweifingergreifer, Sauggreifer und Spezialgreifer für ein bestimmtes Teil.'),
+  ('Humanoider Roboter', 'Was ist ein humanoider Roboter?', 'Ein menschenähnlicher Roboter mit Rumpf, Armen und oft Beinen. In der Produktion laufen sie heute meist noch in Pilotprojekten.')]),
+ ('KI und Lernen.', [
+  ('Kognitive Robotik', 'Was ist kognitive Robotik?', 'Roboter, die ihre Umgebung mit Kameras wahrnehmen, sich anpassen und Aufgaben durch Vormachen lernen, statt fest programmierte Bahnen zu fahren. <a href="/kognitive-robotik/">Kognitive Robotik erklärt</a>'),
+  ('Physical AI', 'Was ist Physical AI?', 'KI, die eine Maschine in der echten Welt steuert, zum Beispiel einen Roboterarm. Der Begriff meint praktisch dasselbe wie kognitive Robotik. <a href="/physical-ai-produktion/">Physical AI in der Produktion</a>'),
+  ('Imitation Learning', 'Was ist Imitation Learning?', 'Lernen durch Vormachen: Der Roboter lernt eine Aufgabe aus aufgezeichneten Beispielen, in denen ein Mensch sie vormacht. Er lernt dabei keine feste Bahn, sondern wie er auf die Lage der Teile reagiert.'),
+  ('Teleoperation', 'Was ist Teleoperation?', 'Ein Mensch steuert den Roboter aus der Ferne. So werden Trainingsdaten aufgenommen, oder ein Operator hilft dem Roboter aus einer Lage, die er allein nicht löst.'),
+  ('VLA-Modell', 'Was ist ein VLA-Modell?', 'Ein Vision-Language-Action-Modell: eine KI, die Kamerabilder und eine Anweisung in Sprache aufnimmt und daraus Roboterbewegungen erzeugt.'),
+  ('Robot Foundation Model', 'Was ist ein Robot Foundation Model?', 'Ein großes KI-Modell, das auf Daten vieler Roboter und Aufgaben vortrainiert ist. Für eine konkrete Aufgabe wird es mit vergleichsweise wenigen Beispielen angepasst.'),
+  ('Sim-to-Real', 'Was bedeutet Sim-to-Real?', 'Einen Roboter in der Simulation trainieren und das Gelernte auf den echten Roboter übertragen. Die Schwierigkeit: Die echte Welt sieht nie genau aus wie die Simulation.'),
+  ('Teach-in', 'Was ist Teach-in?', 'Ein Bediener fährt jeden Punkt der Bahn mit dem Handbediengerät an und speichert ihn. Liegt das Teil später anders, fährt der Roboter trotzdem die alte Bahn, wenn kein Kamerasystem dazukommt.'),
+  ('Handführung', 'Was ist Handführung?', 'Der Bediener führt einen Cobot von Hand durch die Bewegung, und der Roboter speichert sie. Schneller als Teach-in, aber ebenfalls eine feste Bahn.')]),
+ ('Anwendungen.', [
+  ('Bin Picking', 'Was ist Bin Picking?', 'Der Griff in die Kiste: Ein Roboter greift Teile, die ungeordnet in einem Behälter liegen, und legt sie definiert ab. <a href="/bin-picking/">Bin Picking mit KI</a>'),
+  ('Pick and Place', 'Was ist Pick and Place?', 'Ein Teil greifen und an anderer Stelle ablegen. Der Oberbegriff für viele Handhabungsaufgaben. <a href="/pick-and-place-automatisieren/">Pick and Place automatisieren</a>'),
+  ('Kommissionieren', 'Was heißt Kommissionieren in der Produktion?', 'Teile nach Auftrag zu Sätzen zusammenstellen, zum Beispiel für die Montage. Nicht zu verwechseln mit der Kommissionierung im Lager. <a href="/kommissionieren-automatisieren/">Kommissionieren automatisieren</a>'),
+  ('Maschinenbeschickung', 'Was ist Maschinenbeschickung?', 'Rohteile in eine Maschine einlegen und fertige Teile entnehmen, etwa an einer CNC-Maschine oder Spritzgussmaschine. <a href="/maschinenbeschickung-automatisieren/">Maschinenbeschickung automatisieren</a>'),
+  ('Konfektionierung', 'Was ist Konfektionierung?', 'Produkte zu verkaufsfertigen Einheiten zusammenstellen: Sets packen, Displays bestücken, umpacken. <a href="/konfektionierung-automatisieren/">Konfektionierung automatisieren</a>'),
+  ('Palettieren', 'Was ist Palettieren?', 'Kartons oder Säcke nach einem Muster auf Paletten stapeln. Das ist die Domäne klassischer Palettierroboter und nicht unser Schwerpunkt.'),
+  ('End-of-Line', 'Was bedeutet End-of-Line?', 'Die letzten Stationen einer Linie: Verpacken, Etikettieren, Verschließen und Palettieren.')]),
+ ('Technik und Sicherheit.', [
+  ('Machine Vision', 'Was ist Machine Vision?', 'Bildverarbeitung für Maschinen: Kameras und Software erkennen, wo ein Teil liegt, wie es ausgerichtet ist und ob es in Ordnung ist.'),
+  ('Wiederholgenauigkeit', 'Was ist Wiederholgenauigkeit?', 'Wie genau ein Roboter dieselbe Position immer wieder anfährt, angegeben in Millimetern, zum Beispiel ±0,1&nbsp;mm.'),
+  ('Traglast', 'Was ist die Traglast eines Roboters?', 'Das größte Gewicht, das der Roboter bewegen darf, einschließlich Greifer. Weit ausgestreckt sinkt die nutzbare Last.'),
+  ('Taktzeit', 'Was ist die Taktzeit?', 'Die Zeit, in der eine Station einen Arbeitsgang erledigt. An einer Linie bestimmt die langsamste Station das Tempo.'),
+  ('Risikobeurteilung', 'Was ist der Unterschied zwischen Risikobeurteilung und Gefährdungsbeurteilung?', 'Die Risikobeurteilung macht der Hersteller oder Integrator einer Maschine nach dem Maschinenrecht. Die Gefährdungsbeurteilung macht der Arbeitgeber für den Arbeitsplatz nach dem Arbeitsschutzgesetz.'),
+  ('Maschinenverordnung', 'Was ist die EU-Maschinenverordnung?', 'Die Verordnung (EU) 2023/1230 ersetzt die Maschinenrichtlinie 2006/42/EG und gilt ab dem 20. Januar 2027. Sie regelt unter anderem Sicherheitsanforderungen an Maschinen mit selbstlernendem Verhalten.'),
+  ('Mensch-Roboter-Kollaboration', 'Was ist Mensch-Roboter-Kollaboration (MRK)?', 'Mensch und Roboter arbeiten ohne trennende Schutzeinrichtung im selben Bereich. Die Anforderungen beschreiben Normen wie ISO 10218 und ISO/TS 15066.')]),
+ ('Geschäftsmodelle.', [
+  ('Robotics as a Service', 'Was ist Robotics as a Service (RaaS)?', 'Sie kaufen keinen Roboter, sondern bezahlen für die erledigte Aufgabe. Roboter, Software, Betrieb und Wartung kommen vom Anbieter. <a href="/robotics-as-a-service/">Robotics as a Service erklärt</a>'),
+  ('Systemintegrator', 'Was ist ein Systemintegrator?', 'Eine Firma, die Roboter, Greifer, Sensorik und Sicherheitstechnik zu einer Anlage zusammenbaut und in Betrieb nimmt.'),
+  ('Amortisationszeit', 'Was ist die Amortisationszeit eines Roboters?', 'Die Zeit, bis die Einsparungen die Investition wieder eingespielt haben. Bei Robotics as a Service entfällt die Investition. <a href="/roboter-kosten/">Roboter mieten oder kaufen</a>'),
+  ('High Mix, Low Volume', 'Was bedeutet High Mix, Low Volume?', 'Eine Fertigung mit vielen Varianten und kleinen Stückzahlen je Variante. Für klassische Automatisierung der schwierigste Fall. <a href="/kleine-losgroessen-automatisieren/">Kleine Losgrößen automatisieren</a>')]),
+]
+
+
+def _data_and_glossary(CARD, DT):
+    import html as _h, re as _re
+    plain = lambda t: _re.sub(r'\s+', ' ', _h.unescape(_re.sub(r'<[^>]+>', '', t)).replace('­', '')).strip()
+    terms = [{"@type": "DefinedTerm", "name": t, "description": plain(a), "url": "https://ackermann-robotics.org/robotik-lexikon/", "inDefinedTermSet": "https://ackermann-robotics.org/robotik-lexikon/#set"} for _, es in GLOSSARY for t, q, a in es]
+    return [
+     # ---------------------------------------------------------------- data report
+     dict(slug='produktionshelfer-baden-wuerttemberg', nav='Produktionshelfer in Zahlen',
+      title='Produktionshelfer in Baden-Württemberg: die Zahlen 2026',
+      desc='1.890 offene Helferstellen in Produktion und Verpackung, 82 % über Zeitarbeit, 15,50 € Median-Stundenlohn. Auswertung der Jobbörse, November 2026.',
+      eyebrow='Auswertung, Stand 26. November 2026', h1='Produktionshelfer in Baden-Württemberg: die Zahlen.',
+      lead='Wie viele Helferstellen in Produktion und Verpackung sind in Baden-Württemberg offen, wie lange bleiben sie offen, und was zahlen die Betriebe? Wir haben am 26. November 2026 alle passenden Anzeigen in der Jobbörse der Bundesagentur für Arbeit ausgewertet.',
+      img='hero', alt='KI-Roboter richtet Kartons in einer Produktion auf',
+      problem=('Die Zahlen auf einen Blick.', [
+        '<b>1.890</b> offene Anzeigen für Produktions- und Verpackungshelfer in Baden-Württemberg: 998 für Produktionshelfer, 1.020 für Helfer in der Verpackung, 128 davon in beiden Suchen.',
+        '<b>82&nbsp;%</b> davon sind Zeitarbeitsangebote: 820 von 998 bei den Produktionshelfern, 832 von 1.020 in der Verpackung.',
+        '<b>46&nbsp;%</b> der Produktionshelfer-Anzeigen sind seit mehr als 30 Tagen online, <b>25&nbsp;%</b> seit mehr als 90 Tagen.',
+        '<b>15,50&nbsp;€</b> Stundenlohn im Median, bei den 172 Anzeigen mit Lohnangabe. Die mittlere Hälfte liegt zwischen 15,22 und 16,45&nbsp;€.',
+        '<b>29&nbsp;%</b> der Anzeigen nennen Schicht-, Nacht- oder Wochenendarbeit.']),
+      solution=('Was das für Betriebe heißt.', [
+        'Direkt angestellt kostet eine Helferstelle rund 3.300&nbsp;€ im Monat: 15,50&nbsp;€ mal 173 Stunden, plus etwa 22&nbsp;% Arbeitgeberanteile. Über Zeitarbeit kommt der Aufschlag des Verleihers dazu.',
+        'Jede vierte Anzeige ist seit über drei Monaten online. Bei diesen Stellen ist die Lücke kein kurzer Engpass.',
+        'Gesucht werden vor allem Helfer in Metallbearbeitung, Montage und Kunststoffverarbeitung.',
+        'Für Handgriffe mit leichten Teilen gibt es eine Alternative: einen KI-Roboter für höchstens 70&nbsp;% der Stellenkosten, ohne Investition. <a href="/produktionshelfer-gesucht/">Roboter statt Neueinstellung</a>']),
+      extra='<section><div class="wrap"><div class="sec-head"><h2>Offene Anzeigen nach Suchbegriff.</h2></div>'
+       + DT(['Suchbegriff', 'Baden-Württemberg', 'davon Zeitarbeit', 'Deutschland'], [
+          ['Produktionshelfer', '998', '820 (82&nbsp;%)', '7.258'],
+          ['Helfer Verpackung', '1.020', '832 (82&nbsp;%)', '6.599'],
+          ['Beide zusammen, ohne Doppelte', '1.890', '', '']])
+       + '</div></section>'
+       + '<section class="soft"><div class="wrap"><div class="sec-head"><h2>Wo die Stellen sind.</h2><p>Anzeigen für Produktionshelfer nach Postleitzahlbereich des Arbeitsorts.</p></div>'
+       + DT(['PLZ-Bereich', 'Orte, zum Beispiel', 'Anzeigen'], [
+          ['73', 'Esslingen, Göppingen, Kirchheim unter Teck, Schwäbisch Gmünd, Aalen', '128'],
+          ['74', 'Heilbronn, Neckarsulm, Schwäbisch Hall, Crailsheim, Sinsheim', '111'],
+          ['88', 'Ravensburg, Friedrichshafen, Biberach', '98'],
+          ['77', 'Offenburg, Lahr, Kehl', '84'],
+          ['78', 'Villingen-Schwenningen, Tuttlingen, Rottweil, Schramberg, Konstanz', '83'],
+          ['72', 'Reutlingen, Metzingen, Tübingen, Balingen, Albstadt, Freudenstadt', '68'],
+          ['75', 'Pforzheim, Calw, Bretten', '62'],
+          ['76', 'Karlsruhe, Rastatt, Baden-Baden', '60'],
+          ['68 und 69', 'Mannheim, Heidelberg, Wiesloch', '56'],
+          ['71', 'Böblingen, Sindelfingen, Ludwigsburg, Waiblingen, Backnang', '52'],
+          ['79', 'Freiburg, Lörrach', '52'],
+          ['89', 'Ulm, Heidenheim', '48'],
+          ['97', 'Wertheim, Tauberbischofsheim', '32'],
+          ['70', 'Stuttgart, Fellbach, Filderstadt', '13'],
+          ['ohne Angabe', '', '51']])
+       + '</div></section>'
+       + '<section><div class="wrap"><div class="sec-head"><h2>Wie lange die Anzeigen online sind.</h2><p>Produktionshelfer, gerechnet ab der ersten Veröffentlichung. Die Hälfte der Anzeigen ist höchstens vier Wochen alt.</p></div>'
+       + DT(['Online seit mehr als', 'Anzeigen', 'Anteil'], [
+          ['30 Tagen', '464', '46&nbsp;%'], ['60 Tagen', '295', '30&nbsp;%'], ['90 Tagen', '248', '25&nbsp;%'], ['180 Tagen', '127', '13&nbsp;%'], ['einem Jahr', '60', '6&nbsp;%']])
+       + '</div></section>'
+       + '<section class="soft"><div class="wrap"><div class="sec-head"><h2>Welche Helfer gesucht werden.</h2><p>Produktionshelfer-Anzeigen nach Hauptberuf laut Jobbörse.</p></div>'
+       + DT(['Hauptberuf', 'Anzeigen'], [
+          ['Helfer/in Metallbearbeitung', '221'], ['Montierer/in', '113'], ['Helfer/in Kunststoff, Kautschuk', '110'], ['Helfer/in Elektro', '56'],
+          ['Helfer/in Lagerwirtschaft, Transport', '43'], ['Helfer/in Chemie- und Pharmatechnik', '43'], ['Helfer/in Metallbau', '38'], ['Maschinen- und Anlagenführer/in', '33']])
+       + '</div></section>'
+       + '<section><div class="wrap"><div class="sec-head"><h2>Methodik.</h2><p>Quelle: Jobbörse der Bundesagentur für Arbeit, öffentliche Schnittstelle, abgerufen am 26. November 2026. Suchbegriffe „Produktionshelfer“ und „Helfer Verpackung“, Ort „Baden-Württemberg“. Zeitarbeit nach der Kennzeichnung der Jobbörse. Eine Anzeige kann mehrere Stellen meinen, Anzeigen auf anderen Portalen sind nicht erfasst. Lohnangaben aus 172 Anzeigen mit Stundenlohn. Kostenrechnung: 15,50&nbsp;€ mal 173,3 Stunden ergibt 2.686&nbsp;€ brutto, mit etwa 22&nbsp;% Arbeitgeberanteilen rund 3.280&nbsp;€.</p><p>Sie dürfen die Zahlen frei verwenden, mit der Quellenangabe: Ackermann Robotics, Auswertung der Jobbörse der Bundesagentur für Arbeit, Stand 26. November 2026.</p></div></div></section>',
+      ld_extra=[{"@context": "https://schema.org", "@type": "Dataset", "name": "Offene Produktions- und Verpackungshelfer-Stellen in Baden-Württemberg, November 2026",
+                 "description": "Auswertung der Jobbörse der Bundesagentur für Arbeit: 998 Anzeigen für Produktionshelfer und 1.020 für Helfer Verpackung in Baden-Württemberg (1.890 ohne Doppelte), 82 % Zeitarbeit, Median-Stundenlohn 15,50 €, Stand 26.11.2026.",
+                 "url": "https://ackermann-robotics.org/produktionshelfer-baden-wuerttemberg/", "creator": _ORG, "temporalCoverage": "2026-11-26",
+                 "spatialCoverage": {"@type": "Place", "name": "Baden-Württemberg"}, "isBasedOn": "https://www.arbeitsagentur.de/jobsuche/", "inLanguage": "de",
+                 "keywords": ["Produktionshelfer", "Helfer Verpackung", "Zeitarbeit", "Baden-Württemberg", "Fachkräftemangel"]}],
+      faq=[('Wie viele Produktionshelfer werden in Baden-Württemberg gesucht?', 'Am 26. November 2026 standen 998 Anzeigen für Produktionshelfer in Baden-Württemberg in der Jobbörse der Bundesagentur für Arbeit, bundesweit 7.258. Mit den Helfern in der Verpackung sind es in Baden-Württemberg 1.890 Anzeigen.'),
+           ('Wie viele Helferstellen laufen über Zeitarbeit?', '82&nbsp;%: Von 998 Produktionshelfer-Anzeigen in Baden-Württemberg waren 820 Zeitarbeitsangebote, in der Verpackung 832 von 1.020.'),
+           ('Was verdient ein Produktionshelfer in Baden-Württemberg?', 'In den 172 Anzeigen mit Stundenlohn lag der Median bei 15,50&nbsp;€, die mittlere Hälfte zwischen 15,22 und 16,45&nbsp;€ pro Stunde. Stand: November 2026.'),
+           ('Was kostet eine Produktionshelfer-Stelle den Betrieb?', 'Bei 15,50&nbsp;€ und 40 Wochenstunden rund 2.690&nbsp;€ brutto im Monat, mit etwa 22&nbsp;% Arbeitgeberanteilen rund 3.300&nbsp;€. Über Zeitarbeit kommt der Aufschlag des Verleihers dazu.'),
+           ('Wie lange bleiben Helferstellen offen?', 'Die Hälfte der Anzeigen ist höchstens vier Wochen online. 25&nbsp;% sind seit über 90 Tagen online, 6&nbsp;% seit über einem Jahr.'),
+           ('Darf ich die Zahlen verwenden?', 'Ja, mit der Quellenangabe: Ackermann Robotics, Auswertung der Jobbörse der Bundesagentur für Arbeit, Stand 26. November 2026.')]),
+
+     # ---------------------------------------------------------------- glossary
+     dict(slug='robotik-lexikon', nav='Robotik-Lexikon',
+      title='Robotik-Lexikon: Begriffe der Produktionsautomatisierung',
+      desc='Cobot, Bin Picking, Teach-in, Physical AI, VLA-Modell, RaaS: die wichtigsten Begriffe der Robotik und KI in der Produktion, kurz und verständlich erklärt.',
+      eyebrow='Lexikon', h1='Robotik-Lexikon: die wichtigsten Begriffe, kurz erklärt.',
+      lead='Von Bin Picking bis VLA-Modell: Hier erklären wir die Begriffe, die in Gesprächen über Roboter und KI in der Produktion fallen. Kurz und mit Links zu den ausführlichen Seiten.',
+      img='kitting', alt='KI-Roboterarm greift Teile aus einem Behälter',
+      groups=[(h, [(q, a) for t, q, a in es]) for h, es in GLOSSARY],
+      ld_extra=[{"@context": "https://schema.org", "@type": "DefinedTermSet", "@id": "https://ackermann-robotics.org/robotik-lexikon/#set", "name": "Robotik-Lexikon", "url": "https://ackermann-robotics.org/robotik-lexikon/", "publisher": _ORG, "inLanguage": "de", "hasDefinedTerm": terms}]),
     ]

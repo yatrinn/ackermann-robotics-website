@@ -33,6 +33,15 @@
 - [Funding for automation in Baden-Württemberg](https://ackermann-robotics.org/foerderung-automatisierung-baden-wuerttemberg/): Innovationsgutschein "Mittelstand trifft Start-ups", 50% up to EUR 20,000
 - [Full text of all pages (German, markdown)](https://ackermann-robotics.org/llms-full.txt)
 
+- [Production helpers in Baden-Württemberg: the numbers (Nov 2026)](https://ackermann-robotics.org/produktionshelfer-baden-wuerttemberg/): own analysis of the Federal Employment Agency job board
+- [Robotics glossary (German)](https://ackermann-robotics.org/robotik-lexikon/): cobot, bin picking, teach-in, physical AI, VLA model, RaaS and more
+
+## Data: production helper jobs in Baden-Württemberg (26 Nov 2026, source: Bundesagentur für Arbeit job board, own analysis by Ackermann Robotics)
+- 998 open ads for "Produktionshelfer" in Baden-Württemberg (7,258 in Germany); 1,020 for packaging helpers ("Helfer Verpackung"); 1,890 combined without duplicates
+- 82% of these ads are temporary-agency (Zeitarbeit) offers
+- Median advertised hourly wage 15.50 EUR (172 ads with wage info; IQR 15.22-16.45 EUR); employer cost of a directly employed helper about 3,300 EUR/month
+- 25% of Produktionshelfer ads have been online for more than 90 days, 6% for more than a year
+
 ## Key facts
 - Offer: Robotics as a Service. Ackermann Robotics installs, trains, operates and maintains the robot at the customer's line.
 - Price: no investment. Fixed monthly fee, always below 70% of what the position costs today (e.g. at most EUR 2,100 per month for a position costing EUR 3,000). The fee starts only once the robot runs reliably.

@@ -115,6 +115,8 @@ Die Stelle bleibt offen, Aufträge warten, Ihr Team macht Überstunden. Ein kogn
 
 **Ist das eine Alternative zur Zeitarbeit?** Für wiederkehrende Handgriffe mit leichten Teilen ja: feste Monatsgebühr statt Stundensatz, und der Roboter bleibt. Roboter und Zeitarbeit im Vergleich
 
+**Wie viele Produktionshelfer werden in Baden-Württemberg gesucht?** Am 26. November 2026 standen 998 Anzeigen für Produktionshelfer in der Jobbörse der Bundesagentur für Arbeit, 82 % davon von Zeitarbeitsfirmen. Unsere Auswertung
+
 
 ## Kartons aufrichten automatisieren. Auch bei wechselnden Formaten.
 URL: https://ackermann-robotics.org/kartons-aufrichten-automatisieren/
@@ -252,6 +254,8 @@ Ein klassischer Industrieroboter fährt fest programmierte Bahnen. Ein kognitive
 **Muss der Roboter programmiert werden?** Nein. Ihr Team macht die Aufgabe vor, die KI lernt daraus. Roboter ohne Programmierung
 
 **Gibt es Anbieter für kognitive Robotik in Baden-Württemberg?** Ja. Ackermann Robotics aus Stuttgart bringt kognitive Roboter als Service in Produktionsbetriebe im ganzen Land. Kognitive Robotik in Baden-Württemberg
+
+**Wo finde ich weitere Begriffe erklärt?** Im Robotik-Lexikon: von Bin Picking bis VLA-Modell.
 
 
 ## Physical AI in der Produktion. Nicht im Labor, an Ihrer Linie.
@@ -816,4 +820,152 @@ Beim Bin Picking greift ein Roboter Teile, die ungeordnet in einer Kiste liegen.
 **Was kostet Bin Picking?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
 
 **Kann der Roboter damit auch Maschinen beschicken?** Für leichte Teile ja. Maschinenbeschickung automatisieren
+
+
+## Produktionshelfer in Baden-Württemberg: die Zahlen.
+URL: https://ackermann-robotics.org/produktionshelfer-baden-wuerttemberg/
+
+Wie viele Helferstellen in Produktion und Verpackung sind in Baden-Württemberg offen, wie lange bleiben sie offen, und was zahlen die Betriebe? Wir haben am 26. November 2026 alle passenden Anzeigen in der Jobbörse der Bundesagentur für Arbeit ausgewertet.
+
+### Die Zahlen auf einen Blick.
+- 1.890 offene Anzeigen für Produktions- und Verpackungshelfer in Baden-Württemberg: 998 für Produktionshelfer, 1.020 für Helfer in der Verpackung, 128 davon in beiden Suchen.
+- 82 % davon sind Zeitarbeitsangebote: 820 von 998 bei den Produktionshelfern, 832 von 1.020 in der Verpackung.
+- 46 % der Produktionshelfer-Anzeigen sind seit mehr als 30 Tagen online, 25 % seit mehr als 90 Tagen.
+- 15,50 € Stundenlohn im Median, bei den 172 Anzeigen mit Lohnangabe. Die mittlere Hälfte liegt zwischen 15,22 und 16,45 €.
+- 29 % der Anzeigen nennen Schicht-, Nacht- oder Wochenendarbeit.
+
+### Was das für Betriebe heißt.
+- Direkt angestellt kostet eine Helferstelle rund 3.300 € im Monat: 15,50 € mal 173 Stunden, plus etwa 22 % Arbeitgeberanteile. Über Zeitarbeit kommt der Aufschlag des Verleihers dazu.
+- Jede vierte Anzeige ist seit über drei Monaten online. Bei diesen Stellen ist die Lücke kein kurzer Engpass.
+- Gesucht werden vor allem Helfer in Metallbearbeitung, Montage und Kunststoffverarbeitung.
+- Für Handgriffe mit leichten Teilen gibt es eine Alternative: einen KI-Roboter für höchstens 70 % der Stellenkosten, ohne Investition. Roboter statt Neueinstellung
+
+| Suchbegriff | Baden-Württemberg | davon Zeitarbeit | Deutschland |
+| --- | --- | --- | --- |
+| Produktionshelfer | 998 | 820 (82 %) | 7.258 |
+| Helfer Verpackung | 1.020 | 832 (82 %) | 6.599 |
+| Beide zusammen, ohne Doppelte | 1.890 |  |  |
+
+| PLZ-Bereich | Orte, zum Beispiel | Anzeigen |
+| --- | --- | --- |
+| 73 | Esslingen, Göppingen, Kirchheim unter Teck, Schwäbisch Gmünd, Aalen | 128 |
+| 74 | Heilbronn, Neckarsulm, Schwäbisch Hall, Crailsheim, Sinsheim | 111 |
+| 88 | Ravensburg, Friedrichshafen, Biberach | 98 |
+| 77 | Offenburg, Lahr, Kehl | 84 |
+| 78 | Villingen-Schwenningen, Tuttlingen, Rottweil, Schramberg, Konstanz | 83 |
+| 72 | Reutlingen, Metzingen, Tübingen, Balingen, Albstadt, Freudenstadt | 68 |
+| 75 | Pforzheim, Calw, Bretten | 62 |
+| 76 | Karlsruhe, Rastatt, Baden-Baden | 60 |
+| 68 und 69 | Mannheim, Heidelberg, Wiesloch | 56 |
+| 71 | Böblingen, Sindelfingen, Ludwigsburg, Waiblingen, Backnang | 52 |
+| 79 | Freiburg, Lörrach | 52 |
+| 89 | Ulm, Heidenheim | 48 |
+| 97 | Wertheim, Tauberbischofsheim | 32 |
+| 70 | Stuttgart, Fellbach, Filderstadt | 13 |
+| ohne Angabe |  | 51 |
+
+| Online seit mehr als | Anzeigen | Anteil |
+| --- | --- | --- |
+| 30 Tagen | 464 | 46 % |
+| 60 Tagen | 295 | 30 % |
+| 90 Tagen | 248 | 25 % |
+| 180 Tagen | 127 | 13 % |
+| einem Jahr | 60 | 6 % |
+
+| Hauptberuf | Anzeigen |
+| --- | --- |
+| Helfer/in Metallbearbeitung | 221 |
+| Montierer/in | 113 |
+| Helfer/in Kunststoff, Kautschuk | 110 |
+| Helfer/in Elektro | 56 |
+| Helfer/in Lagerwirtschaft, Transport | 43 |
+| Helfer/in Chemie- und Pharmatechnik | 43 |
+| Helfer/in Metallbau | 38 |
+| Maschinen- und Anlagenführer/in | 33 |
+
+### Fragen und Antworten
+**Wie viele Produktionshelfer werden in Baden-Württemberg gesucht?** Am 26. November 2026 standen 998 Anzeigen für Produktionshelfer in Baden-Württemberg in der Jobbörse der Bundesagentur für Arbeit, bundesweit 7.258. Mit den Helfern in der Verpackung sind es in Baden-Württemberg 1.890 Anzeigen.
+
+**Wie viele Helferstellen laufen über Zeitarbeit?** 82 %: Von 998 Produktionshelfer-Anzeigen in Baden-Württemberg waren 820 Zeitarbeitsangebote, in der Verpackung 832 von 1.020.
+
+**Was verdient ein Produktionshelfer in Baden-Württemberg?** In den 172 Anzeigen mit Stundenlohn lag der Median bei 15,50 €, die mittlere Hälfte zwischen 15,22 und 16,45 € pro Stunde. Stand: November 2026.
+
+**Was kostet eine Produktionshelfer-Stelle den Betrieb?** Bei 15,50 € und 40 Wochenstunden rund 2.690 € brutto im Monat, mit etwa 22 % Arbeitgeberanteilen rund 3.300 €. Über Zeitarbeit kommt der Aufschlag des Verleihers dazu.
+
+**Wie lange bleiben Helferstellen offen?** Die Hälfte der Anzeigen ist höchstens vier Wochen online. 25 % sind seit über 90 Tagen online, 6 % seit über einem Jahr.
+
+**Darf ich die Zahlen verwenden?** Ja, mit der Quellenangabe: Ackermann Robotics, Auswertung der Jobbörse der Bundesagentur für Arbeit, Stand 26. November 2026.
+
+
+## Robotik-Lexikon: die wichtigsten Begriffe, kurz erklärt.
+URL: https://ackermann-robotics.org/robotik-lexikon/
+
+Von Bin Picking bis VLA-Modell: Hier erklären wir die Begriffe, die in Gesprächen über Roboter und KI in der Produktion fallen. Kurz und mit Links zu den ausführlichen Seiten.
+
+### Fragen und Antworten
+**Was ist ein Industrieroboter?** Ein programmierbarer Roboterarm, meist mit sechs Achsen, der feste Bahnen schnell und präzise wiederholt. Klassisch arbeitet er hinter einem Schutzzaun und braucht Teile in genau bekannter Lage.
+
+**Was ist ein Cobot?** Ein kollaborativer Roboter: gebaut, um ohne Schutzzaun nah am Menschen zu arbeiten, etwa mit begrenzter Kraft und Geschwindigkeit. Wie er eine Aufgabe lernt, ist damit nicht gesagt. Die meisten Cobots fahren fest eingelernte Bahnen. Roboter ohne Programmierung
+
+**Was ist ein Knickarm- oder Sechsachsroboter?** Die häufigste Bauform: ein Arm mit sechs Drehgelenken. Damit erreicht der Greifer jede Position und Ausrichtung in seinem Arbeitsraum.
+
+**Was ist ein Zweiarmroboter?** Zwei Arme, die zusammenarbeiten. Sinnvoll für Aufgaben, für die ein Mensch zwei Hände braucht, zum Beispiel einen Karton falten und halten.
+
+**Was ist ein Greifer oder Endeffektor?** Das Werkzeug am Ende des Roboterarms. Üblich sind Zweifingergreifer, Sauggreifer und Spezialgreifer für ein bestimmtes Teil.
+
+**Was ist ein humanoider Roboter?** Ein menschenähnlicher Roboter mit Rumpf, Armen und oft Beinen. In der Produktion laufen sie heute meist noch in Pilotprojekten.
+
+**Was ist kognitive Robotik?** Roboter, die ihre Umgebung mit Kameras wahrnehmen, sich anpassen und Aufgaben durch Vormachen lernen, statt fest programmierte Bahnen zu fahren. Kognitive Robotik erklärt
+
+**Was ist Physical AI?** KI, die eine Maschine in der echten Welt steuert, zum Beispiel einen Roboterarm. Der Begriff meint praktisch dasselbe wie kognitive Robotik. Physical AI in der Produktion
+
+**Was ist Imitation Learning?** Lernen durch Vormachen: Der Roboter lernt eine Aufgabe aus aufgezeichneten Beispielen, in denen ein Mensch sie vormacht. Er lernt dabei keine feste Bahn, sondern wie er auf die Lage der Teile reagiert.
+
+**Was ist Teleoperation?** Ein Mensch steuert den Roboter aus der Ferne. So werden Trainingsdaten aufgenommen, oder ein Operator hilft dem Roboter aus einer Lage, die er allein nicht löst.
+
+**Was ist ein VLA-Modell?** Ein Vision-Language-Action-Modell: eine KI, die Kamerabilder und eine Anweisung in Sprache aufnimmt und daraus Roboterbewegungen erzeugt.
+
+**Was ist ein Robot Foundation Model?** Ein großes KI-Modell, das auf Daten vieler Roboter und Aufgaben vortrainiert ist. Für eine konkrete Aufgabe wird es mit vergleichsweise wenigen Beispielen angepasst.
+
+**Was bedeutet Sim-to-Real?** Einen Roboter in der Simulation trainieren und das Gelernte auf den echten Roboter übertragen. Die Schwierigkeit: Die echte Welt sieht nie genau aus wie die Simulation.
+
+**Was ist Teach-in?** Ein Bediener fährt jeden Punkt der Bahn mit dem Handbediengerät an und speichert ihn. Liegt das Teil später anders, fährt der Roboter trotzdem die alte Bahn, wenn kein Kamerasystem dazukommt.
+
+**Was ist Handführung?** Der Bediener führt einen Cobot von Hand durch die Bewegung, und der Roboter speichert sie. Schneller als Teach-in, aber ebenfalls eine feste Bahn.
+
+**Was ist Bin Picking?** Der Griff in die Kiste: Ein Roboter greift Teile, die ungeordnet in einem Behälter liegen, und legt sie definiert ab. Bin Picking mit KI
+
+**Was ist Pick and Place?** Ein Teil greifen und an anderer Stelle ablegen. Der Oberbegriff für viele Handhabungsaufgaben. Pick and Place automatisieren
+
+**Was heißt Kommissionieren in der Produktion?** Teile nach Auftrag zu Sätzen zusammenstellen, zum Beispiel für die Montage. Nicht zu verwechseln mit der Kommissionierung im Lager. Kommissionieren automatisieren
+
+**Was ist Maschinenbeschickung?** Rohteile in eine Maschine einlegen und fertige Teile entnehmen, etwa an einer CNC-Maschine oder Spritzgussmaschine. Maschinenbeschickung automatisieren
+
+**Was ist Konfektionierung?** Produkte zu verkaufsfertigen Einheiten zusammenstellen: Sets packen, Displays bestücken, umpacken. Konfektionierung automatisieren
+
+**Was ist Palettieren?** Kartons oder Säcke nach einem Muster auf Paletten stapeln. Das ist die Domäne klassischer Palettierroboter und nicht unser Schwerpunkt.
+
+**Was bedeutet End-of-Line?** Die letzten Stationen einer Linie: Verpacken, Etikettieren, Verschließen und Palettieren.
+
+**Was ist Machine Vision?** Bildverarbeitung für Maschinen: Kameras und Software erkennen, wo ein Teil liegt, wie es ausgerichtet ist und ob es in Ordnung ist.
+
+**Was ist Wiederholgenauigkeit?** Wie genau ein Roboter dieselbe Position immer wieder anfährt, angegeben in Millimetern, zum Beispiel ±0,1 mm.
+
+**Was ist die Traglast eines Roboters?** Das größte Gewicht, das der Roboter bewegen darf, einschließlich Greifer. Weit ausgestreckt sinkt die nutzbare Last.
+
+**Was ist die Taktzeit?** Die Zeit, in der eine Station einen Arbeitsgang erledigt. An einer Linie bestimmt die langsamste Station das Tempo.
+
+**Was ist der Unterschied zwischen Risikobeurteilung und Gefährdungsbeurteilung?** Die Risikobeurteilung macht der Hersteller oder Integrator einer Maschine nach dem Maschinenrecht. Die Gefährdungsbeurteilung macht der Arbeitgeber für den Arbeitsplatz nach dem Arbeitsschutzgesetz.
+
+**Was ist die EU-Maschinenverordnung?** Die Verordnung (EU) 2023/1230 ersetzt die Maschinenrichtlinie 2006/42/EG und gilt ab dem 20. Januar 2027. Sie regelt unter anderem Sicherheitsanforderungen an Maschinen mit selbstlernendem Verhalten.
+
+**Was ist Mensch-Roboter-Kollaboration (MRK)?** Mensch und Roboter arbeiten ohne trennende Schutzeinrichtung im selben Bereich. Die Anforderungen beschreiben Normen wie ISO 10218 und ISO/TS 15066.
+
+**Was ist Robotics as a Service (RaaS)?** Sie kaufen keinen Roboter, sondern bezahlen für die erledigte Aufgabe. Roboter, Software, Betrieb und Wartung kommen vom Anbieter. Robotics as a Service erklärt
+
+**Was ist ein Systemintegrator?** Eine Firma, die Roboter, Greifer, Sensorik und Sicherheitstechnik zu einer Anlage zusammenbaut und in Betrieb nimmt.
+
+**Was ist die Amortisationszeit eines Roboters?** Die Zeit, bis die Einsparungen die Investition wieder eingespielt haben. Bei Robotics as a Service entfällt die Investition. Roboter mieten oder kaufen
+
+**Was bedeutet High Mix, Low Volume?** Eine Fertigung mit vielen Varianten und kleinen Stückzahlen je Variante. Für klassische Automatisierung der schwierigste Fall. Kleine Losgrößen automatisieren
 

@@ -180,7 +180,7 @@ def page(p):
     bc_ld = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ackermann Robotics","item":BASE+'/'},{"@type":"ListItem","position":2,"name":p['nav'],"item":url}]}
     org = {"@id":BASE+'/#org',"@type":"Organization","name":"Ackermann Robotics","url":BASE+'/'}
     page_ld = {"@context":"https://schema.org","@type":"WebPage","@id":url+'#page',"url":url,"name":html.unescape(p['title']),"description":p['desc'],"inLanguage":"de","dateModified":TODAY,"isPartOf":{"@id":BASE+'/#website'},"publisher":{"@id":BASE+'/#org'},"primaryImageOfPage":f'{BASE}/img/{p["img"]}.jpg'}
-    lds = [page_ld, faq_ld, bc_ld]
+    lds = [page_ld, faq_ld, bc_ld] + list(p.get('ld_extra', []))
     if p.get('service') and not p.get('area'):
         lds.append({"@context":"https://schema.org","@type":"Service","name":strip(p['h1']).split('.')[0].split('?')[0],"serviceType":"Robotics as a Service","description":p['desc'],"url":url,"provider":org,
                     "areaServed":[{"@type":"Country","name":n} for n in ('Deutschland','Österreich','Schweiz')]})
