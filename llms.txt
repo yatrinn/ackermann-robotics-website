@@ -7,6 +7,8 @@
 - [Homepage (English)](https://ackermann-robotics.org/en/)
 - [Production automation with AI (pillar page)](https://ackermann-robotics.org/ki-produktionsautomatisierung/): what AI changes vs. classic automation, suitable tasks, limits, costs
 - [Region Stuttgart / Reutlingen](https://ackermann-robotics.org/automatisierung-stuttgart/): local team, on-site demo, service area
+- [Cognitive robotics in Baden-Württemberg](https://ackermann-robotics.org/kognitive-robotik-baden-wuerttemberg/): service area across Baden-Württemberg, regions and industries
+- [Robotics in Reutlingen / Metzingen / Tübingen](https://ackermann-robotics.org/robotik-reutlingen/): technicians in the Neckar-Alb region
 - [Cognitive robotics explained](https://ackermann-robotics.org/kognitive-robotik/)
 - [Physical AI in production](https://ackermann-robotics.org/physical-ai-produktion/)
 - [What a production robot costs: buy vs. rent](https://ackermann-robotics.org/roboter-kosten/)
@@ -16,6 +18,7 @@
 - [Automate packing](https://ackermann-robotics.org/verpacken-automatisieren/)
 - [Automate kitting](https://ackermann-robotics.org/kommissionieren-automatisieren/)
 - [Automate pick and place](https://ackermann-robotics.org/pick-and-place-automatisieren/)
+- [Bin picking with AI](https://ackermann-robotics.org/bin-picking/): picking unsorted parts from a bin, learned by demonstration, parts up to about 1-2 kg
 - [Specs and limits: what the robot can and cannot do](https://ackermann-robotics.org/was-kann-der-roboter/): part weight, work area, gripper, cycle time, unsuitable tasks
 - [Questions and answers (FAQ hub)](https://ackermann-robotics.org/faq/): basics, tasks and limits, costs, rollout, safety
 - [Robotics as a Service (RaaS) explained](https://ackermann-robotics.org/robotics-as-a-service/): buy vs. lease vs. RaaS comparison

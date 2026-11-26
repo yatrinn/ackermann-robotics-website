@@ -59,6 +59,10 @@ Unser Sitz ist in Stuttgart-Botnang, unsere Techniker arbeiten im Raum Reutlinge
 
 **Gibt es Fördermittel in Baden-Württemberg?** Ja. Mit dem Innovationsgutschein „Mittelstand trifft Start-ups“ bezuschusst das Land 50 % der Kosten, bis zu 20.000 €. Förderung im Überblick
 
+**Arbeiten Sie in ganz Baden-Württemberg?** Ja. Am schnellsten vor Ort sind wir in der Region Stuttgart und in Neckar-Alb, im übrigen Land nach Absprache. Kognitive Robotik in Baden-Württemberg
+
+**Sind Sie auch in Reutlingen und Metzingen vor Ort?** Ja, dort arbeiten unsere Techniker. Robotik in Reutlingen, Metzingen und Tübingen
+
 
 ## Roboter mieten statt kaufen.
 URL: https://ackermann-robotics.org/roboter-mieten/
@@ -219,6 +223,8 @@ Unser kognitiver Roboter setzt Teile zwischen Behältern, Bändern und Maschinen
 
 **Kann er Maschinen be- und entladen?** Für leichte Teile prüfen wir das kostenlos an Ihrer Maschine. Maschinenbeschickung automatisieren
 
+**Geht auch der Griff in die Kiste?** Ja, für leichte Teile, die ungeordnet im Behälter liegen. Bin Picking mit KI
+
 
 ## Kognitive Robotik: Roboter, die sehen und durch Vormachen lernen.
 URL: https://ackermann-robotics.org/kognitive-robotik/
@@ -244,6 +250,8 @@ Ein klassischer Industrieroboter fährt fest programmierte Bahnen. Ein kognitive
 **Brauchen wir dafür eigene KI- oder Robotik-Experten?** Nein. Wir installieren, betreiben und warten den Roboter. Ihr Team zeigt nur die Aufgabe.
 
 **Muss der Roboter programmiert werden?** Nein. Ihr Team macht die Aufgabe vor, die KI lernt daraus. Roboter ohne Programmierung
+
+**Gibt es Anbieter für kognitive Robotik in Baden-Württemberg?** Ja. Ackermann Robotics aus Stuttgart bringt kognitive Roboter als Service in Produktionsbetriebe im ganzen Land. Kognitive Robotik in Baden-Württemberg
 
 
 ## Physical AI in der Produktion. Nicht im Labor, an Ihrer Linie.
@@ -701,4 +709,111 @@ Was können KI-Roboter heute, was kosten sie, und wo liegen ihre Grenzen? Hier s
 **Ersetzt der Roboter unsere Mitarbeiter?** Er übernimmt die Stelle, die Sie nicht besetzt bekommen. Ihre Leute werden für die Aufgaben frei, für die man Erfahrung braucht.
 
 **Was, wenn es bei unserer Aufgabe nicht klappt?** Dann zahlen Sie nichts.
+
+
+## Kognitive Robotik aus Baden-Württemberg. Für die Produktion im Land.
+URL: https://ackermann-robotics.org/kognitive-robotik-baden-wuerttemberg/
+
+Ackermann Robotics ist ein Robotik-Unternehmen aus Stuttgart. Wir bringen kognitive Roboter in Produktionsbetriebe in ganz Baden-Württemberg: Roboter, die mit Kameras sehen, durch Vormachen lernen und Handgriffe übernehmen, an denen klassische Automatisierung scheitert. Sie kaufen nichts. Sie zahlen eine Monatsgebühr, erst wenn der Roboter zuverlässig läuft.
+
+### Was Produktionsbetriebe im Land kennen.
+- Helferstellen in Verpackung, Montagevorbereitung und Versand bleiben monatelang offen.
+- Klassische Roboter brauchen Teile in fester Lage. Bei wechselnden Varianten und kleinen Losen rechnet sich das nicht.
+- Große Integratoren lohnen sich erst bei großen Projekten. Für eine einzelne Station findet sich oft niemand.
+
+### Was wir anders machen.
+- Kognitive Roboter: Kameras erkennen, wie jedes Teil liegt. Neue Varianten lernt der Roboter durch Vormachen.
+- Robotics as a Service: keine Investition, Monatsgebühr unter 70 % der heutigen Stellenkosten.
+- Ein Team aus der Region: Sitz in Stuttgart, Techniker im Raum Reutlingen und Metzingen.
+- Landesförderung: Der Innovationsgutschein kann 50 % der Kosten übernehmen, bis zu 20.000 €, wenn Ihr Betrieb die Bedingungen erfüllt.
+
+| Region | Städte | Vor Ort |
+| --- | --- | --- |
+| Region Stuttgart | Stuttgart, Böblingen, Sindelfingen, Ludwigsburg, Esslingen, Waiblingen, Leonberg, Nürtingen | kurzfristig |
+| Neckar-Alb | Reutlingen, Metzingen, Tübingen, Balingen | kurzfristig |
+| Heilbronn-Franken | Heilbronn, Neckarsulm, Schwäbisch Hall | nach Absprache |
+| Ostwürttemberg | Aalen, Heidenheim, Schwäbisch Gmünd | nach Absprache |
+| Karlsruhe und Nordschwarzwald | Karlsruhe, Pforzheim, Rastatt | nach Absprache |
+| Rhein-Neckar | Mannheim, Heidelberg | nach Absprache |
+| Ulm, Oberschwaben und Bodensee | Ulm, Biberach, Ravensburg, Friedrichshafen | nach Absprache |
+| Schwarzwald-Baar-Heuberg | Villingen-Schwenningen, Tuttlingen, Rottweil | nach Absprache |
+
+### Fragen und Antworten
+**Welche Robotik-Unternehmen in Baden-Württemberg stellen Roboter für die Produktion als Service bereit?** Ackermann Robotics aus Stuttgart stellt kognitive Roboter als Service bereit: Wir installieren, betreiben und warten den Roboter, Sie zahlen eine feste Monatsgebühr. Daneben gibt es Hersteller und Integratoren, die klassische Roboter und Cobots vermieten. Roboter mieten
+
+**Was ist kognitive Robotik?** Roboter, die ihre Umgebung mit Kameras wahrnehmen, sich anpassen und Aufgaben durch Vormachen lernen, statt fest programmierte Bahnen zu fahren. Kognitive Robotik erklärt
+
+**Welche Aufgaben übernimmt der Roboter?** Wiederkehrende Handgriffe mit leichten Teilen bis etwa 1 bis 2 kg: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen und der Griff in die Kiste. Eckdaten und Grenzen
+
+**Kommen Sie für die Demo zu uns?** In der Region Stuttgart und in Neckar-Alb kurzfristig, im übrigen Baden-Württemberg nach Absprache. Die Demo geht auch per Video und ist kostenlos.
+
+**Gibt es Förderung in Baden-Württemberg?** Ja. Der Innovationsgutschein „Mittelstand trifft Start-ups“ bezuschusst 50 % der Kosten, bis zu 20.000 €, für Unternehmen mit Standort im Land. Förderung im Überblick
+
+**Wo sitzt Ackermann Robotics?** In Stuttgart-Botnang. Unsere Techniker arbeiten im Raum Reutlingen und Metzingen.
+
+
+## Robotik und Automatisierung in Reutlingen, Metzingen und Tübingen.
+URL: https://ackermann-robotics.org/robotik-reutlingen/
+
+Unsere Techniker arbeiten im Raum Reutlingen und Metzingen. Für Produktionsbetriebe in Neckar-Alb heißt das: Demo in Ihrer Halle, Installation und Service ohne lange Anfahrt. Wir bringen kognitive Roboter an Ihre Linie, die Handgriffe übernehmen, für die Sie keine Helfer mehr finden.
+
+### Was Betriebe in Neckar-Alb kennen.
+- Elektronik, Kunststoff, Metall und Textil: viele Varianten, kleine Lose, viel Handarbeit.
+- Helferstellen bleiben offen, weil im Umkreis alle dieselben Leute suchen.
+- Für eine einzelne Station mit wechselnden Teilen lohnt sich kein großes Automatisierungsprojekt.
+
+### Was wir hier bieten.
+- Kurze Wege: Demo, Installation und Service durch unsere Techniker aus der Region.
+- Ein kognitiver Roboter, der Teile mit Kameras erkennt und Aufgaben durch Vormachen lernt.
+- Fernbetreuung durch unseren Operator während Ihrer Produktionszeiten.
+- Keine Investition. Die Monatsgebühr startet erst, wenn der Roboter zuverlässig läuft.
+
+### Fragen und Antworten
+**Gibt es in Reutlingen ein Robotik-Unternehmen, das Roboter für die Produktion bereitstellt?** Ackermann Robotics hat seinen Sitz in Stuttgart, unsere Techniker arbeiten im Raum Reutlingen und Metzingen. Wir stellen kognitive Roboter als Service bereit: Installation, Betrieb und Wartung inklusive.
+
+**Wie schnell sind Sie vor Ort?** Im Raum Reutlingen, Metzingen und Tübingen kurzfristig, für die Demo genauso wie im Service. Hängt der Roboter, übernimmt zuerst unser Operator aus der Ferne.
+
+**Welche Aufgaben übernimmt der Roboter?** Wiederkehrende Handgriffe mit leichten Teilen bis etwa 1 bis 2 kg: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen. Eckdaten und Grenzen
+
+**Was kostet das?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+**Gibt es Förderung?** Für Betriebe in Baden-Württemberg: Der Innovationsgutschein bezuschusst 50 % der Kosten, bis zu 20.000 €. Förderung im Überblick
+
+
+## Bin Picking: der Griff in die Kiste, gelernt statt programmiert.
+URL: https://ackermann-robotics.org/bin-picking/
+
+Beim Bin Picking greift ein Roboter Teile, die ungeordnet in einer Kiste liegen. Klassische Systeme werden dafür für jedes Teil eingerichtet. Unser kognitiver Roboter lernt den Griff durch Vormachen und legt die Teile dort ab, wo Sie sie brauchen: auf einem Band, in einer Maschine oder in einem Karton.
+
+### Warum Bin Picking oft am Aufwand scheitert.
+- Klassische Systeme werden für jedes Teil einzeln eingerichtet, oft mit CAD-Daten und viel Feintuning.
+- Glänzende, weiche oder ineinander verhakte Teile machen der Erkennung Probleme.
+- Kamera, Software und Integration kosten, bevor das erste Teil gegriffen ist.
+- Bei vielen Varianten wird der Aufwand pro Teil zu hoch.
+
+### Wie unser Roboter in die Kiste greift.
+- Kameras erkennen, wie jedes Teil liegt.
+- Den Griff lernt er durch Vormachen an Ihren echten Teilen. Keine CAD-Daten, kein Programmieren auf Ihrer Seite.
+- Er legt das Teil gezielt ab: auf ein Band, in eine Maschine, auf einen Werkstückträger oder in einen Karton.
+- Keine Investition. Die Monatsgebühr startet erst, wenn er zuverlässig läuft.
+
+| Begriff | Bedeutung |
+| --- | --- |
+| Bin Picking | Ein Roboter greift Teile, die ungeordnet in einem Behälter liegen, und legt sie definiert ab. |
+| Griff in die Kiste | Der deutsche Begriff für Bin Picking. |
+| Teilevereinzelung | Teile aus Schüttgut einzeln greifen und in definierter Lage weitergeben. |
+| Pick and Place | Der Oberbegriff: ein Teil greifen und an anderer Stelle ablegen, egal wie es vorher lag. Pick and Place automatisieren |
+
+### Fragen und Antworten
+**Was ist Bin Picking?** Bin Picking, auf Deutsch Griff in die Kiste, heißt: Ein Roboter greift Teile, die ungeordnet in einem Behälter liegen, und legt sie definiert ab.
+
+**Brauchen wir CAD-Daten unserer Teile?** Nein. Der Roboter lernt den Griff durch Vormachen an Ihren echten Teilen.
+
+**Welche Teile eignen sich?** Teile bis etwa 1 bis 2 kg, die ein Zweifingergreifer fassen kann. Stark verhakte oder sehr kleine Teile prüfen wir in der Demo.
+
+**Wie schnell ist das?** Das hängt vom Teil ab. Für Takte im Sekundenbereich ist eine Spezialanlage schneller. Wir messen den Takt im Training an Ihrer Linie. Sie zahlen erst, wenn er passt.
+
+**Was kostet Bin Picking?** Keine Investition. Die Monatsgebühr liegt immer unter 70 % dessen, was die Stelle Sie heute kostet, und startet erst, wenn der Roboter zuverlässig läuft. Kaufen und Mieten im Vergleich
+
+**Kann der Roboter damit auch Maschinen beschicken?** Für leichte Teile ja. Maschinenbeschickung automatisieren
 

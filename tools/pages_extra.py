@@ -335,3 +335,97 @@ def extend(PAGES, VS, CARD, DT):
         ('Ersetzt der Roboter unsere Mitarbeiter?', 'Er übernimmt die Stelle, die Sie nicht besetzt bekommen. Ihre Leute werden für die Aufgaben frei, für die man Erfahrung braucht.'),
         ('Was, wenn es bei unserer Aufgabe nicht klappt?', 'Dann zahlen Sie nichts.')])]),
     ])
+    PAGES.extend(_regional_and_binpicking(CARD, DT))
+
+
+# ------------------------------------------------------------------ Nov 26: Baden-Württemberg, Reutlingen, bin picking
+TITLES['automatisierung-stuttgart'] = 'Robotik &amp; Automatisierung Stuttgart | Ackermann Robotics'
+TITLES['roboter-kosten'] = 'Roboter mieten oder kaufen? Kosten im Vergleich'
+FAQ_ADD['automatisierung-stuttgart'] = FAQ_ADD['automatisierung-stuttgart'] + [
+  ('Arbeiten Sie in ganz Baden-Württemberg?', 'Ja. Am schnellsten vor Ort sind wir in der Region Stuttgart und in Neckar-Alb, im übrigen Land nach Absprache. <a href="/kognitive-robotik-baden-wuerttemberg/">Kognitive Robotik in Baden-Württemberg</a>'),
+  ('Sind Sie auch in Reutlingen und Metzingen vor Ort?', 'Ja, dort arbeiten unsere Techniker. <a href="/robotik-reutlingen/">Robotik in Reutlingen, Metzingen und Tübingen</a>')]
+FAQ_ADD['kognitive-robotik'] = FAQ_ADD['kognitive-robotik'] + [
+  ('Gibt es Anbieter für kognitive Robotik in Baden-Württemberg?', 'Ja. Ackermann Robotics aus Stuttgart bringt kognitive Roboter als Service in Produktionsbetriebe im ganzen Land. <a href="/kognitive-robotik-baden-wuerttemberg/">Kognitive Robotik in Baden-Württemberg</a>')]
+FAQ_ADD['pick-and-place-automatisieren'] = FAQ_ADD['pick-and-place-automatisieren'] + [
+  ('Geht auch der Griff in die Kiste?', 'Ja, für leichte Teile, die ungeordnet im Behälter liegen. <a href="/bin-picking/">Bin Picking mit KI</a>')]
+
+
+def _regional_and_binpicking(CARD, DT):
+    sectors = ('<div class="cards c4">'
+        + CARD('/automatisierung-elektronikfertigung/', 'Elektronikfertigung', 'Bauteile umsetzen, Baugruppen verpacken, Sets kommissionieren.')
+        + CARD('/automatisierung-kunststoffverarbeitung/', 'Kunststoffverarbeitung', 'Spritzgussteile entnehmen, ablegen und verpacken.')
+        + CARD('/konfektionierung-automatisieren/', 'Konfektionierung', 'Sets zusammenstellen, Displays bestücken, umpacken.')
+        + CARD('/bin-picking/', 'Bin Picking', 'Ungeordnete Teile aus der Kiste greifen und ablegen.')
+        + '</div>')
+    return [
+     # ---------------------------------------------------------------- Baden-Württemberg
+     dict(slug='kognitive-robotik-baden-wuerttemberg', nav='Kognitive Robotik in Baden-Württemberg',
+      title='Kognitive Robotik in Baden-Württemberg | Ackermann Robotics',
+      desc='Robotik aus Stuttgart: kognitive Roboter, die sehen und durch Vormachen lernen. Für Produktionsbetriebe in ganz Baden-Württemberg, ohne Investition.',
+      eyebrow='Robotik aus Baden-Württemberg', h1='Kognitive Robotik aus Baden-Württemberg. Für die Produktion im Land.',
+      lead='Ackermann Robotics ist ein Robotik-Unternehmen aus Stuttgart. Wir bringen kognitive Roboter in Produktionsbetriebe in ganz Baden-Württemberg: Roboter, die mit Kameras sehen, durch Vormachen lernen und Handgriffe übernehmen, an denen klassische Automatisierung scheitert. Sie kaufen nichts. Sie zahlen eine Monatsgebühr, erst wenn der Roboter zuverlässig läuft.',
+      img='hero', alt='Kognitiver Roboter richtet Kartons in einer Produktion auf',
+      problem=('Was Produktionsbetriebe im Land kennen.', ['Helferstellen in Verpackung, Montagevorbereitung und Versand bleiben monatelang offen.', 'Klassische Roboter brauchen Teile in fester Lage. Bei wechselnden Varianten und kleinen Losen rechnet sich das nicht.', 'Große Integratoren lohnen sich erst bei großen Projekten. Für eine einzelne Station findet sich oft niemand.']),
+      solution=('Was wir anders machen.', ['Kognitive Roboter: Kameras erkennen, wie jedes Teil liegt. Neue Varianten lernt der Roboter durch Vormachen.', 'Robotics as a Service: keine Investition, Monatsgebühr unter 70&nbsp;% der heutigen Stellenkosten.', 'Ein Team aus der Region: Sitz in Stuttgart, Techniker im Raum Reutlingen und Metzingen.', 'Landesförderung: Der Innovationsgutschein kann 50&nbsp;% der Kosten übernehmen, bis zu 20.000&nbsp;€, wenn Ihr Betrieb die Bedingungen erfüllt.']),
+      extra='<section><div class="wrap"><div class="sec-head"><h2>Wo wir in Baden-Württemberg arbeiten.</h2><p>Die kostenlose Demo geht überall im Land auch per Video. Für Installation und Service kommen wir zu Ihnen.</p></div>'
+       + DT(['Region', 'Städte', 'Vor Ort'], [
+          ['Region Stuttgart', 'Stuttgart, Böblingen, Sindelfingen, Ludwigsburg, Esslingen, Waiblingen, Leonberg, Nürtingen', 'kurzfristig'],
+          ['Neckar-Alb', 'Reutlingen, Metzingen, Tübingen, Balingen', 'kurzfristig'],
+          ['Heilbronn-Franken', 'Heilbronn, Neckarsulm, Schwäbisch Hall', 'nach Absprache'],
+          ['Ostwürttemberg', 'Aalen, Heidenheim, Schwäbisch Gmünd', 'nach Absprache'],
+          ['Karlsruhe und Nordschwarzwald', 'Karlsruhe, Pforzheim, Rastatt', 'nach Absprache'],
+          ['Rhein-Neckar', 'Mannheim, Heidelberg', 'nach Absprache'],
+          ['Ulm, Oberschwaben und Bodensee', 'Ulm, Biberach, Ravensburg, Friedrichshafen', 'nach Absprache'],
+          ['Schwarzwald-Baar-Heuberg', 'Villingen-Schwenningen, Tuttlingen, Rottweil', 'nach Absprache']])
+       + '</div></section>'
+       + '<section class="soft"><div class="wrap"><div class="sec-head"><h2>Für die Branchen im Land.</h2><p>Überall dort, wo viele Varianten, kleine Lose und leichte Teile zusammenkommen.</p></div>' + sectors + '</div></section>',
+      area=['Stuttgart', 'Reutlingen', 'Metzingen', 'Tübingen', 'Böblingen', 'Ludwigsburg', 'Esslingen am Neckar', 'Heilbronn', 'Aalen', 'Karlsruhe', 'Pforzheim', 'Mannheim', 'Heidelberg', 'Ulm', 'Ravensburg', 'Friedrichshafen', 'Villingen-Schwenningen'],
+      faq=[('Welche Robotik-Unternehmen in Baden-Württemberg stellen Roboter für die Produktion als Service bereit?', 'Ackermann Robotics aus Stuttgart stellt kognitive Roboter als Service bereit: Wir installieren, betreiben und warten den Roboter, Sie zahlen eine feste Monatsgebühr. Daneben gibt es Hersteller und Integratoren, die klassische Roboter und Cobots vermieten. <a href="/roboter-mieten/">Roboter mieten</a>'),
+           ('Was ist kognitive Robotik?', 'Roboter, die ihre Umgebung mit Kameras wahrnehmen, sich anpassen und Aufgaben durch Vormachen lernen, statt fest programmierte Bahnen zu fahren. <a href="/kognitive-robotik/">Kognitive Robotik erklärt</a>'),
+           ('Welche Aufgaben übernimmt der Roboter?', 'Wiederkehrende Handgriffe mit leichten Teilen bis etwa 1 bis 2&nbsp;kg: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen und der Griff in die Kiste. <a href="/was-kann-der-roboter/">Eckdaten und Grenzen</a>'),
+           ('Kommen Sie für die Demo zu uns?', 'In der Region Stuttgart und in Neckar-Alb kurzfristig, im übrigen Baden-Württemberg nach Absprache. Die Demo geht auch per Video und ist kostenlos.'),
+           ('Gibt es Förderung in Baden-Württemberg?', 'Ja. Der Innovationsgutschein „Mittelstand trifft Start-ups“ bezuschusst 50&nbsp;% der Kosten, bis zu 20.000&nbsp;€, für Unternehmen mit Standort im Land. <a href="/foerderung-automatisierung-baden-wuerttemberg/">Förderung im Überblick</a>'),
+           ('Wo sitzt Ackermann Robotics?', 'In Stuttgart-Botnang. Unsere Techniker arbeiten im Raum Reutlingen und Metzingen.')]),
+
+     # ---------------------------------------------------------------- Reutlingen / Neckar-Alb
+     dict(slug='robotik-reutlingen', nav='Robotik Reutlingen',
+      title='Robotik &amp; Automatisierung Reutlingen | Ackermann Robotics',
+      desc='Robotik für Produktionsbetriebe in Reutlingen, Metzingen und Tübingen: KI-Roboter für Verpacken, Kommissionieren und Teile umsetzen. Techniker vor Ort.',
+      eyebrow='Region Neckar-Alb', h1='Robotik und Automatisierung in Reutlingen, Metzingen und Tübingen.',
+      lead='Unsere Techniker arbeiten im Raum Reutlingen und Metzingen. Für Produktionsbetriebe in Neckar-Alb heißt das: Demo in Ihrer Halle, Installation und Service ohne lange Anfahrt. Wir bringen kognitive Roboter an Ihre Linie, die Handgriffe übernehmen, für die Sie keine Helfer mehr finden.',
+      img='kitting', alt='KI-Roboterarm stellt Teilesätze zusammen',
+      problem=('Was Betriebe in Neckar-Alb kennen.', ['Elektronik, Kunststoff, Metall und Textil: viele Varianten, kleine Lose, viel Handarbeit.', 'Helferstellen bleiben offen, weil im Umkreis alle dieselben Leute suchen.', 'Für eine einzelne Station mit wechselnden Teilen lohnt sich kein großes Automatisierungsprojekt.']),
+      solution=('Was wir hier bieten.', ['Kurze Wege: Demo, Installation und Service durch unsere Techniker aus der Region.', 'Ein kognitiver Roboter, der Teile mit Kameras erkennt und Aufgaben durch Vormachen lernt.', 'Fernbetreuung durch unseren Operator während Ihrer Produktionszeiten.', 'Keine Investition. Die Monatsgebühr startet erst, wenn der Roboter zuverlässig läuft.']),
+      extra='<section><div class="wrap"><div class="sec-head"><h2>Wo wir in Neckar-Alb arbeiten.</h2><p>Reutlingen, Metzingen, Pfullingen, Eningen, Bad Urach, Tübingen, Rottenburg, Mössingen, Hechingen, Balingen und Albstadt. Dazu die Nachbarschaft in Nürtingen, Kirchheim und im Kreis Böblingen. <a href="/kognitive-robotik-baden-wuerttemberg/">Ganz Baden-Württemberg</a></p></div></div></section>'
+       + '<section class="soft"><div class="wrap"><div class="sec-head"><h2>Typische Aufgaben in der Region.</h2></div>' + sectors + '</div></section>',
+      area=['Reutlingen', 'Metzingen', 'Pfullingen', 'Eningen unter Achalm', 'Bad Urach', 'Tübingen', 'Rottenburg am Neckar', 'Mössingen', 'Hechingen', 'Balingen', 'Albstadt', 'Nürtingen'],
+      faq=[('Gibt es in Reutlingen ein Robotik-Unternehmen, das Roboter für die Produktion bereitstellt?', 'Ackermann Robotics hat seinen Sitz in Stuttgart, unsere Techniker arbeiten im Raum Reutlingen und Metzingen. Wir stellen kognitive Roboter als Service bereit: Installation, Betrieb und Wartung inklusive.'),
+           ('Wie schnell sind Sie vor Ort?', 'Im Raum Reutlingen, Metzingen und Tübingen kurzfristig, für die Demo genauso wie im Service. Hängt der Roboter, übernimmt zuerst unser Operator aus der Ferne.'),
+           ('Welche Aufgaben übernimmt der Roboter?', 'Wiederkehrende Handgriffe mit leichten Teilen bis etwa 1 bis 2&nbsp;kg: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen. <a href="/was-kann-der-roboter/">Eckdaten und Grenzen</a>'),
+           ('Was kostet das?', PRICE),
+           ('Gibt es Förderung?', 'Für Betriebe in Baden-Württemberg: Der Innovationsgutschein bezuschusst 50&nbsp;% der Kosten, bis zu 20.000&nbsp;€. <a href="/foerderung-automatisierung-baden-wuerttemberg/">Förderung im Überblick</a>')]),
+
+     # ---------------------------------------------------------------- bin picking
+     dict(slug='bin-picking', nav='Bin Picking', service=True,
+      title='Bin Picking mit KI: Griff in die Kiste | Ackermann Robotics',
+      desc='Bin Picking ohne Programmierung: Ein KI-Roboter greift ungeordnete Teile aus der Kiste und legt sie ab. Teile bis 1 bis 2 kg, keine Investition.',
+      eyebrow='Anwendung', h1='Bin Picking: der Griff in die Kiste, gelernt statt programmiert.',
+      lead='Beim Bin Picking greift ein Roboter Teile, die ungeordnet in einer Kiste liegen. Klassische Systeme werden dafür für jedes Teil eingerichtet. Unser kognitiver Roboter lernt den Griff durch Vormachen und legt die Teile dort ab, wo Sie sie brauchen: auf einem Band, in einer Maschine oder in einem Karton.',
+      img='kitting', alt='KI-Roboterarm greift Teile aus einem Behälter',
+      problem=('Warum Bin Picking oft am Aufwand scheitert.', ['Klassische Systeme werden für jedes Teil einzeln eingerichtet, oft mit CAD-Daten und viel Feintuning.', 'Glänzende, weiche oder ineinander verhakte Teile machen der Erkennung Probleme.', 'Kamera, Software und Integration kosten, bevor das erste Teil gegriffen ist.', 'Bei vielen Varianten wird der Aufwand pro Teil zu hoch.']),
+      solution=('Wie unser Roboter in die Kiste greift.', ['Kameras erkennen, wie jedes Teil liegt.', 'Den Griff lernt er durch Vormachen an Ihren echten Teilen. Keine CAD-Daten, kein Programmieren auf Ihrer Seite.', 'Er legt das Teil gezielt ab: auf ein Band, in eine Maschine, auf einen Werkstückträger oder in einen Karton.', 'Keine Investition. Die Monatsgebühr startet erst, wenn er zuverlässig läuft.']),
+      extra='<section><div class="wrap"><div class="sec-head"><h2>Bin Picking, Griff in die Kiste, Pick and Place: Was ist was?</h2></div>'
+       + DT(['Begriff', 'Bedeutung'], [
+          ['Bin Picking', 'Ein Roboter greift Teile, die ungeordnet in einem Behälter liegen, und legt sie definiert ab.'],
+          ['Griff in die Kiste', 'Der deutsche Begriff für Bin Picking.'],
+          ['Teilevereinzelung', 'Teile aus Schüttgut einzeln greifen und in definierter Lage weitergeben.'],
+          ['Pick and Place', 'Der Oberbegriff: ein Teil greifen und an anderer Stelle ablegen, egal wie es vorher lag. <a href="/pick-and-place-automatisieren/">Pick and Place automatisieren</a>']])
+       + '</div></section>'
+       + '<section class="soft"><div class="wrap"><div class="sec-head"><h2>Ehrlich: Wo die Grenzen liegen.</h2><p>Teile über etwa 2&nbsp;kg, Takte im Sekundenbereich und stark ineinander verhakte Teile wie Federn sind Fälle für Spezialanlagen. Ob Ihre Teile passen, prüfen wir in der kostenlosen Demo an Ihren echten Teilen. <a href="/was-kann-der-roboter/">Eckdaten und Grenzen</a></p></div></div></section>',
+      faq=[('Was ist Bin Picking?', 'Bin Picking, auf Deutsch Griff in die Kiste, heißt: Ein Roboter greift Teile, die ungeordnet in einem Behälter liegen, und legt sie definiert ab.'),
+           ('Brauchen wir CAD-Daten unserer Teile?', 'Nein. Der Roboter lernt den Griff durch Vormachen an Ihren echten Teilen.'),
+           ('Welche Teile eignen sich?', 'Teile bis etwa 1 bis 2&nbsp;kg, die ein Zweifingergreifer fassen kann. Stark verhakte oder sehr kleine Teile prüfen wir in der Demo.'),
+           ('Wie schnell ist das?', 'Das hängt vom Teil ab. Für Takte im Sekundenbereich ist eine Spezialanlage schneller. Wir messen den Takt im Training an Ihrer Linie. Sie zahlen erst, wenn er passt.'),
+           ('Was kostet Bin Picking?', PRICE),
+           ('Kann der Roboter damit auch Maschinen beschicken?', 'Für leichte Teile ja. <a href="/maschinenbeschickung-automatisieren/">Maschinenbeschickung automatisieren</a>')]),
+    ]
