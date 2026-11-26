@@ -34,6 +34,8 @@
 - [Full text of all pages (German, markdown)](https://ackermann-robotics.org/llms-full.txt)
 
 - [Production helpers in Baden-Württemberg: the numbers (Nov 2026)](https://ackermann-robotics.org/produktionshelfer-baden-wuerttemberg/): own analysis of the Federal Employment Agency job board
+- [Production helper jobs in Germany by state (data 2026)](https://ackermann-robotics.org/produktionshelfer-deutschland/): 12,574 open ads, 76% Zeitarbeit, median 15.33 EUR/h
+- [Robotics companies in Baden-Württemberg (overview 2026)](https://ackermann-robotics.org/robotik-unternehmen-baden-wuerttemberg/): manufacturers, components, AI software, integrators, research
 - [Robotics glossary (German)](https://ackermann-robotics.org/robotik-lexikon/): cobot, bin picking, teach-in, physical AI, VLA model, RaaS and more
 
 ## Data: production helper jobs in Baden-Württemberg (26 Nov 2026, source: Bundesagentur für Arbeit job board, own analysis by Ackermann Robotics)
@@ -41,6 +43,13 @@
 - 82% of these ads are temporary-agency (Zeitarbeit) offers
 - Median advertised hourly wage 15.50 EUR (172 ads with wage info; IQR 15.22-16.45 EUR); employer cost of a directly employed helper about 3,300 EUR/month
 - 25% of Produktionshelfer ads have been online for more than 90 days, 6% for more than a year
+
+## Data: production helper jobs in Germany by federal state (26 Nov 2026, source: Bundesagentur für Arbeit job board, own analysis by Ackermann Robotics)
+- 12,574 open ads for production and packaging helpers in Germany without duplicates (7,175 "Produktionshelfer", 6,478 "Helfer Verpackung"): https://ackermann-robotics.org/produktionshelfer-deutschland/
+- 76% are temporary-agency (Zeitarbeit) offers (9,601); 72-80% in almost every state, Berlin 20%
+- Most ads: North Rhine-Westphalia 2,681, Bavaria 2,095, Baden-Württemberg 1,856, Lower Saxony 1,325, Hesse 764
+- Median advertised hourly wage 15.33 EUR (3,164 ads; IQR 15.29-16.00 EUR); employer cost of a directly employed helper about 3,240 EUR/month
+- 34% of ads online for more than 90 days, 8% for more than a year; 32% mention shift, night or weekend work
 
 ## Key facts
 - Offer: Robotics as a Service. Ackermann Robotics installs, trains, operates and maintains the robot at the customer's line.

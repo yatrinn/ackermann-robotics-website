@@ -894,6 +894,8 @@ Wie viele Helferstellen in Produktion und Verpackung sind in Baden-Württemberg 
 
 **Wie lange bleiben Helferstellen offen?** Die Hälfte der Anzeigen ist höchstens vier Wochen online. 25 % sind seit über 90 Tagen online, 6 % seit über einem Jahr.
 
+**Wie sieht es in ganz Deutschland aus?** Bundesweit standen am selben Tag 12.574 Anzeigen für Produktions- und Verpackungshelfer, 76 % davon Zeitarbeit. Die meisten in Nordrhein-Westfalen, Bayern und Baden-Württemberg. Alle Bundesländer
+
 **Darf ich die Zahlen verwenden?** Ja, mit der Quellenangabe: Ackermann Robotics, Auswertung der Jobbörse der Bundesagentur für Arbeit, Stand 26. November 2026.
 
 
@@ -968,4 +970,140 @@ Von Bin Picking bis VLA-Modell: Hier erklären wir die Begriffe, die in Gespräc
 **Was ist die Amortisationszeit eines Roboters?** Die Zeit, bis die Einsparungen die Investition wieder eingespielt haben. Bei Robotics as a Service entfällt die Investition. Roboter mieten oder kaufen
 
 **Was bedeutet High Mix, Low Volume?** Eine Fertigung mit vielen Varianten und kleinen Stückzahlen je Variante. Für klassische Automatisierung der schwierigste Fall. Kleine Losgrößen automatisieren
+
+
+## Robotik-Unternehmen in Baden-Württemberg: wer was macht.
+URL: https://ackermann-robotics.org/robotik-unternehmen-baden-wuerttemberg/
+
+Baden-Württemberg ist einer der dichtesten Robotik-Standorte Europas: Roboterhersteller, Greifer- und Antriebsspezialisten, KI-Startups und Forschungsinstitute. Diese Übersicht sortiert sie nach Schwerpunkt, damit Sie schnell den passenden Partner finden.
+
+### Wer was macht.
+- Roboterhersteller bauen Arme, Steuerungen und komplette Systeme.
+- Komponentenhersteller liefern Greifer, Antriebe, Sensoren und Sicherheitstechnik.
+- Software- und KI-Anbieter machen Roboter flexibler und einfacher einzurichten.
+- Integratoren planen Anlagen und nehmen sie bei Ihnen in Betrieb.
+
+### Welcher Partner passt?
+- Große Stückzahlen, immer gleiche Teile: Roboterhersteller plus Integrator.
+- Kommissionieren im Lager mit vielen Artikeln: KI-Software für Pick-and-Pack.
+- Eigenes Automatisierungsteam: Software für Programmierung und Analyse.
+- Eine einzelne Helferstation mit wechselnden Teilen, ohne Investition: Robotics as a Service, zum Beispiel bei uns. Robotics as a Service
+
+| Unternehmen | Sitz | Schwerpunkt |
+| --- | --- | --- |
+| NEURA Robotics | Metzingen | Kognitive Roboter, Cobots und humanoide Roboter |
+| fruitcore robotics | Konstanz | Industrieroboter HORST mit No-Code-Software, Lösungspakete etwa für Maschinenbeschickung und Teilevereinzelung |
+| Gerhard Schubert | Crailsheim | Roboterbasierte Verpackungsmaschinen, Top-Loading-Maschinen |
+| Dürr | Bietigheim-Bissingen | Lackierroboter und Anlagen für die Automobilindustrie |
+
+| Unternehmen | Sitz | Schwerpunkt |
+| --- | --- | --- |
+| Festo | Esslingen am Neckar | Automatisierungstechnik, Pneumatik, elektrische Antriebe und Greifer |
+| Schunk | Lauffen am Neckar | Greifsysteme und Spanntechnik |
+| J. Schmalz | Glatten | Vakuum-Greiftechnik |
+| Zimmer Group | Rheinau | Greifer und Handhabungstechnik |
+| Synapticon | Schönaich | Antriebe, Aktuatoren und Antriebselektronik für Roboter |
+| Sick | Waldkirch | Sensoren und Sicherheitstechnik für die Automatisierung |
+| Pilz | Ostfildern | Sicherheitstechnik für Maschinen und Roboter |
+
+| Unternehmen | Sitz | Schwerpunkt |
+| --- | --- | --- |
+| Sereact | Stuttgart | KI-Software für Roboter, vor allem Kommissionieren und Verpacken in Lager und Produktion |
+| ArtiMinds Robotics | Karlsruhe | Software zur Programmierung und Analyse von Roboteranwendungen |
+| Auroniq Robotics | Schönaich | Integration kognitiver Robotiksysteme |
+| NEXT robotics | Mönchweiler | Systemhaus für Cobots, Leichtbau- und mobile Robotik |
+| Ackermann Robotics | Stuttgart | KI-Roboter als Service für Helfertätigkeiten: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen |
+
+| Unternehmen | Sitz | Schwerpunkt |
+| --- | --- | --- |
+| Fraunhofer IPA | Stuttgart | Angewandte Forschung zu Robotik und Automatisierung |
+| Cyber Valley | Stuttgart und Tübingen | Forschungsverbund für künstliche Intelligenz |
+| Universität Stuttgart, ISW | Stuttgart | Steuerungstechnik für Werkzeugmaschinen und Roboter |
+| KIT, Institut für Anthropomatik und Robotik | Karlsruhe | Forschung zu Robotik und lernenden Systemen |
+
+### Fragen und Antworten
+**Welche Robotik-Unternehmen gibt es in Baden-Württemberg?** Zum Beispiel NEURA Robotics (Metzingen), fruitcore robotics (Konstanz), Gerhard Schubert (Crailsheim), Festo (Esslingen), Schunk (Lauffen), Sereact (Stuttgart), ArtiMinds (Karlsruhe), Synapticon (Schönaich) und Ackermann Robotics (Stuttgart). Dazu kommen Forschungseinrichtungen wie das Fraunhofer IPA und Cyber Valley.
+
+**Welche Robotik-Startups gibt es in Stuttgart?** Zum Beispiel Sereact mit KI-Software für Kommissionierung und Verpacken und Ackermann Robotics mit KI-Robotern als Service für Helfertätigkeiten in der Produktion. In der Region sitzen außerdem Synapticon und Auroniq Robotics in Schönaich.
+
+**Wer stellt in Baden-Württemberg Roboter als Service bereit, ohne Kauf?** Ackermann Robotics aus Stuttgart: Wir installieren, betreiben und warten KI-Roboter für Helfertätigkeiten, gegen eine feste Monatsgebühr, die erst startet, wenn der Roboter zuverlässig läuft. Roboter mieten
+
+**Wo wird in Baden-Württemberg zu Robotik geforscht?** Unter anderem am Fraunhofer IPA in Stuttgart, im KI-Verbund Cyber Valley in Stuttgart und Tübingen, am ISW der Universität Stuttgart und am Karlsruher Institut für Technologie.
+
+**Wie kommt ein Unternehmen in diese Übersicht?** Schreiben Sie uns an info@ackermann-robotics.org. Wir nehmen Unternehmen mit Sitz in Baden-Württemberg und klarem Robotik-Schwerpunkt auf.
+
+
+## Produktionshelfer in Deutschland: die Zahlen nach Bundesland.
+URL: https://ackermann-robotics.org/produktionshelfer-deutschland/
+
+Wie viele Helferstellen in Produktion und Verpackung sind in Deutschland offen, in welchen Bundesländern, wie viele davon über Zeitarbeit, und was wird gezahlt? Wir haben am 26. November 2026 alle passenden Anzeigen in der Jobbörse der Bundesagentur für Arbeit ausgewertet.
+
+### Die Zahlen auf einen Blick.
+- 12.574 offene Anzeigen für Produktions- und Verpackungshelfer in Deutschland: 7.175 für Produktionshelfer, 6.478 für Helfer in der Verpackung, ohne Doppelte gezählt.
+- 76 % davon sind Zeitarbeitsangebote, 9.601 Anzeigen. In fast allen Bundesländern liegt der Anteil zwischen 72 und 80 %, nur Berlin liegt mit 20 % deutlich darunter.
+- Drei Länder, die Hälfte der Stellen: Nordrhein-Westfalen, Bayern und Baden-Württemberg kommen zusammen auf 6.632 Anzeigen.
+- 34 % der Anzeigen sind seit mehr als 90 Tagen online, 8 % seit mehr als einem Jahr.
+- 15,33 € Stundenlohn im Median, bei den 3.164 Anzeigen mit Lohnangabe. Die mittlere Hälfte liegt zwischen 15,29 und 16,00 €.
+- 32 % der Anzeigen nennen Schicht-, Nacht- oder Wochenendarbeit.
+
+### Was das für Betriebe heißt.
+- Direkt angestellt kostet eine Helferstelle rund 3.240 € im Monat: 15,33 € mal 173 Stunden, plus etwa 22 % Arbeitgeberanteile. Über Zeitarbeit kommt der Aufschlag des Verleihers dazu.
+- Drei von vier Anzeigen laufen über Zeitarbeit. Viele Betriebe finden die Leute also nicht selbst.
+- Jede dritte Anzeige ist seit über drei Monaten online. Bei diesen Stellen ist die Lücke kein kurzer Engpass.
+- Für Handgriffe mit leichten Teilen gibt es eine Alternative: einen KI-Roboter für höchstens 70 % der Stellenkosten, ohne Investition. Roboter statt Neueinstellung
+
+| Bundesland | Produktionshelfer | Helfer Verpackung | Beide, ohne Doppelte | davon Zeitarbeit |
+| --- | --- | --- | --- | --- |
+| Nordrhein-Westfalen | 1.623 | 1.318 | 2.681 | 2.085 (78 %) |
+| Bayern | 1.188 | 1.054 | 2.095 | 1.658 (79 %) |
+| Baden-Württemberg | 974 | 1.007 | 1.856 | 1.493 (80 %) |
+| Niedersachsen | 766 | 682 | 1.325 | 1.010 (76 %) |
+| Hessen | 444 | 399 | 764 | 607 (79 %) |
+| Rheinland-Pfalz | 420 | 420 | 755 | 601 (80 %) |
+| Sachsen | 417 | 343 | 705 | 566 (80 %) |
+| Thüringen | 309 | 290 | 553 | 430 (78 %) |
+| Berlin | 259 | 208 | 406 | 83 (20 %) |
+| Sachsen-Anhalt | 180 | 188 | 351 | 275 (78 %) |
+| Schleswig-Holstein | 176 | 165 | 310 | 225 (73 %) |
+| Brandenburg | 144 | 106 | 237 | 171 (72 %) |
+| Mecklenburg-Vorpommern | 103 | 110 | 193 | 140 (73 %) |
+| Hamburg | 53 | 64 | 113 | 84 (74 %) |
+| Saarland | 57 | 45 | 98 | 71 (72 %) |
+| Bremen | 46 | 55 | 96 | 75 (78 %) |
+| ohne Angabe | 16 | 24 | 36 | 27 (75 %) |
+| Deutschland | 7.175 | 6.478 | 12.574 | 9.601 (76 %) |
+
+| Online seit mehr als | Anzeigen | Anteil |
+| --- | --- | --- |
+| 30 Tagen | 6.646 | 53 % |
+| 60 Tagen | 5.200 | 41 % |
+| 90 Tagen | 4.287 | 34 % |
+| 180 Tagen | 2.516 | 20 % |
+| einem Jahr | 1.067 | 8 % |
+
+| Hauptberuf | Anzeigen |
+| --- | --- |
+| Helfer/in Metallbearbeitung | 1.158 |
+| Montierer/in | 740 |
+| Helfer/in Kunststoff, Kautschuk | 722 |
+| Helfer/in Lebensmittelherstellung | 525 |
+| Helfer/in Lagerwirtschaft, Transport | 413 |
+| Helfer/in Elektro | 352 |
+| Helfer/in Metallbau | 309 |
+| Helfer/in Chemie- und Pharmatechnik | 308 |
+
+### Fragen und Antworten
+**Wie viele Produktionshelfer werden in Deutschland gesucht?** Am 26. November 2026 standen 7.175 Anzeigen für Produktionshelfer in der Jobbörse der Bundesagentur für Arbeit. Mit den Helfern in der Verpackung sind es 12.574 Anzeigen, ohne Doppelte gezählt.
+
+**In welchem Bundesland werden die meisten Produktionshelfer gesucht?** In Nordrhein-Westfalen mit 2.681 Anzeigen für Produktions- und Verpackungshelfer, vor Bayern mit 2.095 und Baden-Württemberg mit 1.856. Zusammen ist das gut die Hälfte aller Anzeigen in Deutschland.
+
+**Wie viele Helferstellen laufen über Zeitarbeit?** 76 %, also 9.601 von 12.574 Anzeigen. In fast allen Bundesländern liegt der Anteil zwischen 72 und 80 %, in Berlin bei 20 %.
+
+**Was verdient ein Produktionshelfer in Deutschland?** In den 3.164 Anzeigen mit Stundenlohn lag der Median bei 15,33 €, die mittlere Hälfte zwischen 15,29 und 16,00 € pro Stunde. In Baden-Württemberg lag der Median bei 15,50 €. Stand: November 2026.
+
+**Was kostet eine Helferstelle den Betrieb?** Bei 15,33 € und 40 Wochenstunden rund 2.660 € brutto im Monat, mit etwa 22 % Arbeitgeberanteilen rund 3.240 €. Über Zeitarbeit kommt der Aufschlag des Verleihers dazu.
+
+**Wie lange bleiben Helferstellen offen?** Die Hälfte der Anzeigen ist höchstens 37 Tage online. 34 % sind seit über 90 Tagen online, 8 % seit über einem Jahr.
+
+**Darf ich die Zahlen verwenden?** Ja, mit der Quellenangabe: Ackermann Robotics, Auswertung der Jobbörse der Bundesagentur für Arbeit, Stand 26. November 2026.
 

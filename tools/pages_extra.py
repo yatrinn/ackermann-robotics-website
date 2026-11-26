@@ -337,6 +337,8 @@ def extend(PAGES, VS, CARD, DT):
     ])
     PAGES.extend(_regional_and_binpicking(CARD, DT))
     PAGES.extend(_data_and_glossary(CARD, DT))
+    PAGES.extend(_companies_bw(CARD, DT))
+    PAGES.extend(_data_de(CARD, DT))
 
 
 # ------------------------------------------------------------------ Nov 26: Baden-Württemberg, Reutlingen, bin picking
@@ -552,6 +554,7 @@ def _data_and_glossary(CARD, DT):
            ('Was verdient ein Produktionshelfer in Baden-Württemberg?', 'In den 172 Anzeigen mit Stundenlohn lag der Median bei 15,50&nbsp;€, die mittlere Hälfte zwischen 15,22 und 16,45&nbsp;€ pro Stunde. Stand: November 2026.'),
            ('Was kostet eine Produktionshelfer-Stelle den Betrieb?', 'Bei 15,50&nbsp;€ und 40 Wochenstunden rund 2.690&nbsp;€ brutto im Monat, mit etwa 22&nbsp;% Arbeitgeberanteilen rund 3.300&nbsp;€. Über Zeitarbeit kommt der Aufschlag des Verleihers dazu.'),
            ('Wie lange bleiben Helferstellen offen?', 'Die Hälfte der Anzeigen ist höchstens vier Wochen online. 25&nbsp;% sind seit über 90 Tagen online, 6&nbsp;% seit über einem Jahr.'),
+           ('Wie sieht es in ganz Deutschland aus?', 'Bundesweit standen am selben Tag 12.574 Anzeigen für Produktions- und Verpackungshelfer, 76&nbsp;% davon Zeitarbeit. Die meisten in Nordrhein-Westfalen, Bayern und Baden-Württemberg. <a href="/produktionshelfer-deutschland/">Alle Bundesländer</a>'),
            ('Darf ich die Zahlen verwenden?', 'Ja, mit der Quellenangabe: Ackermann Robotics, Auswertung der Jobbörse der Bundesagentur für Arbeit, Stand 26. November 2026.')]),
 
      # ---------------------------------------------------------------- glossary
@@ -564,3 +567,118 @@ def _data_and_glossary(CARD, DT):
       groups=[(h, [(q, a) for t, q, a in es]) for h, es in GLOSSARY],
       ld_extra=[{"@context": "https://schema.org", "@type": "DefinedTermSet", "@id": "https://ackermann-robotics.org/robotik-lexikon/#set", "name": "Robotik-Lexikon", "url": "https://ackermann-robotics.org/robotik-lexikon/", "publisher": _ORG, "inLanguage": "de", "hasDefinedTerm": terms}]),
     ]
+
+
+# ------------------------------------------------------------------ Nov 26: robotics companies in Baden-Württemberg
+ROBOTICS_BW = [
+ ('Roboter und Automatisierungssysteme.', [
+  ('NEURA Robotics', 'Metzingen', 'Kognitive Roboter, Cobots und humanoide Roboter'),
+  ('fruitcore robotics', 'Konstanz', 'Industrieroboter HORST mit No-Code-Software, Lösungspakete etwa für Maschinenbeschickung und Teilevereinzelung'),
+  ('Gerhard Schubert', 'Crailsheim', 'Roboterbasierte Verpackungsmaschinen, Top-Loading-Maschinen'),
+  ('Dürr', 'Bietigheim-Bissingen', 'Lackierroboter und Anlagen für die Automobilindustrie')]),
+ ('Komponenten: Greifer, Antriebe, Sensorik, Sicherheit.', [
+  ('Festo', 'Esslingen am Neckar', 'Automatisierungstechnik, Pneumatik, elektrische Antriebe und Greifer'),
+  ('Schunk', 'Lauffen am Neckar', 'Greifsysteme und Spanntechnik'),
+  ('J. Schmalz', 'Glatten', 'Vakuum-Greiftechnik'),
+  ('Zimmer Group', 'Rheinau', 'Greifer und Handhabungstechnik'),
+  ('Synapticon', 'Schönaich', 'Antriebe, Aktuatoren und Antriebselektronik für Roboter'),
+  ('Sick', 'Waldkirch', 'Sensoren und Sicherheitstechnik für die Automatisierung'),
+  ('Pilz', 'Ostfildern', 'Sicherheitstechnik für Maschinen und Roboter')]),
+ ('Software, KI und Integration.', [
+  ('Sereact', 'Stuttgart', 'KI-Software für Roboter, vor allem Kommissionieren und Verpacken in Lager und Produktion'),
+  ('ArtiMinds Robotics', 'Karlsruhe', 'Software zur Programmierung und Analyse von Roboteranwendungen'),
+  ('Auroniq Robotics', 'Schönaich', 'Integration kognitiver Robotiksysteme'),
+  ('NEXT robotics', 'Mönchweiler', 'Systemhaus für Cobots, Leichtbau- und mobile Robotik'),
+  ('Ackermann Robotics', 'Stuttgart', 'KI-Roboter als Service für Helfertätigkeiten: Kartons aufrichten, Verpacken, Kommissionieren, Teile umsetzen')]),
+ ('Forschung.', [
+  ('Fraunhofer IPA', 'Stuttgart', 'Angewandte Forschung zu Robotik und Automatisierung'),
+  ('Cyber Valley', 'Stuttgart und Tübingen', 'Forschungsverbund für künstliche Intelligenz'),
+  ('Universität Stuttgart, ISW', 'Stuttgart', 'Steuerungstechnik für Werkzeugmaschinen und Roboter'),
+  ('KIT, Institut für Anthropomatik und Robotik', 'Karlsruhe', 'Forschung zu Robotik und lernenden Systemen')]),
+]
+
+
+def _companies_bw(CARD, DT):
+    names = [n for _, rows in ROBOTICS_BW for n, _, _ in rows]
+    tables = ''.join(
+        f'<section{" class=\"soft\"" if i % 2 else ""}><div class="wrap"><div class="sec-head"><h2>{h}</h2></div>'
+        + DT(['Unternehmen', 'Sitz', 'Schwerpunkt'], [[n, s, d] for n, s, d in rows]) + '</div></section>'
+        for i, (h, rows) in enumerate(ROBOTICS_BW))
+    return [dict(slug='robotik-unternehmen-baden-wuerttemberg', nav='Robotik-Unternehmen in Baden-Württemberg',
+      title='Robotik-Unternehmen in Baden-Württemberg: Übersicht 2026',
+      desc='Roboterhersteller, Greifer und Antriebe, KI-Software, Integratoren und Forschung: die wichtigsten Robotik-Unternehmen in Baden-Württemberg im Überblick.',
+      eyebrow='Übersicht, Stand November 2026', h1='Robotik-Unternehmen in Baden-Württemberg: wer was macht.',
+      lead='Baden-Württemberg ist einer der dichtesten Robotik-Standorte Europas: Roboterhersteller, Greifer- und Antriebsspezialisten, KI-Startups und Forschungsinstitute. Diese Übersicht sortiert sie nach Schwerpunkt, damit Sie schnell den passenden Partner finden.',
+      img='hero', alt='KI-Roboter richtet Kartons in einer Produktion auf',
+      problem=('Wer was macht.', ['Roboterhersteller bauen Arme, Steuerungen und komplette Systeme.', 'Komponentenhersteller liefern Greifer, Antriebe, Sensoren und Sicherheitstechnik.', 'Software- und KI-Anbieter machen Roboter flexibler und einfacher einzurichten.', 'Integratoren planen Anlagen und nehmen sie bei Ihnen in Betrieb.']),
+      solution=('Welcher Partner passt?', ['Große Stückzahlen, immer gleiche Teile: Roboterhersteller plus Integrator.', 'Kommissionieren im Lager mit vielen Artikeln: KI-Software für Pick-and-Pack.', 'Eigenes Automatisierungsteam: Software für Programmierung und Analyse.', 'Eine einzelne Helferstation mit wechselnden Teilen, ohne Investition: Robotics as a Service, zum Beispiel bei uns. <a href="/robotics-as-a-service/">Robotics as a Service</a>']),
+      extra=tables + '<section><div class="wrap"><div class="sec-head"><h2>Zu dieser Übersicht.</h2><p>Eine Auswahl ohne Anspruch auf Vollständigkeit, Stand November 2026, sortiert nach Schwerpunkt, nicht nach Größe oder Qualität. Ackermann Robotics ist selbst eines der aufgeführten Unternehmen. Fehlt ein Unternehmen oder hat sich etwas geändert? Schreiben Sie uns an <a href="mailto:info@ackermann-robotics.org">info@ackermann-robotics.org</a>.</p></div></div></section>',
+      steps=False,
+      ld_extra=[{"@context": "https://schema.org", "@type": "ItemList", "name": "Robotik-Unternehmen in Baden-Württemberg", "numberOfItems": len(names),
+                 "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n} for i, n in enumerate(names)]}],
+      faq=[('Welche Robotik-Unternehmen gibt es in Baden-Württemberg?', 'Zum Beispiel NEURA Robotics (Metzingen), fruitcore robotics (Konstanz), Gerhard Schubert (Crailsheim), Festo (Esslingen), Schunk (Lauffen), Sereact (Stuttgart), ArtiMinds (Karlsruhe), Synapticon (Schönaich) und Ackermann Robotics (Stuttgart). Dazu kommen Forschungseinrichtungen wie das Fraunhofer IPA und Cyber Valley.'),
+           ('Welche Robotik-Startups gibt es in Stuttgart?', 'Zum Beispiel Sereact mit KI-Software für Kommissionierung und Verpacken und Ackermann Robotics mit KI-Robotern als Service für Helfertätigkeiten in der Produktion. In der Region sitzen außerdem Synapticon und Auroniq Robotics in Schönaich.'),
+           ('Wer stellt in Baden-Württemberg Roboter als Service bereit, ohne Kauf?', 'Ackermann Robotics aus Stuttgart: Wir installieren, betreiben und warten KI-Roboter für Helfertätigkeiten, gegen eine feste Monatsgebühr, die erst startet, wenn der Roboter zuverlässig läuft. <a href="/roboter-mieten/">Roboter mieten</a>'),
+           ('Wo wird in Baden-Württemberg zu Robotik geforscht?', 'Unter anderem am Fraunhofer IPA in Stuttgart, im KI-Verbund Cyber Valley in Stuttgart und Tübingen, am ISW der Universität Stuttgart und am Karlsruher Institut für Technologie.'),
+           ('Wie kommt ein Unternehmen in diese Übersicht?', 'Schreiben Sie uns an info@ackermann-robotics.org. Wir nehmen Unternehmen mit Sitz in Baden-Württemberg und klarem Robotik-Schwerpunkt auf.')])]
+
+
+# ------------------------------------------------------------------ Nov 26: national data report
+DE_STATES = [  # Bundesland, Produktionshelfer, Helfer Verpackung, beide ohne Doppelte, davon Zeitarbeit
+ ('Nordrhein-Westfalen', 1623, 1318, 2681, 2085), ('Bayern', 1188, 1054, 2095, 1658),
+ ('Baden-Württemberg', 974, 1007, 1856, 1493), ('Niedersachsen', 766, 682, 1325, 1010),
+ ('Hessen', 444, 399, 764, 607), ('Rheinland-Pfalz', 420, 420, 755, 601), ('Sachsen', 417, 343, 705, 566),
+ ('Thüringen', 309, 290, 553, 430), ('Berlin', 259, 208, 406, 83), ('Sachsen-Anhalt', 180, 188, 351, 275),
+ ('Schleswig-Holstein', 176, 165, 310, 225), ('Brandenburg', 144, 106, 237, 171),
+ ('Mecklenburg-Vorpommern', 103, 110, 193, 140), ('Hamburg', 53, 64, 113, 84), ('Saarland', 57, 45, 98, 71),
+ ('Bremen', 46, 55, 96, 75), ('ohne Angabe', 16, 24, 36, 27)]
+
+
+def _data_de(CARD, DT):
+    f = lambda n: f'{n:,}'.replace(',', '.')
+    rows = [[s, f(p), f(v), f(u), f'{f(z)} ({round(100 * z / u)}&nbsp;%)'] for s, p, v, u, z in DE_STATES]
+    rows.append(['<b>Deutschland</b>', '<b>7.175</b>', '<b>6.478</b>', '<b>12.574</b>', '<b>9.601 (76&nbsp;%)</b>'])
+    return [dict(slug='produktionshelfer-deutschland', nav='Produktionshelfer in Deutschland',
+      title='Produktionshelfer in Deutschland: offene Stellen nach Bundesland 2026',
+      desc='12.574 offene Helferstellen in Produktion und Verpackung, 76 % über Zeitarbeit, 15,33 € Median-Stundenlohn. Auswertung nach Bundesland, November 2026.',
+      eyebrow='Auswertung, Stand 26. November 2026', h1='Produktionshelfer in Deutschland: die Zahlen nach Bundesland.',
+      lead='Wie viele Helferstellen in Produktion und Verpackung sind in Deutschland offen, in welchen Bundesländern, wie viele davon über Zeitarbeit, und was wird gezahlt? Wir haben am 26. November 2026 alle passenden Anzeigen in der Jobbörse der Bundesagentur für Arbeit ausgewertet.',
+      img='hero', alt='KI-Roboter richtet Kartons in einer Produktion auf',
+      problem=('Die Zahlen auf einen Blick.', [
+        '<b>12.574</b> offene Anzeigen für Produktions- und Verpackungshelfer in Deutschland: 7.175 für Produktionshelfer, 6.478 für Helfer in der Verpackung, ohne Doppelte gezählt.',
+        '<b>76&nbsp;%</b> davon sind Zeitarbeitsangebote, 9.601 Anzeigen. In fast allen Bundesländern liegt der Anteil zwischen 72 und 80&nbsp;%, nur Berlin liegt mit 20&nbsp;% deutlich darunter.',
+        '<b>Drei Länder, die Hälfte der Stellen:</b> Nordrhein-Westfalen, Bayern und Baden-Württemberg kommen zusammen auf 6.632 Anzeigen.',
+        '<b>34&nbsp;%</b> der Anzeigen sind seit mehr als 90 Tagen online, <b>8&nbsp;%</b> seit mehr als einem Jahr.',
+        '<b>15,33&nbsp;€</b> Stundenlohn im Median, bei den 3.164 Anzeigen mit Lohnangabe. Die mittlere Hälfte liegt zwischen 15,29 und 16,00&nbsp;€.',
+        '<b>32&nbsp;%</b> der Anzeigen nennen Schicht-, Nacht- oder Wochenendarbeit.']),
+      solution=('Was das für Betriebe heißt.', [
+        'Direkt angestellt kostet eine Helferstelle rund 3.240&nbsp;€ im Monat: 15,33&nbsp;€ mal 173 Stunden, plus etwa 22&nbsp;% Arbeitgeberanteile. Über Zeitarbeit kommt der Aufschlag des Verleihers dazu.',
+        'Drei von vier Anzeigen laufen über Zeitarbeit. Viele Betriebe finden die Leute also nicht selbst.',
+        'Jede dritte Anzeige ist seit über drei Monaten online. Bei diesen Stellen ist die Lücke kein kurzer Engpass.',
+        'Für Handgriffe mit leichten Teilen gibt es eine Alternative: einen KI-Roboter für höchstens 70&nbsp;% der Stellenkosten, ohne Investition. <a href="/produktionshelfer-gesucht/">Roboter statt Neueinstellung</a>']),
+      extra='<section><div class="wrap"><div class="sec-head"><h2>Offene Anzeigen nach Bundesland.</h2><p>Zuordnung nach dem Bundesland des Arbeitsorts. Sortiert nach der Zahl der Anzeigen.</p></div>'
+       + DT(['Bundesland', 'Produktionshelfer', 'Helfer Verpackung', 'Beide, ohne Doppelte', 'davon Zeitarbeit'], rows)
+       + '</div></section>'
+       + '<section class="soft"><div class="wrap"><div class="sec-head"><h2>Wie lange die Anzeigen online sind.</h2><p>Beide Suchbegriffe, ohne Doppelte, gerechnet ab der ersten Veröffentlichung. Die Hälfte der Anzeigen ist höchstens 37 Tage alt.</p></div>'
+       + DT(['Online seit mehr als', 'Anzeigen', 'Anteil'], [
+          ['30 Tagen', '6.646', '53&nbsp;%'], ['60 Tagen', '5.200', '41&nbsp;%'], ['90 Tagen', '4.287', '34&nbsp;%'], ['180 Tagen', '2.516', '20&nbsp;%'], ['einem Jahr', '1.067', '8&nbsp;%']])
+       + '</div></section>'
+       + '<section><div class="wrap"><div class="sec-head"><h2>Welche Helfer gesucht werden.</h2><p>Produktionshelfer-Anzeigen nach Hauptberuf laut Jobbörse.</p></div>'
+       + DT(['Hauptberuf', 'Anzeigen'], [
+          ['Helfer/in Metallbearbeitung', '1.158'], ['Montierer/in', '740'], ['Helfer/in Kunststoff, Kautschuk', '722'], ['Helfer/in Lebensmittelherstellung', '525'],
+          ['Helfer/in Lagerwirtschaft, Transport', '413'], ['Helfer/in Elektro', '352'], ['Helfer/in Metallbau', '309'], ['Helfer/in Chemie- und Pharmatechnik', '308']])
+       + '</div></section>'
+       + '<section class="soft"><div class="wrap"><div class="sec-head"><h2>Methodik.</h2><p>Quelle: Jobbörse der Bundesagentur für Arbeit, öffentliche Schnittstelle, abgerufen am 26. November 2026. Suchbegriffe „Produktionshelfer“ und „Helfer Verpackung“, alle Anzeigen bundesweit, zugeordnet nach dem Bundesland des Arbeitsorts; Anzeigen mit Arbeitsort im Ausland sind nicht enthalten. Zeitarbeit nach der Kennzeichnung der Jobbörse. Eine Anzeige kann mehrere Stellen meinen, Anzeigen auf anderen Portalen sind nicht erfasst. Lohnangaben aus 3.164 Anzeigen mit Stundenlohn. Kostenrechnung: 15,33&nbsp;€ mal 173,3 Stunden ergibt 2.657&nbsp;€ brutto, mit etwa 22&nbsp;% Arbeitgeberanteilen rund 3.240&nbsp;€. Die <a href="/produktionshelfer-baden-wuerttemberg/">Auswertung für Baden-Württemberg</a> nutzt die Ortssuche der Jobbörse und kommt deshalb auf leicht andere Zahlen.</p><p>Sie dürfen die Zahlen frei verwenden, mit der Quellenangabe: Ackermann Robotics, Auswertung der Jobbörse der Bundesagentur für Arbeit, Stand 26. November 2026.</p></div></div></section>',
+      steps=False,
+      ld_extra=[{"@context": "https://schema.org", "@type": "Dataset", "name": "Offene Produktions- und Verpackungshelfer-Stellen in Deutschland nach Bundesland, November 2026",
+                 "description": "Auswertung der Jobbörse der Bundesagentur für Arbeit: 12.574 Anzeigen für Produktions- und Verpackungshelfer in Deutschland (ohne Doppelte), 76 % Zeitarbeit, Median-Stundenlohn 15,33 €, Verteilung nach Bundesland, Stand 26.11.2026.",
+                 "url": "https://ackermann-robotics.org/produktionshelfer-deutschland/", "creator": _ORG, "temporalCoverage": "2026-11-26",
+                 "spatialCoverage": {"@type": "Place", "name": "Deutschland"}, "isBasedOn": "https://www.arbeitsagentur.de/jobsuche/", "inLanguage": "de",
+                 "keywords": ["Produktionshelfer", "Helfer Verpackung", "Zeitarbeit", "Bundesländer", "Fachkräftemangel", "Helferstellen"]}],
+      faq=[('Wie viele Produktionshelfer werden in Deutschland gesucht?', 'Am 26. November 2026 standen 7.175 Anzeigen für Produktionshelfer in der Jobbörse der Bundesagentur für Arbeit. Mit den Helfern in der Verpackung sind es 12.574 Anzeigen, ohne Doppelte gezählt.'),
+           ('In welchem Bundesland werden die meisten Produktionshelfer gesucht?', 'In Nordrhein-Westfalen mit 2.681 Anzeigen für Produktions- und Verpackungshelfer, vor Bayern mit 2.095 und Baden-Württemberg mit 1.856. Zusammen ist das gut die Hälfte aller Anzeigen in Deutschland.'),
+           ('Wie viele Helferstellen laufen über Zeitarbeit?', '76&nbsp;%, also 9.601 von 12.574 Anzeigen. In fast allen Bundesländern liegt der Anteil zwischen 72 und 80&nbsp;%, in Berlin bei 20&nbsp;%.'),
+           ('Was verdient ein Produktionshelfer in Deutschland?', 'In den 3.164 Anzeigen mit Stundenlohn lag der Median bei 15,33&nbsp;€, die mittlere Hälfte zwischen 15,29 und 16,00&nbsp;€ pro Stunde. In Baden-Württemberg lag der Median bei 15,50&nbsp;€. Stand: November 2026.'),
+           ('Was kostet eine Helferstelle den Betrieb?', 'Bei 15,33&nbsp;€ und 40 Wochenstunden rund 2.660&nbsp;€ brutto im Monat, mit etwa 22&nbsp;% Arbeitgeberanteilen rund 3.240&nbsp;€. Über Zeitarbeit kommt der Aufschlag des Verleihers dazu.'),
+           ('Wie lange bleiben Helferstellen offen?', 'Die Hälfte der Anzeigen ist höchstens 37 Tage online. 34&nbsp;% sind seit über 90 Tagen online, 8&nbsp;% seit über einem Jahr.'),
+           ('Darf ich die Zahlen verwenden?', 'Ja, mit der Quellenangabe: Ackermann Robotics, Auswertung der Jobbörse der Bundesagentur für Arbeit, Stand 26. November 2026.')])]
