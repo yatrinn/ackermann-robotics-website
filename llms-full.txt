@@ -1,6 +1,6 @@
 # Ackermann Robotics: Inhalte der Website (Volltext)
 
-> KI-Roboter für die Produktion als Robotics as a Service. Sitz: Stuttgart-Botnang. Markt: Deutschland, Österreich, Schweiz. Kontakt: info@ackermann-robotics.org, +49 151 14162414. Stand: 2026-11-25
+> KI-Roboter für die Produktion als Robotics as a Service. Sitz: Stuttgart-Botnang. Markt: Deutschland, Österreich, Schweiz. Kontakt: info@ackermann-robotics.org, +49 151 14162414. Stand: 2026-11-26
 
 ## Produktionsautomatisierung mit KI. Für Handgriffe, die bisher Handarbeit waren.
 URL: https://ackermann-robotics.org/ki-produktionsautomatisierung/
